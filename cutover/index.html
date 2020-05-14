@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>SSM-WAAS-054 / 057 Cutover Status</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bg-info">
+    <div class="container">
+        <div class="jumbotron bg-white">
+
+            <h3 class="w-100" id="cutover-heading"><i class="fa fa-tasks"
+                aria-hidden="true"></i> SSM-WAAS-054 / 057 Cutover Status
+                <small class="float-right mt-2">Updated: 5/13/2020</small></h3>
+            <hr>
+
+            <p><img src="./Cutover Overview Schedule.PNG" alt="CY19 / R57 Cutover Schedule Overview"
+                    width="100%"></p>
+            <hr>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="30"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="card-group">
+                <div class="card text-white bg-success">
+                    <div class="card-header">
+                        <h5 class="card-title">WMS - W7.297L</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="font-weight-bold">Complete:</p>
+                        <ul>
+                            <li>ZLA Complete => 5/6/20 7:42</li>
+                            <li>ZDC Complete => 5/9/20 20:42</li>
+                            <li>ZTL Complete => 5/12/20 23:15</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-right font-weight-bold">Complete</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-primary">
+                    <div class="card-header">
+                        <h5 class="card-title">WRS - W7.297L</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">WRS site upgrades will be scheduled by O&amp;M
+                            Operators to occur one WRE at a time until all WRS sites have been
+                            upgraded.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-right font-weight-bold">In Progress</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">SGS - W7.296L</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">SGS site upgrades will be scheduled by O&amp;M
+                            Operators starting immediately after WRS Upgrades are complete.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">WCN (Core Sites) - W7.296L</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">All WCN Upgrades may be coordinated immediately
+                            after
+                            SGS Upgrades are complete <strong>except ZLA Core Router B</strong>.
+                        </p>
+                        <p>The ZLA Core Router B upgrade must coincide with TJX Removal (see
+                            below).</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">O&amp;M - W7.296L</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">O&amp;Ms may be upgraded immediately after the ZLA
+                            Core Router B / TJX Removal (see below).</p>
+                        <p>Upon upgrade, O&amp;Ms will lose comm to TJX and the TJX Distribution
+                            Node will be removed from the O&amp;M topology screens.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 15%;" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">Parts being shipped
+                    to OKC</div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">TJX Removal</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">New equipment must be installed at TJX to facilitate
+                        end-to-end connection to ZLA Comm Node 2. This equipment is projected
+                        to be installed by the end of June 2020; however, coronavirus may impact
+                        the ability to travel to Mexico to perform the work.</p>
+                    <p><strong>If the equipment cannot be installed by August 12,</strong> the
+                        ZLA Core Router B and O&amp;Ms will be upgraded. At this point, all
+                        Mexico sites will lose comm on Ring 2 until the equipment can be
+                        installed at TJX and the Mexico WRS Site comms validated end-to-end.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
