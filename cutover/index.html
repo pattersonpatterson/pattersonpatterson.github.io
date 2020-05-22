@@ -1,155 +1,350 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>SSM-WAAS-054 / 057 Cutover Status</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="UTF-8">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/661922bfaa.js" crossorigin="anonymous"></script>
+
+	<title>WAAS TIB Selector</title>
 </head>
 
 <body class="bg-info">
-    <div class="container">
-        <div class="jumbotron bg-white">
-
-            <h3 class="w-100" id="cutover-heading"><i class="fa fa-tasks" aria-hidden="true"></i> SSM-WAAS-054 / 057
-                Cutover Status
-                <small class="float-right mt-2">Updated: 5/21/2020</small></h3>
-            <hr>
-
-            <div id="cutover-status">
-                <p><img src="./cutover/Cutover Overview Schedule.PNG" alt="CY19 / R57 Cutover Schedule Overview"
-                        width="100%"></p>
-                <ul>
-                    <li><a href="./cutover/05212020 - Upgrade Tracking.xlsx"><i class="fa fa-table"
-                                aria-hidden="true"></i> Upgrade Tracking Spreadsheet</a></li>
-                </ul>
-                <hr>
-
-                <div class="progress">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="30"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="card-group">
-                    <div class="card text-white bg-success">
-                        <div class="card-header">
-                            <h5 class="card-title">WMS - W7.297L</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="font-weight-bold">Complete:</p>
-                            <ul>
-                                <li>ZLA Complete => 5/6/20 7:42</li>
-                                <li>ZDC Complete => 5/9/20 20:42</li>
-                                <li>ZTL Complete => 5/12/20 23:15</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer">
-                            <p class="text-right font-weight-bold">Complete</p>
-                        </div>
-                    </div>
-                    <div class="card text-white bg-primary">
-                        <div class="card-header">
-                            <h5 class="card-title">WRS - W7.297L</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">WRS site upgrades will be scheduled by O&amp;M
-                                Operators to occur one WRE at a time until all WRS sites have
-                                been
-                                upgraded.</p>
-                            <ul>
-                                <li>Week 1 => 6/38 Complete</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer">
-                            <p class="text-right font-weight-bold">In Progress</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title">SGS - W7.296L</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">SGS site upgrades will be scheduled by O&amp;M
-                                Operators starting immediately after WRS Upgrades are complete.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title">WCN (Core Sites) - W7.296L</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">All WCN Upgrades may be coordinated immediately
-                                after
-                                SGS Upgrades are complete <strong>except ZLA Core Router
-                                    B</strong>.
-                            </p>
-                            <p>The ZLA Core Router B upgrade must coincide with TJX Removal (see
-                                below).</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title">O&amp;M - W7.296L</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">O&amp;Ms may be upgraded immediately after the
-                                ZLA
-                                Core Router B / TJX Removal (see below).</p>
-                            <p>Upon upgrade, O&amp;Ms will lose comm to TJX and the TJX
-                                Distribution
-                                Node will be removed from the O&amp;M topology screens.</p>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="progress">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 15%;" aria-valuenow="25"
-                        aria-valuemin="0" aria-valuemax="100">Parts being
-                        shipped
-                        to OKC</div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h5 class="card-title">TJX Removal</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">New equipment must be installed at TJX to
-                            facilitate
-                            end-to-end connection to ZLA Comm Node 2. This equipment is
-                            projected
-                            to be installed by the end of June 2020; however, coronavirus may
-                            impact
-                            the ability to travel to Mexico to perform the work.</p>
-                        <p><strong>If the equipment cannot be installed by August 12,</strong>
-                            the
-                            ZLA Core Router B and O&amp;Ms will be upgraded. At this point, all
-                            Mexico sites will lose comm on Ring 2 until the equipment can be
-                            installed at TJX and the Mexico WRS Site comms validated end-to-end.
-                        </p>
-                    </div>
-                </div>
-            </div>
+	<div class="container">
+		<div class="jumbotron mt-5">
+			<div class="row">
+				<div class="alert alert-success" role="alert">
+					<h3 id="cutover"><i class="fa fa-tasks" aria-hidden="true"></i> SSM-WAAS-054 / 057 Cutover</h3>
+					<p>CY19 (SSM-WAAS-054) and Release 57 (SSM-WAAS-057) cutover started on May 6, 2020 with the ZLA C&V
+						Upgrade.</p>
 
 
-        </div>
-    </div>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn alert-link" data-toggle="modal" data-target="#cutoverModal">
+						Click here for more information
+					</button>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+					<!-- Modal -->
+					<div class="modal fade" id="cutoverModal" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-xl" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3 class="modal-title w-100" id="cutover-heading"><i class="fa fa-tasks"
+											aria-hidden="true"></i> SSM-WAAS-054 / 057 Cutover
+										<small class="float-right mt-2">Updated: 5/22/2020</small></h3>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<!-- Copy/Paste from here... -->
+									<div id="cutover-status">
+										<p><img src="./cutover/Cutover Overview Schedule.PNG"
+												alt="CY19 / R57 Cutover Schedule Overview" width="100%"></p>
+										<ul>
+											<li><a href="./cutover/05222020 - Upgrade Tracking.xlsx"><i
+														class="fa fa-table" aria-hidden="true"></i> Upgrade Tracking
+													Spreadsheet</a></li>
+										</ul>
+										<hr>
+
+										<div class="progress">
+											<div class="progress-bar bg-success" role="progressbar" style="width: 25%;"
+												aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<div class="card-group">
+											<div class="card text-white bg-success">
+												<div class="card-header">
+													<h5 class="card-title">WMS - W7.297L</h5>
+												</div>
+												<div class="card-body">
+													<p class="font-weight-bold">Complete:</p>
+													<ul>
+														<li>ZLA Complete => 5/6/20 7:42</li>
+														<li>ZDC Complete => 5/9/20 20:42</li>
+														<li>ZTL Complete => 5/12/20 23:15</li>
+													</ul>
+												</div>
+												<div class="card-footer">
+													<p class="text-right font-weight-bold">Complete</p>
+												</div>
+											</div>
+											<div class="card text-white bg-primary">
+												<div class="card-header">
+													<h5 class="card-title">WRS - W7.297L</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">WRS site upgrades will be scheduled by O&amp;M
+														Operators to occur one WRE at a time until all WRS sites have
+														been
+														upgraded.</p>
+													<ul>
+														<li>Week 1 => 6/38 Complete</li>
+													</ul>
+												</div>
+												<div class="card-footer">
+													<p class="text-right font-weight-bold">In Progress</p>
+												</div>
+											</div>
+											<div class="card">
+												<div class="card-header">
+													<h5 class="card-title">SGS - W7.296L</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">SGS site upgrades will be scheduled by O&amp;M
+														Operators starting immediately after WRS Upgrades are complete.
+													</p>
+												</div>
+											</div>
+											<div class="card">
+												<div class="card-header">
+													<h5 class="card-title">WCN (Core Sites) - W7.296L</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">All WCN Upgrades may be coordinated immediately
+														after
+														SGS Upgrades are complete <strong>except ZLA Core Router
+															B</strong>.
+													</p>
+													<p>The ZLA Core Router B upgrade must coincide with TJX Removal (see
+														below).</p>
+												</div>
+											</div>
+											<div class="card">
+												<div class="card-header">
+													<h5 class="card-title">O&amp;M - W7.296L</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">O&amp;Ms may be upgraded immediately after the
+														ZLA
+														Core Router B / TJX Removal (see below).</p>
+													<p>Upon upgrade, O&amp;Ms will lose comm to TJX and the TJX
+														Distribution
+														Node will be removed from the O&amp;M topology screens.</p>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<div class="progress">
+											<div class="progress-bar bg-success" role="progressbar" style="width: 15%;"
+												aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Parts being
+												shipped
+												to OKC</div>
+										</div>
+										<div class="card">
+											<div class="card-header">
+												<h5 class="card-title">TJX Removal</h5>
+											</div>
+											<div class="card-body">
+												<p class="card-text">New equipment must be installed at TJX to
+													facilitate
+													end-to-end connection to ZLA Comm Node 2. This equipment is
+													projected
+													to be installed by the end of June 2020; however, coronavirus may
+													impact
+													the ability to travel to Mexico to perform the work.</p>
+												<p><strong>If the equipment cannot be installed by August 12,</strong>
+													the
+													ZLA Core Router B and O&amp;Ms will be upgraded. At this point, all
+													Mexico sites will lose comm on Ring 2 until the equipment can be
+													installed at TJX and the Mexico WRS Site comms validated end-to-end.
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- ... to here. -->
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="alert alert-danger" role="alert">
+					<h3 id="covid-19"><i class="fa fa-heartbeat" aria-hidden="true"></i> COVID-19 Guidance</h3>
+					<p>Coronavirus has impacted services and teams across the FAA. AJW-14 WAAS Second Level
+						Engineering Support has moved to majority telework, but is still providing field support
+						and continuing work on a variety of future developments.</p>
+
+					<!-- Button trigger modal -->
+					<button type="button" class="btn alert-link" data-toggle="modal" data-target="#exampleModal">
+						Click here for more information
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3 class="modal-title" id="exampleModalLabel"><i class="fa fa-heartbeat"
+											aria-hidden="true"></i> COVID-19 Links</h3>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4><i class="fa fa-book" aria-hidden="true"></i> Guidance</h4>
+									<ul>
+										<li><a href="https://my.faa.gov/content/myfaa/en/site/news/COVID-19.html"
+												target="_blank">Official
+												FAA COVID-19 Information</a></li>
+										<li><a href="https://coronavirus.jhu.edu/map.html" target="_blank">Johns Hopkins
+												Coronavirus
+												Tracking Map</a></li>
+										<li><a href="./COVID-19/carefirst-video-visit-sum3420.pdf"
+												target="_blank">CareFirst Video
+												Doctor Visit</a></li>
+									</ul>
+									<h4><i class="fa fa-phone" aria-hidden="true"></i> Important Numbers</h4>
+									<ul>
+										<li><a href="https://faavideo.zoomgov.com/">FAA Zoom</a></li>
+										<p class="font-weight-bold mb-0">Requires password</p>
+										<ul>
+											<li>1-888-924-3239</li>
+											<li>1-571-302-4908</li>
+										</ul>
+										<li class="mt-4">FAA Bridge</li>
+										<table class="table table-borderless table-sm">
+											<thead>
+												<th>Toll-Free</th>
+												<th>Direct</th>
+											</thead>
+											<tbody>
+												<tr>
+													<td scope="row">1-888-335-6670</td>
+													<td>1-405-225-2375</td>
+												</tr>
+												<tr>
+													<td scope="row">1-888-924-3230</td>
+													<td>1-609-916-1975</td>
+												</tr>
+											</tbody>
+										</table>
+										<li>Raytheon Bridge</li>
+										<ul>
+											<li>1-877-336-1275</li>
+											<li>1-636-651-3161</li>
+										</ul>
+									</ul>
+									<h4><i class="fa fa-laptop" aria-hidden="true"></i> Contractor Telework Info</h4>
+									<ul>
+										<li><strong>All contractors working standard 40 hour/week schedule until further
+												notice</strong></li>
+										<li><a href="https://my.faa.gov/content/dam/myfaa/org/linebusiness/arp/administration/covid19-telework-portal/tools/Logon-to-the-FAA-FTI-FRAC-VPN-itsvcs.pdf"
+												target="_blank">FAA
+												VPN Guidance</a></li>
+										<li><a href="./COVID-19/Telework starting 3_18_2020.pdf"
+												target="_blank">Telework Guidance -
+												3/18/20</a></li>
+										<li><a href="./COVID-19/In Office Approval.pdf" target="_blank">In-Office Work
+												Requires Approval
+												- 4/2/20</a></li>
+										<li>Charge Codes for COVID-19 related work</li>
+										<ul>
+											<li><a href="./COVID-19/Charge Codes/deltek-desktop-job-aid-add-covid19-charge-code.pdf"
+													target="_blank">Desktop
+													version</a></li>
+											<li><a href="./COVID-19/Charge Codes/deltek-mobile-job-aid-add-covid19-charge-code.pdf"
+													target="_blank">Mobile
+													version</a></li>
+										</ul>
+									</ul>
+									<h4><i class="fa fa-bell" aria-hidden="true"></i> Maintenance Alerts</h4>
+									<ul>
+										<li><a href="https://nma.faa.gov/Anon/Details/103909"
+												target="_blank">NMA-20-043</a> provides
+											general FAA guidance for reduced maintenance.
+											This includes the maintenance moratorium preventing any non-critical
+											modifications (expires 4/12).</li>
+										<li><a href="https://nma.faa.gov/Anon/Details/103910"
+												target="_blank">NMA-20-044</a> provides
+											general FAA guidance for disinfecting touch devices</li>
+										<li>FTI Harris has advised a maintenance moratorium on comm issues</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<h1 class="display-4">Select WAAS TIB Version:</h1>
+			<hr>
+			<div class="row">
+				<div class="col-xl-2">
+					<div class="dropdown mb-2">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Legacy TIB Versions
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="dfo4/Default.htm">
+								DFO 4 - TIB 2.00<br>
+								<small>SSM-WAAS-052 - WMS Safety Computer Upgrade</small></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="h2 text-center">Current</p>
+					<a class="btn btn-primary btn-block mb-2" href="cy19/Default.htm">
+						<h2 class="alert-heading">CY19 TIB</h2>
+						<p class="vers"><small>Version 2.02<br><strong>Released 5/4/20</strong></small></p>
+						<hr>
+						<p class="h4">SSM-WAAS-054</p>
+						<ul class="text-left">
+							<li>Removal of TJX Distribution Node</li>
+							<li>New WMS GPS Clock</li>
+						</ul>
+					</a>
+					<a class="btn btn-info btn-block mb-2" href="dfo5/Default.htm">
+						<h2 class="alert-heading">DFO 5 TIB</h2>
+						<p class="vers"><small>Version 2.01 <strong>(outgoing)</strong></small></p>
+						<hr>
+						<p class="h4">SSM-WAAS-053</p>
+						<ul class="text-left">
+							<li>GUS Safety Computer Upgrade</li>
+							<li>Incorporation of GEO6 (CM1/BR1)</li>
+							<li><u>WAAS Correlator</u></li>
+						</ul>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<p class="h2 text-center">Development</p>
+
+					<a class="btn btn-warning btn-block mb-2" href="dfo6/Default.htm">
+						<h2 class="alert-heading">DFO 6 TIB</h2>
+						<p class="vers"><small>Version 2.03<br><strong>(Fielding in September 2020)</strong></small></p>
+						<hr>
+						<p class="h4">SSM-WAAS-058</p>
+						<ul class="text-left">
+							<li>O&amp;M Enhancements</li>
+							<li>Remove O&amp;M Printer</li>
+							<li>Network Tap Configuration</li>
+						</ul>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
