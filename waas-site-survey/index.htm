@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>WAAS Site Update Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+                
+            <div class="row">
+                <div class="col-sm">
+                    <img src="./Waas-logo.svg" alt="Wide Area Augmentation System" width="200px">
+                </div>
+                <div class="col-sm-9">
+                    <h1 class="display-4">WAAS Site Information Update Form</h1>
+                    <p class="lead">
+                        Please fill in the information for the WAAS Site Below:
+                    </p>
+                </div>
+                
+            </div>
+
+
+            <div class="container">
+                <!-- <form action="https://getform.io/f/b509a2e0-6711-4f2a-8303-c766a4aac7fc" method="POST"> -->
+                <form>
+                    <div class="form-group row">
+                        <div class="col-md">
+                            <label for="siteID">Site ID</label>
+                            <select class="form-control" name="siteID" id="siteID" required>
+                                <option selected value="">Select Site...</option>
+                                <option>BET - Bethel, AK</option>
+                                <option>BIL - Billing, MT</option>
+                                <option>S97A - Brewster, WA</option>
+                                <option>S97 - Brewster, WA</option>
+                                <option>BRW - Barrow, AK</option>
+                                <option>CDB - Cold Bay, AK</option>
+                                <option>CMA - South Mountain, CA</option>
+                                <option>FAI - Fairbanks, AK</option>
+                                <option>HNL - Honolulu, HI</option>
+                                <option>JNU - Juneau, AK</option>
+                                <option>Q9C - Merida, Mexico</option>
+                                <option>Q9A - Mexico City, Mexico</option>
+                                <option>Q9B - Puerto Vallarta, Mexico</option>
+                                <option>Q9E - San Jose del Cabo, Mexico</option>
+                                <option>Q9D - Tapachula, Mexico</option>
+                                <option>OTZ - Kotzebue, AK</option>
+                                <option>DXR - Southbury, CT</option>
+                                <option>SZPA - Santa Paula, CA</option>
+                                <option>TJX - Tijuana, Mexico</option>
+                                <option>QWE (Woodbine) - Mount Airy, MD</option>
+                                <option>YFB - Iqaluit, NU, Canada</option>
+                                <option>YQX - Goose Bay, NL, Canada</option>
+                                <option>YWG - Winnipeg, MB, Canada</option>
+                                <option>YYR - Gander, NL Canada</option>
+                                <option>ZAB - Albuquerque, NM</option>
+                                <option>ZAN - Anchorage, AK</option>
+                                <option>ZAU - Aurora, IL</option>
+                                <option>ZBW - Nashua, NH</option>
+                                <option>ZDC - Leesburg, VA</option>
+                                <option>ZDV - Longmont, CO</option>
+                                <option>ZFW - Fort Worth, TX</option>
+                                <option>ZHU - Houston, TX</option>
+                                <option>ZJX - Hilliard, FL</option>
+                                <option>ZKC - Olathe, KS</option>
+                                <option>ZLA - Palmdale, CA</option>
+                                <option>ZLC - Salt Lake City, UT</option>
+                                <option>ZMA - Miami, FL</option>
+                                <option>ZME - Memphis, TN</option>
+                                <option>ZMP - Farmington, MN</option>
+                                <option>ZNY - Ronkonkoma, NY</option>
+                                <option>ZOA - Fremont, CA</option>
+                                <option>ZOB - Oberlin, OH</option>
+                                <option>ZSE - Auburn, WA</option>
+                                <option>ZSU - Carolina, PR</option>
+                                <option>ZTL - Hampton, GA</option>
+                            </select>
+                        </div>
+                        <div class="col-md">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                        </div>
+                        <div class="col-md">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email"
+                                aria-describedby="emailHelpId" placeholder="name@faa.gov" required>
+                            <small id="emailHelpId" class="form-text text-muted">If not FAA, enter best email</small>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3><i class="fa fa-address-book" aria-hidden="true"></i> Address Information</h3>
+                    <div class="form-group row">
+                        <div class="col offset-md-6">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="same-location"
+                                        id="same-location" value="checkedValue">
+                                    Equipment Location different from Site Mailing Address
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="mailing">Site Mailing Address</label>
+                                <textarea class="form-control" name="mailing" id="mailing" rows="3" aria-describedby="address-help" required></textarea>
+                                <small id="address-help" class="form-text text-muted">Include point of contact for <u>C/O:</u> or <u>Attn:</u></small>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-group d-none" id="equiploc-wrapper">
+                                <label for="equiploc">Equipment Location Address</label>
+                                <textarea class="form-control" name="equiploc" id="equiploc" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <h3><i class="fa fa-phone" aria-hidden="true"></i> Site Phone Numbers</h3>
+                    <div class="form-group row">
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="tech-hotline">Technician Hotline</label>
+                                <input type="text" class="form-control" name="tech-hotline" id="tech-hotline"
+                                    aria-describedby="tech-phone-help" placeholder="" required>
+                                <small id="tech-phone-help" class="form-text text-muted"><strong>Best contact</strong>
+                                    for WAAS technician on shift</small>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="soc-phone">SOC Phone Number</label>
+                                <input type="text" class="form-control" name="soc-phone" id="soc-phone"
+                                    aria-describedby="soc-phone-help" placeholder="">
+                                <small id="soc-phone-help" class="form-text text-muted">Service Operation
+                                    Center contact for site-level coordination</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <h3><i class="fa fa-user" aria-hidden="true"></i> Site Personnel</h3>
+                    <div class="form-group row">
+                        <div class="col-3">
+                            <div class="form-group">
+                                <label for="group-select">Comm / Automation Group</label>
+                                <select class="form-control" name="group-select" id="group-select">
+                                    <option>Comm</option>
+                                    <option>Automation</option>
+                                    <option selected>N/A</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="manager-name">WAAS Technician Group Manager</label>
+                                <input type="text" class="form-control" name="manager-name" id="manager-name"
+                                    placeholder="" required>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="manager-email">Manager Email</label>
+                                <input type="email" class="form-control" name="manager-email" id="manager-email"
+                                    placeholder="" required>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="manager-phone">Manager Phone</label>
+                                <input type="text" class="form-control" name="manager-phone" id="manager-phone"
+                                    placeholder="" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="coordinator-name">WAAS Site Coordinator</label>
+                                <input type="text" class="form-control" name="coordinator-name" id="coordinator-name"
+                                    placeholder="" required>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="coordinator-email">Coordinator Email</label>
+                                <input type="email" class="form-control" name="coordinator-email" id="coordinator-email"
+                                    placeholder="" required>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="coordinator-phone">Coordinator Phone</label>
+                                <input type="text" class="form-control" name="coordinator-phone" id="coordinator-phone"
+                                    placeholder="" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="waas-techs">List All WAAS-Certified Technicians at Site:</label>
+                                <textarea class="form-control" name="waas-techs" id="waas-techs" rows="3" aria-describedby="techs-help"
+                                    required></textarea>
+                                <small id="techs-help" class="form-text text-muted">Names of technicians able to certify WAAS equipment</small>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-group">
+                                <label for="notes">Additional Site Information:</label>
+                                <textarea class="form-control" name="notes" id="notes" rows="3"
+                                    aria-describedby="notes-help"></textarea>
+                                <small id="notes-help" class="form-text text-muted">Special coordination considerations,
+                                    shipping instructions, WhatsApp info, etc</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <small>If you have any questions, email <a
+                    href="mailto:brandon.ctr.stauffer@faa.gov">brandon.ctr.stauffer@faa.gov</a></small>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $('input:checkbox#same-location').on('click', function () {
+            $('#equiploc-wrapper').toggleClass("d-none");
+        })
+    </script>
+</body>
+
+</html>
