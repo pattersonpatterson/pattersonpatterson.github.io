@@ -150,9 +150,9 @@
                     <hr>
                     <h3><i class="fa fa-user" aria-hidden="true"></i> Site Personnel</h3>
                     <div class="form-group row">
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <div class="form-group">
-                                <label for="group-select">Comm / Automation Group</label>
+                                <label for="group-select">Comm / Automation SSC</label>
                                 <select class="form-control" name="group-select" id="group-select">
                                     <option>Comm</option>
                                     <option>Automation</option>
@@ -160,11 +160,17 @@
                                 </select>
                             </div>
                         </div>
+                        <div class="col-md-4 offset-md-1">
+                            <div class="form-group">
+                              <label for="ssc-email">SSC Email</label>
+                              <input type="email" class="form-control" name="ssc-email" id="ssc-email" placeholder="group@faa.gov">
+                            </div>
+                        </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-md">
                             <div class="form-group">
-                                <label for="manager-name">WAAS Technician Group Manager</label>
+                                <label for="manager-name">WAAS Technician / SSC Manager</label>
                                 <input type="text" class="form-control" name="manager-name" id="manager-name"
                                     placeholder="" required>
                             </div>
