@@ -18,7 +18,7 @@
 
 	"Create Highlight": {
 		"scope": "html",
-		"prefix": "listgroupitem",
+		"prefix": "highlight",
 		"body": [
 "<div class=\"list-group-item\">",
 "\t<h4 class=\"mb-0\">$1</h4>",
