@@ -6300,21 +6300,32 @@
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
                                                                   <li>5/15 17:15 - <strong>BR2 went to No Data Reported
-                                                                              Mode from Primary Mode</strong>;
-                                                                        <strong>Operators had to <em>manually
-                                                                                    command</em> the AP1 GUS to Primary
-                                                                              Mode at 17:16 because it did not
-                                                                              automatically switchover!</strong>; when
-                                                                        it came back from No Data Reported ~17:24, the
-                                                                        BR2 GUS entered Faulted Mode with RFU subsystem
-                                                                        SEs; there was a SE 508 Process Failure Notice
-                                                                        shortly after the POC O&amp;M returned to
-                                                                        Maintenance Mode after the upgrade, then the
-                                                                        mode changed to Faulted (POC Maintenance at
-                                                                        17:23 / BR2 Faulted at 17:24); BR2 was shutdown
-                                                                        / Control Powered and <strong>returned to Backup
-                                                                              Mode at 5/15 18:13</strong>
+                                                                              Mode from Primary Mode</strong>
                                                                         <ul>
+                                                                              <li><strong>Operators had to <em>manually
+                                                                                                command</em> the AP1 GUS
+                                                                                          to Primary Mode at 17:16
+                                                                                          because it did not
+                                                                                          automatically
+                                                                                          switchover!</strong></li>
+                                                                              <li><strong>For up to 2 min, both AP1 and
+                                                                                          BR2 were broadcasting in
+                                                                                          Primary Mode</strong> -- still
+                                                                                    investigating; the GEO was Not Mon
+                                                                                    at the time but corrupted WUMs were
+                                                                                    observed on the C&amp;V</li>
+                                                                              <li>When BR2 GUS came back from No Data
+                                                                                    Reported ~17:24, the BR2 GUS entered
+                                                                                    Faulted Mode with RFU subsystem SEs;
+                                                                                    there was a SE 508 Process Failure
+                                                                                    Notice shortly after the POC O&amp;M
+                                                                                    returned to Maintenance Mode after
+                                                                                    the upgrade, then the mode changed
+                                                                                    to Faulted (POC Maintenance at 17:23
+                                                                                    / BR2 Faulted at 17:24); BR2 was
+                                                                                    shutdown / Control Powered and
+                                                                                    <strong>returned to Backup Mode at
+                                                                                          5/15 18:13</strong></li>
                                                                               <li>In grafana, there is a data gap for
                                                                                     the BR2 plots between 5/15 17:20 and
                                                                                     17:55</li>
