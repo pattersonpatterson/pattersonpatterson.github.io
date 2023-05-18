@@ -6148,7 +6148,11 @@
                                                                   <li>5/15 21:10 - <strong>SSM-WAAS-062</strong> - ZTL
                                                                         C&amp;V Upgraded to W7.391L; <strong>restored to
                                                                               Normal at 5/15 22:52</strong></li>
+                                                                  <li>5/17 21:01 - <strong>SSM-WAAS-062</strong> - ZLA
+                                                                        C&amp;V Upgraded to W7.391L; <strong>restored to
+                                                                              Normal at 5/17 22:41</strong></li>
                                                             </ul>
+
 
 
                                                             <p>
@@ -6188,10 +6192,11 @@
                                                                                           612854124</a>; completed at
                                                                                     5/15 22:52
                                                                               </li>
-                                                                              <li>[ ] 5/17 21:00 - ZLA C&amp;V Upgrade
+                                                                              <li>[X] 5/17 21:00 - ZLA C&amp;V Upgrade
                                                                                     <a
                                                                                           href="https://technetrmlsb.faa.gov/LIR/Details/612860524">LIR
-                                                                                          612860524</a>
+                                                                                          612860524</a>; completed at
+                                                                                    5/17 22:41
                                                                               </li>
                                                                               <li>[ ] 5/19 18:00 - ZDC C&amp;V Upgrade
                                                                                     <a
@@ -6300,20 +6305,24 @@
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
                                                                   <li>5/15 17:15 - <strong>BR2 went to No Data Reported
-                                                                              Mode from Primary Mode</strong>
+                                                                              from Primary Mode</strong> -- &quot;No
+                                                                        Data Reported&quot; indicates the O&amp;M lost
+                                                                        sight of the GUS status, not necessarily a
+                                                                        &quot;mode change&quot; of the GUS
                                                                         <ul>
-                                                                              <li><strong>Operators had to <em>manually
-                                                                                                command</em> the AP1 GUS
-                                                                                          to Primary Mode at 17:16
-                                                                                          because it did not
-                                                                                          automatically
-                                                                                          switchover!</strong></li>
+                                                                              <li><strong>Operators <em>manually
+                                                                                                commanded</em> the AP1
+                                                                                          GUS to Primary Mode at 17:16
+                                                                                          when it did not automatically
+                                                                                          switchover</strong> -- SLES
+                                                                                    SSM 62 Cutover Coordinators were on
+                                                                                    the line with the Operators at the
+                                                                                    time</li>
                                                                               <li><strong>For up to 2 min, both AP1 and
                                                                                           BR2 were broadcasting in
                                                                                           Primary Mode</strong> -- still
-                                                                                    investigating; the GEO was Not Mon
-                                                                                    at the time but corrupted WUMs were
-                                                                                    observed on the C&amp;V</li>
+                                                                                    investigating; the GEO went to Not
+                                                                                    Mon at 17:16</li>
                                                                               <li>When BR2 GUS came back from No Data
                                                                                     Reported ~17:24, the BR2 GUS entered
                                                                                     Faulted Mode with RFU subsystem SEs;
@@ -6322,13 +6331,10 @@
                                                                                     returned to Maintenance Mode after
                                                                                     the upgrade, then the mode changed
                                                                                     to Faulted (POC Maintenance at 17:23
-                                                                                    / BR2 Faulted at 17:24); BR2 was
-                                                                                    shutdown / Control Powered and
+                                                                                    / BR2 Faulted at 17:24)</li>
+                                                                              <li>BR2 was shutdown / Control Powered and
                                                                                     <strong>returned to Backup Mode at
                                                                                           5/15 18:13</strong></li>
-                                                                              <li>In grafana, there is a data gap for
-                                                                                    the BR2 plots between 5/15 17:20 and
-                                                                                    17:55</li>
                                                                         </ul>
                                                                   </li>
                                                             </ul>
