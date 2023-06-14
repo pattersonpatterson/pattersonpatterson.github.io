@@ -376,8 +376,7 @@
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">6/14 - Major Comm Hit Leading to BR2 GUS Fail
-                                                      </h4>
+                                                      <h4 class="mb-0">6/14 - Major Comm Hit</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
                                                                   <li>6/14 03:35 - A major comm event occurred affecting
@@ -392,10 +391,16 @@
                                                             <p class="text-center"><img class="img-thumbnail"
                                                                         src="img/20230614_Subsystem_Comm_Faults.png"
                                                                         alt="20230614 - Subsystem Comm Faults"></p>
+                                                      </div>
+                                                </div>
 
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">6/14 - BR2 GUS Fail during POCC O&amp;M Outage
+                                                      </h4>
+                                                      <div class="mb-0 opacity-75">
                                                             <ul>
                                                                   <li>6/14 03:35 - BR2 GUS went from Backup to No Data
-                                                                        Reported with Comm Status change SE 500s; the
+                                                                        Reported with Comm Status change SE 500s (concurrent with Major Comm Hit above); the
                                                                         GUS apparently continued functioning in Backup
                                                                         until roughly 05:17 when the data flatlines</li>
                                                                   <li>6/14 05:34 - BR2 data cuts off at 6/14 05:21 and
@@ -420,8 +425,7 @@
                                                                         restored to Backup at 6/14 05:55 with no further
                                                                         issues</li>
                                                             </ul>
-
-
+                                                            <p>May be related to WPR 129126 instigating issue...</p>
                                                       </div>
                                                 </div>
 
