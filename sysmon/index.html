@@ -22,7 +22,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20240320-20240327
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20240327-20240403
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -46,135 +46,49 @@
                                                       </div>
                                                 </div> -->
 
-                                                <div class="list-group-item list-group-item-danger">
-                                                      <h4 class="mb-0">3/19 - BET Freq Std Replaced (still down)</h4>
+
+                                                <div class="list-group-item list-group-item-primary">
+                                                      <h4 class="mb-0">SSM-WAAS-066 - CY24 Comm Upgrade</h4>
                                                       <div class="mb-0 opacity-75">
+                                                            <p>WAAS Engineering has released SSM-WAAS-066, and we are
+                                                                  coordinating <strong>Cutover Start to begin the week
+                                                                        of
+                                                                        4/8/2024</strong>. This SSM will accomplish the
+                                                                  following:</p>
                                                             <ul>
-                                                                  <li>3/19 19:23 - BET WRE-B returned to Maintenance for
-                                                                        Freq Std Replacement; currently cycling in
-                                                                        Maintenance Mode; ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/757800424">LIR
-                                                                              757800424</a>
-                                                                        <ul>
-                                                                              <li><code>The tech replaced Freq Std and recycle the power w/o configuration, not sure if it has been configured or not, because he had to leave right away for some other urgent task. He is going to come back tomorrow to continue the mission. WAAS OPS is monitoring the equipment status.</code>
-                                                                              </li>
-                                                                        </ul>
+                                                                  <li>Remove the ZSE Comm Node from the WAAS Topology
+                                                                        and upgrade Alaska WRS Comms</li>
+                                                                  <li>Upgrade Ring 1 Mexico WRS-ZTL Comms (Ring 2 Mexico
+                                                                        WRS-ZLA comms are not part of this modification)
                                                                   </li>
+                                                                  <li>Upgrade O&amp;Ms, C&amp;Vs, and Core Routers to
+                                                                        support comm changes</li>
                                                             </ul>
+
+
+                                                            <p>
+                                                                  <button class="btn btn-primary mx-5 px-5"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#cutoverSchedule"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="cutoverSchedule">
+                                                                        Cutover Schedule
+                                                                  </button>
+                                                            </p>
+                                                            <div class="collapse" id="cutoverSchedule">
+                                                                  <div class="card card-body">
+                                                                        <p class="text-center"><img class="img-fluid"
+                                                                                    src="img/SSM_WAAS_066_Schedule.png"
+                                                                                    alt="SSM-WAAS-066 Cutover Schedule">
+                                                                        </p>
+                                                                  </div>
+                                                            </div>
+
 
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-danger">
-                                                      <h4 class="mb-0">3/21 - JNU WRE-A Power Outage</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>3/21 14:22 - JNU WRE-A to No Data Reported --
-                                                                        <code>local tech (MP) suspects due to bad PCU-A WRE-A, investigating issue</code>;
-                                                                        ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/44113221">LIR
-                                                                              44113221</a>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">3/22 - SZ1 GUS KPA Maintenance</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>3/22 13:58 - SZ1 GUS to Maintenance
-                                                                        <code>to replace shelter KPA vent work and KPA airflow sensor</code>;
-                                                                        ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/720866532">LIR
-                                                                              720866532</a>; <strong>restored to Backup
-                                                                              at 3/22 18:11</strong>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">3/22 - MMX WRE-C Reset</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>3/22 21:38 - Operators set MMX WRE-C to
-                                                                        Maintenance to try to address extended comm
-                                                                        issues; ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/730741832">LIR
-                                                                              730741832</a>; Operators Reset and
-                                                                        <strong>restored to Normal at 3/23
-                                                                              06:09</strong>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">3/24 - DX1 GUS Faulted from Primary</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>3/24 05:59 - <strong>GUS Switchover - SM9</strong>
-                                                                        - DX1 GUS Faulted from Primary with C1
-                                                                        Upconverter Failure; ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/768729524">LIR
-                                                                              768729524</a>; Control Powered and
-                                                                        <strong>restored to Backup at 3/24
-                                                                              08:10</strong>
-                                                                  </li>
-                                                                  <li>3/24 09:09 - <strong>GUS Switchover - SM9</strong>
-                                                                        - DX1 GUS to Primary / SZ1 GUS to Backup
-                                                                        <code>due com problems caused by mudslide in SZPA area.</code>;
-                                                                        ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/768732024">LIR
-                                                                              768732024</a>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">3/25 - YYR All WREs Reset</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>3/25 14:04 - YYR all WREs to Maintenance
-                                                                        <code>after EQ reset by Gandor TOC</code>; ref
-                                                                        <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/769122524">LIR
-                                                                              769122524</a>; <strong>restored to Normal
-                                                                              at 3/25 14:51</strong>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">3/26 - BR1 GUS Maintenance</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>3/26 07:04 - <strong>GUS Switchover - S15</strong>
-                                                                        - CM1 to Primary / BR1 to Backup
-                                                                        <code>to facilitate Spring Antenna &amp; KPA maintenance</code>;
-                                                                        ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/44106421">LIR
-                                                                              44106421</a>
-                                                                  </li>
-                                                                  <li>3/26 15:58 - BR1 GUS to Maintenance
-                                                                        <code>to perform Spring Antenna &amp; KPA PMs</code>;
-                                                                        ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/44106321">LIR
-                                                                              44106321</a>; <strong>restored to Backup
-                                                                              at 3/26 20:35</strong>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
+                                                <hr>
 
                                                 <div class="list-group-item list-group-item-warning">
                                                       <h4 class="mb-0">3/27 - MPR WRE-B Faulted</h4>
@@ -211,6 +125,190 @@
                                                       </div>
                                                 </div>
 
+                                                <div class="list-group-item list-group-item-success">
+                                                      <h4 class="mb-0">3/28 - JNU WRE-A Power Outage</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>3/21 14:22 - JNU WRE-A to No Data Reported --
+                                                                        <code>local tech (MP) suspects due to bad PCU-A WRE-A, investigating issue</code>;
+                                                                        ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/44113221">LIR
+                                                                              44113221</a>
+                                                                  </li>
+                                                                  <li>3/27 23:35 - JNU WRE-A returns to Maintenance but
+                                                                        fails initialization; cycling in Maintenance...
+                                                                  </li>
+                                                                  <li>3/28 22:02 - JNU Ring 1 PRI comms flapping;
+                                                                        <strong>last event cleared at 3/28 22:14 (~540
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>3/28 22:23 - JNU WRE-A returns to Maintenance
+                                                                        after PCU replaced; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/770204024">LAD
+                                                                              770204024</a>; <strong>restored to Normal
+                                                                              at 3/28 23:00</strong>
+                                                                        <ul>
+                                                                              <li><strong>JNU WRE-A</strong> -
+                                                                                    <em>3/21/24-3/28/24</em> - No power
+                                                                                    to cabinet
+                                                                              </li>
+                                                                        </ul>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">3/29 - ZME WRE-C Fault (Freq Std Ionizer)</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>3/29 11:13 - ZME WRE-C Faulted with SEs 53 and 59;
+                                                                        changed to Maintenance and <strong>restored to
+                                                                              Normal at 3/29 11:19</strong></li>
+                                                                  <li>4/3 19:19 - ZME WRE-C to Maintenance and Control
+                                                                        Powered to clear F3 Ionizer Fault on the Freq
+                                                                        Std (occurred on 3/29 Fault); ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LCM/Details/44129021">LCM
+                                                                              44129021</a>; <strong>restored to Normal
+                                                                              at 4/3 19:46</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">3/30 - ZLC WRE-B Fault</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>3/30 01:52 - ZLC WRE-B Faulted with SEs 29, 52,
+                                                                        53, 59; changed to Maintenance and
+                                                                        <strong>restored to Normal at 3/30
+                                                                              02:58</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">3/31 - ZTL Comm Event (MR-163437B)</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>3/31 06:09 - ZTL both Core Routers impacted for
+                                                                        <code>MR-163437B - L3Harris tech's will be onsite to Hot Cut services</code>;
+                                                                        <strong>COR-COR lines cleared at 3/31 06:28
+                                                                              (~1168 seconds); Last WRS lines cleared at
+                                                                              3/31 07:25 (~4543 seconds)</strong>; ref
+                                                                        <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/766041924">LAD
+                                                                              766041924</a>
+                                                                  </li>
+                                                            </ul>
+                                                            <p class="text-center"><img class="img-fluid"
+                                                                        src="img/20240331_ZTL_Comm_Event.png"
+                                                                        alt="20240331 - ZTL Comm Event (MR-163437B)">
+                                                            </p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">4/2 - AP1 GUS Receiver Replacement</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>4/2 07:01 - <strong>GUS Switchover - G30</strong>
+                                                                        - BR2 to Primary / AP1 to Backup
+                                                                        <code>to replace the GUS-T receiver</code>; ref
+                                                                        <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/773956824">LAD
+                                                                              773956824</a>
+                                                                        <ul>
+                                                                              <li>
+                                                                                    <blockquote>
+                                                                                          <p>Reasoning: On 3/30 GEO 135
+                                                                                                went NM for several
+                                                                                                minutes. That event
+                                                                                                seems correlated to
+                                                                                                carrierphase
+                                                                                                divergences, similar to
+                                                                                                what we had seen from
+                                                                                                CM1 in November 2023/
+                                                                                                January 2024. From
+                                                                                                analysis from NASE and
+                                                                                                Leidos, this stems from
+                                                                                                a component at AP1, and
+                                                                                                there have been
+                                                                                                carrierphase divergences
+                                                                                                for at least a few
+                                                                                                weeks. We want to start
+                                                                                                with replacing the
+                                                                                                receiver and see if that
+                                                                                                improves.</p>
+                                                                                    </blockquote>
+                                                                              </li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>4/2 16:49 - BIL Ring 1 / Ring 2 comms down hard
+                                                                        due to telco outage; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/774056524">LAD
+                                                                              774056524</a>; <strong>all lines cleared
+                                                                              at 4/3 00:32 (~27770 seconds)</strong>
+                                                                  </li>
+                                                                  <li>4/2 20:00 - AP1 GUS to Maintenance for GUS
+                                                                        Receiver Replacement; <strong>restored to Backup
+                                                                              at 4/2 21:22</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-success">
+                                                      <h4 class="mb-0">4/3 - BET Freq Std Replaced</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>3/19 19:23 - BET WRE-B returned to Maintenance for
+                                                                        Freq Std Replacement; currently cycling in
+                                                                        Maintenance Mode; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/757800424">LIR
+                                                                              757800424</a>
+                                                                        <ul>
+                                                                              <li><code>The tech replaced Freq Std and recycle the power w/o configuration, not sure if it has been configured or not, because he had to leave right away for some other urgent task. He is going to come back tomorrow to continue the mission. WAAS OPS is monitoring the equipment status.</code>
+                                                                              </li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>4/2 22:14 - BET WRE-B returns to Maintenance for
+                                                                        Freq Std Replacement; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/757800424">LAD
+                                                                              757800424</a>; <strong>restored to Normal
+                                                                              at 4/2 23:47</strong>
+                                                                        <ul>
+                                                                              <li><strong>BET WRE-B</strong> -
+                                                                                    <em>3/4/24-4/3/24</em> - Freq Std
+                                                                                    Failure
+                                                                              </li>
+                                                                        </ul>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">4/3 - MSD WRE-C Fault (Rcvr Comm Fault)</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>4/3 19:56 - MSD WRE-C Faulted with SE 54 Rcvr Comm
+                                                                        Fault; SE 308 Process Failure indicates SW
+                                                                        restart without Operator Action; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/774844324">LAD
+                                                                              774844324</a>; <strong>restored to Normal
+                                                                              at 4/3 21:01</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
                                                 <div class="list-group-item list-group-item-warning">
                                                       <h4 class="mb-0">Various Comm Impacts</h4>
                                                       <div class="mb-0 opacity-75">
@@ -220,79 +318,19 @@
                                                                   outage
                                                             </p>
 
-                                                            <p class="fw-bold">CDB Comm Events</p>
-                                                            <ul>
-                                                                  <li>3/20 12:31 - CDB Ring 2 comms down hard; line
-                                                                        started flapping at 3/20 12:58; <strong>last
-                                                                              event cleared at 3/20 14:33 (~3084 seconds
-                                                                              total)</strong></li>
-                                                                  <li>3/22 23:49 - CDB Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 3/22 23:53 (~72
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>3/24 10:40 - CDB Ring 2 comms down hard; line came
-                                                                        started flapping at 3/24 12:06; <strong>last
-                                                                              event cleared at 3/24 14:27 (~5131 seconds
-                                                                              total)</strong></li>
-                                                            </ul>
-
-
-                                                            <p class="fw-bold">CM1 Comm Events</p>
-                                                            <ul>
-                                                                  <li>3/20 22:25 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 3/20 22:55 (~151
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>3/21 18:14 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 3/21 19:57 (~1079
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>3/22 18:07 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 3/22 18:19 (~107
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>3/22 19:38 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 3/22 19:52 (~140
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>3/24 19:16 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 3/24 19:39 (~163
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                            </ul>
-
-
-                                                            <p class="fw-bold">Mexico Sites</p>
-                                                            <ul>
-                                                                  <li>3/20 06:00 - MMX Ring 2 comms down hard;
-                                                                        <strong>line cleared at 3/20 06:08 (~455
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>3/20 08:21 - MMX Ring 2 comms down hard;
-                                                                        <strong>line cleared at 3/20 08:26 (~272
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>3/20 09:02 - MMX Ring 2 comms down hard;
-                                                                        <strong>line cleared at 3/20 09:10 (~427
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>3/20 09:57 - MMX Ring 2 comms down hard;
-                                                                        <strong>line cleared at 3/20 10:05 (~455
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>3/24 06:10 - MSD Ring 1 comms down hard;
-                                                                        <strong>line cleared at 3/24 07:00 (~2960
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                            </ul>
-
-
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
                                                                   <li>3/27 04:57 - BRW Ring 1 / Ring 2 comms down hard
                                                                         for ~95 seconds</li>
+                                                                  <li>4/1 17:34 - ZSU Ring 1 PRI / Ring 2 ALT comms took
+                                                                        a ~55 second hit; site went <strong>No Data
+                                                                              Reported</strong> since the remaining
+                                                                        comms have been down since 3/24 14:05...</li>
+                                                                  <li>4/1 22:03 - AP1 Ring 1 PRI / Ring 2 ALT comms took
+                                                                        a ~30 second hit</li>
+                                                                  <li>4/2 03:01 - AP1 Ring 1 PRI / Ring 2 ALT comms took
+                                                                        a ~90 second hit</li>
                                                             </ul>
-
 
 
                                                             <div class="card">
@@ -360,6 +398,7 @@
                                                                         </ul>
 
 
+
                                                                   </div>
                                                             </div>
 
@@ -374,11 +413,10 @@
                                                             <p>List of current offline WREs -- ref <a
                                                                         href="https://waas-engr.faa.gov/statmon">WAAS
                                                                         Status Monitor</a></p>
+
                                                             <ul>
-                                                                  <li><strong>BET WRE-B</strong> - <em>3/4-...</em> -
-                                                                        Freq Std Failure</li>
-                                                                  <li><strong>JNU WRE-A</strong> - <em>3/21-...</em> -
-                                                                        No power to cabinet</li>
+                                                                  <li>MMX WRE-C manually Shutdown to stop loudmouth Sig
+                                                                        Events during Ring 1 comm outage...</li>
                                                             </ul>
 
 
