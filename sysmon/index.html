@@ -22,7 +22,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20240508-20240515
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20240515-20240522
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -51,64 +51,9 @@
                                                       <h4 class="mb-0">SSM-WAAS-066 - CY24 Comm Upgrade</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <p>WAAS Engineering has released SSM-WAAS-066, and we are
-                                                                  coordinating <strong>Cutover Start to begin the week
+                                                                  coordinating <strong>Cutover Start began the week
                                                                         of
-                                                                        4/8/2024</strong>. This SSM will accomplish the
-                                                                  following:</p>
-                                                            <ul>
-                                                                  <li>Remove the ZSE Comm Node from the WAAS Topology
-                                                                        and upgrade Alaska WRS Comms</li>
-                                                                  <li>Upgrade Ring 1 Mexico WRS-ZTL Comms (Ring 2 Mexico
-                                                                        WRS-ZLA comms are not part of this modification)
-                                                                  </li>
-                                                                  <li>Upgrade O&amp;Ms, C&amp;Vs, and Core Routers to
-                                                                        support comm changes</li>
-                                                            </ul>
-
-                                                            <p>
-                                                                  <button class="btn btn-primary mx-5 px-5"
-                                                                        type="button" data-bs-toggle="collapse"
-                                                                        data-bs-target="#cutoverSchedule"
-                                                                        aria-expanded="false"
-                                                                        aria-controls="cutoverSchedule">
-                                                                        Cutover Schedule
-                                                                  </button>
-                                                            </p>
-                                                            <div class="collapse" id="cutoverSchedule">
-                                                                  <div class="card card-body">
-                                                                        <p class="text-center"><img class="img-fluid"
-                                                                                    src="img/SSM_WAAS_066_Schedule.png"
-                                                                                    alt="SSM-WAAS-066 Cutover Schedule">
-                                                                        </p>
-                                                                  </div>
-                                                            </div>
-
-                                                            <ul>
-                                                                  <li>5/14 19:01 - <strong>SSM-WAAS-066</strong> - YYR
-                                                                        ACS-A Upgraded with W7.403L</li>
-                                                                  <li>5/14 19:07 - <strong>SSM-WAAS-066</strong> - ZAU
-                                                                        COR-A Upgraded with W7.403L</li>
-                                                                  <li>5/14 19:23 - <strong>SSM-WAAS-066</strong> - YFB
-                                                                        ACS-B Upgraded with W7.403L</li>
-                                                                  <li>5/14 19:36 - <strong>SSM-WAAS-066</strong> - ZAU
-                                                                        COR-B Upgraded with W7.403L
-                                                                        <ul>
-                                                                              <li>After upgrade, comm lost to ZAU PCU-D
-                                                                                    in Comm Node 1 – the PCU was powered
-                                                                                    OFF / ON and the <strong>issue
-                                                                                          cleared at 5/15 15:34</strong>
-                                                                              </li>
-                                                                        </ul>
-                                                                  </li>
-                                                                  <li>5/14 19:49 - <strong>SSM-WAAS-066</strong> - YFB
-                                                                        ACS-A Upgraded with W7.403L</li>
-                                                                  <li>5/14 19:56 - <strong>SSM-WAAS-066</strong> - ZDC
-                                                                        COR-A Upgraded with W7.403L</li>
-                                                                  <li>5/14 20:16 - <strong>SSM-WAAS-066</strong> - YYR
-                                                                        ACS-B Upgraded with W7.403L</li>
-                                                                  <li>5/14 20:28 - <strong>SSM-WAAS-066</strong> - ZDC
-                                                                        COR-B Upgraded with W7.403L</li>
-                                                            </ul>
+                                                                        4/8/2024 and completed 5/14/2024</strong>.
 
 
                                                             <p class="fw-bold">Cutover Complete -- 2 Week Monitoring
@@ -137,98 +82,6 @@
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">5/10 - Extreme Storm LPV Outage</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>5/10 19:00 - All C&amp;Vs alerted with SE 757 IGPs
-                                                                        with high GIVEI due to
-                                                                        <code>Kp 9- storm/G5 knocking out LPV and LPV200</code>;
-                                                                        NOTAM GENERATED; <strong>the IGPs cleared at
-                                                                              5/11 10:23 (~55,370 seconds)</strong>
-                                                                        <ul>
-                                                                              <li>5/10 20:55 - All C&amp;Vs alerted with
-                                                                                    SE 831 - Extreme Storm Predicted
-                                                                                    21:55</li>
-                                                                              <li>5/10 21:56 - All C&amp;Vs alerted with
-                                                                                    SE 833 - Extreme Storm in Progress
-                                                                              </li>
-                                                                              <li>5/11 09:22 - All C&amp;Vs alerted with
-                                                                                    SE 833 - Extreme Storm Clearing
-                                                                                    10:22; SE rescinded at 5/11 10:22
-                                                                              </li>
-                                                                              <li>5/11 10:22 - All C&amp;Vs alerted with
-                                                                                    SE 833 - Extreme Storm Cleared</li>
-                                                                        </ul>
-                                                                  </li>
-                                                            </ul>
-                                                            <p class="text-center"><img class="col-md-5 img-thumbnail"
-                                                                        src="img/20240510_LPV_W2313D5.png"
-                                                                        alt="20240510 - LPV Outage">
-                                                                  <img class="col-md-5 img-thumbnail"
-                                                                        src="img/20240511_LPV_W2313D6.png"
-                                                                        alt="20240510 - LPV Outage">
-                                                            </p>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">5/12 - CM1 GUS Fault (1 PPS)</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>5/12 04:25 - <strong>GUS Switchover - S15</strong>
-                                                                        - CM1 Faulted from Primary with SEs 172-175
-                                                                        indicating 1 PPS fault; Control Powered and
-                                                                        <strong>restored to Backup at 5/12
-                                                                              06:01</strong>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">5/12 - HNL WRE-C Fault</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>5/12 05:33 - HNL WRE-C Faulted with SEs 52, 53,
-                                                                        and 59; Reset and <strong>restored to Normal at
-                                                                              5/12 07:37</strong></li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-danger">
-                                                      <h4 class="mb-0">5/13 - MMX WRE-C OFFLINE</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>5/13 18:02 - MMX WRE-C processor apparently
-                                                                        failed; could not be restored...</li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">5/14 - Alaska GCI Outage</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>5/14 18:38 - Alaska GCI Telco outage affecting
-                                                                        BET, FAI, JNU, OTZ (Full Outage), and BRW (down
-                                                                        to one line) -- same group as last time;
-                                                                        <strong>all lines cleared at 5/14 23:37 (~17960
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                            </ul>
-                                                            <p class="text-center"><img class="img-thumbnail"
-                                                                        src="img/20240514_Alaska_Telco_outage.PNG"
-                                                                        alt="20240514 - Alaska GCI Telco Outage"></p>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
                                                       <h4 class="mb-0">5/15 - AP1 CV-GUS Comm Fail SEs</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
@@ -243,12 +96,144 @@
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-danger">
-                                                      <h4 class="mb-0">5/15 - All Mexico OFFLINE</h4>
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">5/15 - ZAU Comm Node 1 Power Cycled</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/15 15:33 - ZAU Comm Node 1 PCU-D manually
+                                                                        powered OFF/ON to troubleshoot SNMP down to ZAU
+                                                                        COR-B after upgrade; <strong>issue cleared at
+                                                                              5/15 15:34</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-success">
+                                                      <h4 class="mb-0">5/15 - All Mexico Ring 1 Restored (except MTP)
+                                                      </h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
                                                                   <li>5/15 18:16 - All Ring 1 Mexico comms down hard;
-                                                                        <strong>all Mexico OFFLINE</strong>...
+                                                                        <strong>all Mexico OFFLINE</strong>; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/798370024">LIR
+                                                                              798370024</a>; <strong>all lines except
+                                                                              MTP Ring 1 cleared at 5/16 01:07 (~128679
+                                                                              seconds for MPR/MMX/MSD; ~450104 seconds
+                                                                              for MMD)</strong>
+                                                                  </li>
+                                                            </ul>
+
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">5/16 - AP1 GUS to Backup</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/16 07:05 - <strong>GUS Switchover - G30</strong>
+                                                                        - BR2 to Primary / AP1 to Backup in preparation
+                                                                        for <code>MR-184749</code>; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/789867924">LIR
+                                                                              789867924</a></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-danger">
+                                                      <h4 class="mb-0">5/19 - SZ1 / HNL Comm Hits</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/19 08:02 - SZ1 Ring 1 PRI / Ring 2 ALT + HNL
+                                                                        Ring 1 PRI / Ring 2 ALT comms started flapping
+                                                                        <code>ISR 0519-0764</code>; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/801816524">LAD
+                                                                              801816524</a>; loopback testing at 5/20
+                                                                        02:16 and 5/20 03:02; <strong>down hard at 5/21
+                                                                              23:29...</strong></li>
+                                                            </ul>
+
+                                                            <p class="text-center"><img class="img-fluid col-md-10"
+                                                                        src="img/20240519_SZ1+HNL_Comm_Hits.PNG"
+                                                                        alt="20240520 - SZ1 + HNL Comm Hits"></p>
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">5/21 - BET / BRW / BR1 / BR2 Comm Hits</h4>
+                                                      <div class="mb-0 opacity-75">
+
+                                                            <ul>
+                                                                  <li>5/21 00:42 - ~20-40 second Comm hits for BET, BRW,
+                                                                        BR1, and BR2 as shown below</li>
+                                                            </ul>
+                                                            <p class="text-center"><img class="img-fluid col-md-10"
+                                                                        src="img/20240521_BET,BRW,BR1,BR2_comm_hit.PNG"
+                                                                        alt="20240521 - BET, BRW, BR1, BR2 Comm Hits">
+                                                            </p>
+
+                                                            <ul>
+                                                                  <li>5/21 16:05 - Comms flapping for BET, BRW, BR1, and
+                                                                        BR2 as shown below</li>
+                                                            </ul>
+                                                            <p class="text-center"><img class="img-fluid col-md-10"
+                                                                        src="img/20240521_BET,BRW,BR1,BR2_comm_hit2.PNG"
+                                                                        alt="20240521 - BET, BRW, BR1, BR2 Comm Hits">
+                                                            </p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">5/21 - ZTL C&V Fault (PCU-B Main Breaker Reset)
+                                                      </h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/21 17:57 - ZTL C&amp;V Faulted after SE 2 Main
+                                                                        circuit breaker reset at 17:56; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LCM/Details/802938124">LCM
+                                                                              802938124</a> Warm Start and restarted at
+                                                                        5/21 18:36; <strong>restored to Normal at 5/21
+                                                                              19:51</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">5/21 - OTZ WRS Temperature Spike</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/21 00:59 - OTZ WRS experienced temperature spike
+                                                                        (SE 309 Processor Power/Fan Failure on all WREs)
+                                                                  </li>
+                                                                  <li>5/21 15:07 - OTZ WRS protective shutdown to
+                                                                        address temperatures; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/802797324">LAD
+                                                                              802797324</a></li>
+                                                                  <li>5/22 16:06 - OTZ WRE-B and WRE-C returned to
+                                                                        Maintenance and <strong>restored to Normal at
+                                                                              5/22 16:40</strong>; OTZ WRE-A needs
+                                                                        manual control power due to Ring 2 down</li>
+                                                                  <li>5/22 19:18 - OTZ WRE-A manually power cycled,
+                                                                        returned to Maintenance, and <strong>restored to
+                                                                              Normal at 5/22 19:47</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">5/22 - BR1 GUS to Backup</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/22 04:09 - <strong>GUS Switchover - S15</strong>
+                                                                        - CM1 GUS to Primary / BR1 GUS to Backup
+                                                                        <code>for telco Maint MR-187602</code>; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/803254424">LAD
+                                                                              803254424</a>
                                                                   </li>
                                                             </ul>
 
@@ -268,25 +253,46 @@
 
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>5/8 03:44 - ZME Ring 1 ALT / Ring 2 PRI comms down
-                                                                        hard; <strong>both lines cleared at 5/8 04:46
-                                                                              (~131 seconds)</strong></li>
-                                                                  <li>5/8 04:14 - CDB Ring 2 comms flapping -- line down
-                                                                        hard at 5/8 05:07; <strong>line cleared at 5/8
-                                                                              06:59 (~8115 seconds)</strong></li>
-                                                                  <li>5/8 14:21 - ZSU Ring 1 PRI / Ring 2 ALT comms
-                                                                        flapping; <strong>last events cleared at 5/8
-                                                                              14:32 (~556 seconds)</strong></li>
-                                                                  <li>5/9 10:33 - CM1 Ring 1 ALT / Ring 2 PRI and YFB
-                                                                        Ring 2 comms down and flapping; <strong>last
-                                                                              events cleared at 5/9 10:56 (~1376 seconds
-                                                                              total)</strong></li>
-                                                                  <li>5/12 14:31 - JNU Ring 1 PRI / Ring 2 ALT comms
-                                                                        flapping; <strong>last events cleared at 5/12
-                                                                              22:02 (~86 seconds total)</strong></li>
-                                                                  <li>5/14 06:54 - BIL Ring 1 / Ring 2 all comms down
-                                                                        hard; <strong>all lines cleared at 5/14 07:01
-                                                                              (~455 seconds)</strong></li>
+                                                                  <li>5/16 10:38 - CM1 Ring 1 ALT / Ring 2 PRI + YFB
+                                                                        Ring 2 comms down hard; <strong>lines cleared at
+                                                                              5/16 10:56 (~5460 seconds)</strong></li>
+                                                                  <li>5/18 06:06 - YWG Ring 1 ALT / Ring 2 PRI + ZNY
+                                                                        Ring 1 ALT comms took ~40 second hits</li>
+                                                            </ul>
+                                                            <ul>
+                                                                  <li>5/20 00:21 - CDB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 5/20 00:46 (~1514
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>5/20 14:34 - MMX Ring 2 interface comes back up
+                                                                        (~1 million seconds -- down since 5/8); still no
+                                                                        RG1 packets coming through...</li>
+                                                                  <li>5/20 15:38 - Both ZLA Cores experienced comm hits
+                                                                        for multiple T1 sites; <strong>all lines cleared
+                                                                              by 5/20 15:41 (~174 seconds max)</strong>
+                                                                  </li>
+                                                            </ul>
+                                                            <p class="text-center"><img class="img-fluid col-md-10"
+                                                                        src="img/20240520_ZLA_Both_Cores.PNG"
+                                                                        alt="20240520 - ZLA Both Cores Impact"></p>
+                                                            <ul>
+                                                                  <li>5/20 16:23 - MMX Ring 2 comms down for
+                                                                        troubleshooting; <strong>line cleared at 5/20
+                                                                              17:22 (~2339 seconds)</strong></li>
+                                                                  <li>5/21 21:21 - CDB Ring 1 comms down hard then
+                                                                        flapping; <strong>last event cleared at 5/21
+                                                                              22:22 (~1564 seconds)</strong></li>
+                                                                  <li>5/22 20:25 - CDB Ring 1 comms flapping...</li>
+                                                                  <li>5/22 08:56 - BR1 Ring 1 ALT / Ring 2 PRI and BR2
+                                                                        Ring 1 ALT / Ring 2 PRI comms down hard;
+                                                                        <strong>all lines cleared at 5/22 09:03 (~420
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>5/22 18:46 - BIL Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; loopback tested and <strong>lines
+                                                                              cleared at 5/22 19:31 (~2697
+                                                                              seconds)</strong></li>
+                                                                  <li>5/22 20:25 - CDB Ring 1 comms flapping...</li>
                                                             </ul>
 
 
@@ -297,7 +303,7 @@
                                                             </div> -->
 
 
-                                                            <div class="card">
+                                                            <!-- <div class="card">
                                                                   <div class="card-header text-bg-danger fw-bold">Comm
                                                                         Lines Down</div>
                                                                   <div class="card-body text-bg-danger">
@@ -306,27 +312,13 @@
                                                                         <p class="card-title fw-bold">Mexico Ring 1 Down
                                                                               for all Mexico -- Mexico OFFLINE</p>
                                                                         <ul>
-                                                                              <li>3/20 17:52 - MTP Ring 1 comms down
-                                                                                    hard...</li>
-                                                                              <li>4/25 15:38 - MSD Ring 1 comms down
-                                                                                    hard...</li>
-                                                                              <li>5/9 11:26 - MMD Ring 1 comm fault
-                                                                                    flapping causing No Data Reported
-                                                                                    flaps; <strong>last event cleared
-                                                                                          5/9 17:42 (~1790 seconds
-                                                                                          total)</strong></li>
-                                                                              <li>5/10 10:42 - MMD Ring 1 comm fault
-                                                                                    flapping causing No Data Reported
-                                                                                    flaps...</li>
-                                                                              <li>5/14 21:22 - MMD Ring 1 comms down
-                                                                                    hard...</li>
                                                                               <li>5/15 18:16 - All Ring 1 Mexico comms
                                                                                     down hard; <strong>all Mexico
                                                                                           OFFLINE</strong>...</li>
                                                                         </ul>
 
                                                                   </div>
-                                                            </div>
+                                                            </div> -->
                                                       </div>
 
                                                 </div>
@@ -355,16 +347,11 @@
                                                                         issues, there is no spare Freq Std and no ETA to
                                                                         recover WRE-B...</li>
                                                                   <li><strong>MTP WRE-B</strong> - <em>7/21/23-...</em>
-                                                                        -
-                                                                        PCU-B failing over and over again; input power
-                                                                        tested
-                                                                        good; disconnected power for other LRUs in WRE-B
-                                                                        until
-                                                                        PCU-B can be replaced; PCU-B has apparently been
-                                                                        stable since 7/25 00:16 (no further power cycles
-                                                                        on
-                                                                        PCU)</li>
+                                                                        - MTP WRE-B repaired during site visit 5/10/24,
+                                                                        but no comm to the site to verify WRE to
+                                                                        Normal...</li>
                                                             </ul>
+
 
 
                                                       </div>
@@ -435,8 +422,8 @@
 
                         </div>
                         <div class="carousel-item">
-                              <img src="img/w1/Comm Status Dashboard.png" class="img-fluid bg"
-                                    alt="Comm Status Dashboard">
+                              <img src="img/w1/I_F Down Dashboard.png" class="img-fluid bg"
+                                    alt="I/F Down Dashboard">
                               <div class="text-center">
                                     <h4>Comm Events</h4>
                                     <img src="img/w1/RMLS Comm Logs.png" class="img-fluid bg" alt="RMLS Comm Logs">
