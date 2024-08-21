@@ -22,7 +22,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20240807-20240814
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20240814-20240821
                                           </h1>
                                           <div class="alert alert-danger m-lg-3" role="alert">
                                                 <strong>Note:</strong> There is a data issue with Tableau and some
@@ -52,94 +52,127 @@
                                                 </div> -->
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">8/7 and 8/12 - BRW WRE-A CB Clock Errors</h4>
+                                                      <h4 class="mb-0">8/14 - ZTL Major Comm Event</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>8/7 07:47 - SE 745 CB Clock Err received for BRW
-                                                                        WRE-A for all C&amp;Vs</li>
-                                                                  <li>8/12 14:48 - SE 745 CB Clock Err received for BRW
-                                                                        WRE-A for all C&amp;Vs</li>
-                                                            </ul>
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">8/8 - SZ1 Fault from Primary</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>8/8 11:31 - <strong>GUS Switchover - SM9</strong>
-                                                                        - SZ1 GUS Faulted from Primary / DX1 to Primary;
-                                                                        SZ1 Faulted with SE 197 / 202 - L1 / L5 LNA
-                                                                        Controller Failure; Control Powered and
-                                                                        <strong>restored to Backup at 8/8 13:34</strong>
+                                                                  <li>8/14 19:46 - Major comm event centered at ZTL
+                                                                        affecting multiple lines on both Rings --
+                                                                        <code>ISR 0814-1862 - AT&amp;T re-spliced 100ft fiber cable to restore</code>;
+                                                                        ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/details/848981924">LIR
+                                                                              848981924</a>; <strong>all lines cleared
+                                                                              at 8/15 00:03 (~4h 17m)</strong>
                                                                   </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">8/9 - HNL WRE-C Subframe Reasonability</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>8/9 09:35 - HNL WRE-C SE 728 Subframe
-                                                                        Reasonability for all C&amp;Vs</li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">8/12 - WAAS Coverage Impacted by Solar Storm</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>8/12 03:04 - All C&amp;Vs alarmed with SE 757 -
-                                                                        IGPs with High GIVEI; <strong>SEs rescinded at
-                                                                              8/12 04:56</strong> -- likely associated
-                                                                        with <a
-                                                                              href="https://www.swpc.noaa.gov/news/strong-g3-geomagnetic-storms-observed-12-aug-2024">solar
-                                                                              weather</a></li>
-                                                                  <li>8/12 05:33 - All C&amp;Vs alarmed with SE 757 -
-                                                                        IGPs with High GIVEI; <strong>SEs rescinded at
-                                                                              8/12 06:07</strong></li>
                                                             </ul>
                                                             <p class="text-center"><img class="img-thumbnail col-md-10"
-                                                                        src="img/20240812_iono_storm.png"
-                                                                        alt="20240812 - WAAS Coverage Impact"></p>
+                                                                        src="img/20240814_ZTL_Comm_Event.png"
+                                                                        alt="20240814 - ZTL Comm Event"></p>
 
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">8/12 - ZAN WRE-B Power Work</h4>
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">8/16-8/20 - ZSU Comm Issues</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>8/12 13:37 - ZAN WRE-B to Maintenance for
-                                                                        <code>ESU replacement of static transfer switch per ZAN tech</code>
+                                                                  <li>8/16 15:01 - ZSU Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard / looped for
+                                                                        <code>ISR 0813-1629 - isolating a T1 failure.</code>
                                                                         -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LCM/details/55914321">LCM
-                                                                              55914321</a>; <strong>restored to Normal
-                                                                              at 8/11 15:59</strong>
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/56523421">LIR
+                                                                              56523421</a>; <strong>both lines cleared
+                                                                              8/17 15:29 (~1d)</strong>
+                                                                  </li>
+                                                                  <li>8/18 16:25 - ZSU Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard / looped for continued
+                                                                        troubleshooting; <strong>lines cleared at 8/19
+                                                                              17:07 (~1d)</strong></li>
+                                                                  <li>8/19 20:26 - ZSU Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard / looped for continued
+                                                                        troubleshooting; <strong>lines cleared at 8/19
+                                                                              23:33 (~3h 7m)</strong></li>
+                                                                  <li>8/20 13:35 - ZSU Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>lines cleared at 8/20 13:58
+                                                                              (~22m)</strong></li>
+                                                                  <li>8/20 14:24 - ZSU Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>lines cleared at 8/20 21:06
+                                                                              (~6h 41m)</strong></li>
+                                                            </ul>
+                                                            <p class="text-center"><img
+                                                                        src="img/20240816_ZSU_Comm_Stats.png"
+                                                                        alt="20240816-20240820 ZSU Comm Status"
+                                                                        class="img-thumbnail col-md-12"></p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">8/17 - ZTL Major Comm Event</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>8/17 05:13 - Multiple comms affected by ZTL comm
+                                                                        event
+                                                                        <code>MR-191941 - L3 to move OPS circuits to new location. Svce loss imminent.</code>
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/53537521">LIR
+                                                                              53537521</a>; <strong>all lines cleared at
+                                                                              8/17 05:45 (~31m)</strong>
+                                                                        <ul>
+                                                                              <li>ZLA also received at <strong>SE 756 -
+                                                                                          Message Type 0</strong> and
+                                                                                    BMV trips were also observed at the
+                                                                                    same time...</li>
+                                                                        </ul>
                                                                   </li>
                                                             </ul>
 
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">8/13 - ZSU WRE-C Restored from Site Survey (GEO
-                                                            Bias Prototype)</h4>
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">8/21 - SZ1 GUS Fault (L1/L5 LNA)</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>8/13 14:12 - ZSU WRE-C returns to Maintenance Mode
-                                                                        after completing GEO Bias Antenna testing; ref
-                                                                        <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/832918224">LIR
-                                                                              832918224</a> --
-                                                                        <code>Due to interference from Personal Privacy Devices (PPDs) at the current directional antenna locations, the RF site survey will need to be extended</code>
-                                                                        to 8/14; <strong>restored to Normal at 8/13
-                                                                              18:35</strong>
+                                                                  <li>8/21 00:33 - SZ1 GUS Faulted from Backup with SEs
+                                                                        197 and 202 L1/L5 LNA Controller Failure;
+                                                                        Control Powered and <strong>restored to Backup
+                                                                              at 8/21 01:33</strong></li>
+                                                            </ul>
+                                                            <p>Third time SZ1 has faulted with SE 197 / 202 since July:
+                                                                  7/25, 8/8, 8/21</p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">8/21 - ZLA Major Comm Event</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>8/21 07:19 - Major comm event at ZLA affecting
+                                                                        both rings for
+                                                                        <code>MR-190899: L3H Tech onsite transition to new FW9500 equip</code>
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/844296524">LIR
+                                                                              844296524</a>; <strong>all lines except
+                                                                              ZLA-ZTL Ring 1 PRI cleared at 8/21 09:57
+                                                                              (~2h 37m)</strong>
+                                                                        <ul>
+                                                                              <li>Troubleshooting ongoing for ZLA-ZTL
+                                                                                    Ring 1 PRI...</li>
+                                                                        </ul>
                                                                   </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">8/21 - YWG WRE-C Fault</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>8/21 13:24 - YWG WRE-C Faulted with SEs 28, 52,
+                                                                        and 53; Control Powered and <strong>restored to
+                                                                              Normal at 8/21 14:05</strong></li>
                                                             </ul>
 
                                                       </div>
@@ -154,59 +187,21 @@
                                                                   comm outages
                                                             </p>
 
-                                                            <p class="fw-bold">MTP Comms</p>
-                                                            <ul>
-                                                                  <li>8/7 06:24 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 8/7 08:16 (~1h
-                                                                              52m)</strong>
-                                                                  </li>
-                                                                  <li>8/8 06:06 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 8/8 10:54 (~4h
-                                                                              47m)</strong>
-                                                                  </li>
-                                                                  <li>8/9 12:44 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 8/10 00:36 (~11h
-                                                                              52m)</strong>
-                                                                  </li>
-                                                                  <li>8/12 06:04 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 8/12 08:44 (~2h
-                                                                              39)</strong>
-                                                                  </li>
-                                                                  <li>8/13 18:46 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 8/14 11:02 (~16h
-                                                                              15m)</strong>
-                                                                  </li>
-                                                            </ul>
-
 
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>8/8 20:26 - OTZ Ring 1 ALT comms down hard --
-                                                                        OFFLINE; <strong>line cleared at 8/8 23:33 (~3h
-                                                                              6m)</strong></li>
-                                                                  <li>8/9 19:16 - MMX Ring 1 comms down hard;
-                                                                        <strong>line cleared at 8/10 00:36 (~5h
-                                                                              19m)</strong>
+                                                                  <li>8/15 17:56 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 8/15 21:24 (~3h
+                                                                              27m)</strong>
                                                                   </li>
-                                                                  <li>8/11 00:36 - MMD Ring 1 comms flapping;
-                                                                        <strong>last event cleared at 8/11 03:14 (~1h 5m
-                                                                              total)</strong>
-                                                                  </li>
-                                                                  <li>8/12 07:27 - CDB Ring 1 comms down hard;
-                                                                        <strong>line cleared at 8/12 09:24 (~1h
-                                                                              57m)</strong>
-                                                                  </li>
-                                                                  <li>8/12 10:54 - CDB Ring 1 comms down hard;
-                                                                        <strong>line cleared at 8/12 11:18
-                                                                              (~24m)</strong>
-                                                                  </li>
-                                                                  <li>8/12 23:52 - OTZ Ring 1 ALT comms down hard --
-                                                                        OFFLINE; <strong>line cleared at 8/13 00:23
-                                                                              (~31m)</strong></li>
-                                                                  <li>8/13 06:04 - BIL Ring 1 PRI / Ring 2 ALT comms
-                                                                        down hard; <strong>line cleared at 8/13 07:35
-                                                                              (~1h 30m)</strong></li>
+                                                                  <li>8/20 07:57 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>lines cleared at 8/20 09:07
+                                                                              (~1h 9m)</strong></li>
+                                                                  <li>8/20 11:08 - YFB Ring 2 + CM1 Ring 1 ALT / Ring 2
+                                                                        PRI comms flapping; <strong>last events cleared
+                                                                              at 8/20 12:36 (~1h 7m)</strong></li>
                                                             </ul>
+
 
                                                             <!-- <div class="card">
                                                                   <div class="card-header text-bg-success fw-bold">
@@ -240,6 +235,13 @@
                                                                         Lines Down</div>
                                                                   <div class="card-body text-bg-danger">
 
+                                                                        <p class="card-title fw-bold">Mexico Ring 1 Comms
+                                                                        </p>
+                                                                        <ul>
+                                                                              <li>8/21 15:06 - Mexico Ring 1 comms down
+                                                                                    hard for MMX, MTP, MSD...</li>
+                                                                        </ul>
+
 
                                                                         <p class="card-title fw-bold">SSM-WAAS-066
                                                                               Circuits Outstanding
@@ -247,7 +249,7 @@
                                                                         <ul>
                                                                               <li>OTZ - Following circuits delivered
                                                                                     / SA'd -- <strong>Circuit Validation
-                                                                                          target
+                                                                                          target week of
                                                                                           9/16/2024</strong>
                                                                                     <ul>
                                                                                           <li>Ring 1 PRI to ZAU -
@@ -306,10 +308,9 @@
                                                                         </ul>
 
                                                                         <p class="text-center"><img
-                                                                                    src="img/20240814_YFB_Comm_Stats.png"
-                                                                                    alt="20240814 YFB Comm Status"
+                                                                                    src="img/20240821_YFB_Comm_Stats.png"
+                                                                                    alt="20240821 YFB Comm Status"
                                                                                     class="img-thumbnail col-md-8"></p>
-
 
                                                                   </div>
                                                             </div>
