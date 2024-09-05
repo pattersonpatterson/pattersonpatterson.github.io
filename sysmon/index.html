@@ -88,6 +88,11 @@
                                                       <h4 class="mb-0">8/29 - ZLC PCU-C Replaced</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
+                                                                  <li>8/24 20:29 - ZLC PCU-C failed causing ZLC WRE-C
+                                                                        and ZLC Ring 2 down hard -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/853762624">LIR
+                                                                              853762624</a>; tech reports burning
+                                                                        smell...</li>
                                                                   <li>8/28 03:03 - ZLC WRE-C restored to Maintenance
                                                                         after PCU-C replacement...</li>
                                                                   <li>8/29 03:37 - ZLC PCU-C down again / Ring 2 comms
@@ -125,21 +130,43 @@
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">9/3 - DX1 RFU M&amp;C Fault</h4>
+                                                      <h4 class="mb-0">9/3 - DX1 RFU M&amp;C Blue Screen</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
                                                                   <li>9/3 07:51 - DX1 GUS received SE 205 RFU FDA
                                                                         Failure concurrent with SE 1 RFU M&amp;C fault,
-                                                                        but no fault at this time...</li>
-                                                                  <li>9/3 14:21 - DX1 GUS Faulted from Backup with SEs
-                                                                        56 / 57 - GUSP-WMP1/2 Comm Fault; Control
-                                                                        Powered but SE 1 RFU M&amp;C Comm Fault did not
-                                                                        clear:
+                                                                        but no fault at this time; <strong>SEs rescinded
+                                                                              at 9/3 07:52</strong></li>
+                                                                  <li>9/3 08:12 - DX1 GUS received SE 1 RFU M&amp;C
+                                                                        Fault which did not rescind...</li>
+                                                                  <li>9/3 14:21 - DX1 GUS Control Powered from Backup to
+                                                                        address SE 1 RFU M&amp;C Comm Fault which did
+                                                                        not clear:
                                                                         <code>engineer said that the RFU M&amp;C had blue screened</code>
                                                                         -- ref <a
                                                                               href="https://technetrmlsb.faa.gov/LIR/Details/858383624">LIR
                                                                               858383624</a>; <strong>restored to Backup
                                                                               at 9/4 00:18</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">9/3 - CM1 GUS ACS Routers Control Powered</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>9/3 14:27 - CM1 GUS ACS-A Control Powered to
+                                                                        address Copy Error Log issues -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/852853824">LAD
+                                                                              852853824</a>; <strong>restored at 9/3
+                                                                              14:33 (~6m 15s)</strong></li>
+                                                                  <li>9/3 15:02 - CM1 GUS ACS-A Control Powered again by
+                                                                        mistake; <strong>restored at 9/3 15:16 (~14m
+                                                                              21s)</strong></li>
+                                                                  <li>9/3 16:01 - CM1 GUS ACS-B Control Powered ;
+                                                                        <strong>restored at 9/3 16:17 (~15 40s)</strong>
                                                                   </li>
                                                             </ul>
 
@@ -156,7 +183,8 @@
                                                                         <code>to perform intrusive S/A PM, C1 KPA Mini-Fan replacement and cleaning</code>
                                                                         -- ref <a
                                                                               href="https://technetrmlsb.faa.gov/LIR/details/845023324">LIR
-                                                                              845023324</a></li>
+                                                                              845023324</a>
+                                                                  </li>
                                                                   <li>9/4 18:28 - BR1 GUS Shutdown and Control Powered
                                                                         for intrusive PM; <strong>restored to Backup at
                                                                               9/4 18:58</strong></li>
@@ -199,18 +227,6 @@
                                                                   <li>8/29 05:35 - BRW Ring 1 ALT / Ring 2 PRI comms
                                                                         down hard; <strong>line cleared at 8/30 08:03
                                                                               (~1d 2h)</strong></li>
-                                                                  <li>9/3 14:27 - CM1 Ring 1 comms down hard;
-                                                                        <strong>both lines cleared at 9/3 14:33 (~6m
-                                                                              15s)</strong>
-                                                                  </li>
-                                                                  <li>9/3 15:02 - CM1 Ring 1 comms down hard;
-                                                                        <strong>both lines cleared at 9/3 15:16 (~14m
-                                                                              21s)</strong>
-                                                                  </li>
-                                                                  <li>9/3 16:01 - CM1 Ring 2 comms down hard;
-                                                                        <strong>both lines cleared at 9/3 16:17 (~15
-                                                                              40s)</strong>
-                                                                  </li>
                                                             </ul>
 
 
