@@ -22,7 +22,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20240925-20241002
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20241002-20241009
                                           </h1>
                                           <div class="alert alert-danger m-lg-3" role="alert">
                                                 <strong>Note:</strong> Grafana comm displays may be missing data...
@@ -50,73 +50,110 @@
                                                 </div> -->
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">9/25 - ZTL Comm Event</h4>
+                                                      <h4 class="mb-0">10/4 - MTP Rcvr Reception Faults</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>9/25 04:02 - Comm event at ZTL affecting multiple
-                                                                        comms on both rings simultaneously;
-                                                                        <code>MR-194385 ZTL WCNS lines OTS for L3H relocating ZTL POP2 &amp; AT&amp;T relocating Metro Ring</code>
-                                                                        -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/867401224">LIR
-                                                                              867401224</a>; <strong>comm lines cleared
-                                                                              ~9/25 05:48 (~1h 46m)</strong>
-                                                                  </li>
-                                                            </ul>
-                                                            <p class="text-center"><img class="img-thumbnail col-md-12"
-                                                                        src="img/20240925_ZTL_comm_event.png"
-                                                                        alt="20240925 - ZTL Comm Event"></p>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">9/25 - ZOB WRE-A Fault</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>9/25 21:23 - ZOB WRE-A Faulted with SEs
-                                                                        29,52,53,59; Control Power and <strong>restored
-                                                                              to Normal at 9/25 22:24</strong></li>
+                                                                  <li>10/4 00:22 - All MTP WREs alarmed with SE 59 Rcvr
+                                                                        Reception Fault</li>
+                                                                  <li>10/9 23:54 - All MTP WREs alarmed with SE 59 Rcvr
+                                                                        Reception Fault</li>
                                                             </ul>
 
                                                       </div>
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">9/26 - SZ1 Intrusive Maintenance</h4>
+                                                      <h4 class="mb-0">10/6 - ZTL PCU-D Alarm Condition 0</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>9/26 07:12 - <strong>GUS Switchover - SM9</strong>
-                                                                        - DX1 to Primary / SZ1 to Backup for
-                                                                        <code>verification of the RFU attenuation values in preparation for the G-III updates</code>
-                                                                        -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/868976124">LIR
-                                                                              868976124</a>
-                                                                  </li>
-                                                                  <li>9/26 20:00 - SZ1 to Maintenance Mode for intrusive
-                                                                        maintenance; Control Powered and
-                                                                        <strong>restored to Backup at 9/27
-                                                                              00:23</strong>
-                                                                  </li>
+                                                                  <li>10/6 18:28 - ZTL PCU-D alarmed with SE 3 Alarm
+                                                                        Condition 0 detected; no other SEs -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LCM/Details/875990524">LCM
+                                                                              875990524</a></li>
                                                             </ul>
 
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">9/30-10/1 - YYR WRE-B Fault</h4>
+                                                <div class="list-group-item list-group-item-danger">
+                                                      <h4 class="mb-0">10/6 - All C&Vs IGP Alerts</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>9/30 21:53 - YYR WRE-B Faulted with SEs
-                                                                        29,52,53,59; Control Powered and
-                                                                        <strong>restored to Normal at 9/30
-                                                                              23:20</strong>
+                                                                  <li>10/6 23:45 - SE 757 IGPs with High GIVEI received
+                                                                        for all C&amp;Vs; <strong>SE rescinded at 10/7
+                                                                              03:07</strong></li>
+                                                                  <li>10/7 00:45 - SE 728 Subframe Reasonability for all
+                                                                        ZSU WREs; ZSU PID WRS Down</li>
+                                                            </ul>
+
+                                                            <p class="text-center"><img class="img-thumbnail col-md-12"
+                                                                        src="img/20241006_IGP_Trip.png"
+                                                                        alt="20241006 - IGP Alert for all C&amp;Vs"></p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">10/8 - BR2 GUS Fault from Primary</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>10/8 08:39 - <strong>GUS Switchover - G30</strong>
+                                                                        - BR2 GUS Faulted from Primary with SE 108 Rcvr
+                                                                        OMNI Ext Ref CBit Fail; Control Powered but
+                                                                        could not restore; Leidos recommended Receiver
+                                                                        replace -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/877208324">LAD
+                                                                              877208324</a>; Control Powered, TLT
+                                                                        Verification performed, and <strong>restored to
+                                                                              Backup at 10/8 14:14</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-danger">
+                                                      <h4 class="mb-0">10/9-10/10 - Extreme Storm</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>10/9 00:08 - SE 831 Extreme Storm predicted 01:08;
+                                                                        SE 832 cancelled at 10/9 00:45</li>
+                                                                  <li>10/9 23:01 - SE 831 Extreme Storm predicted 00:01;
+                                                                        SE 832 cancelled at 10/9 23:08</li>
+                                                                  <li>10/10 00:30 - SE 831 Extreme Storm predicted
+                                                                        01:30; SE 832 cancelled at 10/10 00:39</li>
+                                                                  <li>10/10 17:52 - SE 757 IGPs with High GIVEI received
+                                                                        for all C&amp;Vs -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/878583524">LAD
+                                                                              878583524</a>; SE rescinded at 10/11 12:36
                                                                   </li>
-                                                                  <li>10/1 08:54 - YYR WRE-B Faulted with SEs
-                                                                        29,52,53,59; Control Powered and
-                                                                        <strong>restored to Normal at 10/1
-                                                                              09:45</strong>
+                                                                  <li>10/10 18:28 - SE 831 Extreme Storm predicted
+                                                                        19:28; SE 832 cancelled at 10/10 18:56</li>
+                                                                  <li>10/10 18:57 - SE 831 Extreme Storm predicted
+                                                                        19:57; SE 832 cancelled at 10/10 19:02</li>
+                                                                  <li>10/10 19:06 - SE 831 Extreme Storm predicted
+                                                                        20:06; SE 832 cancelled at 10/10 19:07</li>
+                                                                  <li>10/10 19:09 - SE 831 Extreme Storm predicted
+                                                                        20:09; <strong>SE 833 Extreme Storm In Progress
+                                                                              at 10/10 20:10; SE 834 Extreme Storm
+                                                                              Clearing 12:35 at 10/11 11:36; SE 835
+                                                                              Extreme Storm Cleared at 10/11
+                                                                              12:35</strong> and other Extreme Storm SEs
+                                                                        rescinded at same time
+                                                                        <ul>
+                                                                              <li>Ref <a
+                                                                                          href="https://technetrmlsb.faa.gov/LIR/Details/878567924">LIR
+                                                                                          878567924</a> -
+                                                                                    <code>WAAS Signal-in Space DEGRADED due to K-index 8(G4) Severve Geomagnetic storms. NOTAMs FDC 4/8056; FDC 4/8091 issued</code>
+                                                                              </li>
+                                                                              <li><a href="https://www.swpc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-continue-be-observed">G4
+                                                                                          Geomagnetic Storm</a></li>
+                                                                        </ul>
                                                                   </li>
                                                             </ul>
+                                                            <p class="text-center"><img class="img-thumbnail col-md-12"
+                                                                        src="img/20241010_IGP_Trip.png"
+                                                                        alt="20241010 - G4 Geomagnetic Storm (IGP Trip)">
+                                                            </p>
 
                                                       </div>
                                                 </div>
@@ -132,19 +169,56 @@
 
                                                             <p class="fw-bold">Mexico Comms</p>
                                                             <ul>
-                                                                  <li>9/25 03:04 - MTP Ring 1 comm line restored; mostly
-                                                                        down since 9/11 (~2 weeks)</li>
+                                                                  <li>10/3 09:26 - MSD Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/3 11:14 (~1h
+                                                                              47m)</strong>
+                                                                  </li>
+                                                                  <li>10/3 11:36 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/3 17:45 (~6h
+                                                                              8m)</strong>
+                                                                  </li>
+                                                                  <li>10/9 09:24 - MSD Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/9 12:04 (~2h
+                                                                              39m)</strong>
+                                                                  </li>
+                                                                  <li>10/5 20:24 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/6 03:34 (~7h
+                                                                              9m)</strong>
+                                                                  </li>
+                                                                  <li>10/7 13:24 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/7 15:16 (~1h
+                                                                              52m)</strong>
+                                                                  </li>
+                                                            </ul>
+
+
+                                                            <p class="fw-bold">CDB Comms</p>
+                                                            <ul>
+                                                                  <li>10/3 09:35 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 10/3 12:34
+                                                                              (&gt;1h)</strong>
+                                                                  </li>
+                                                                  <li>10/9 02:21 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/9 06:11 (~3h
+                                                                              44m)</strong>
+                                                                  </li>
+                                                                  <li>10/9 17:29 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/10 00:29
+                                                                              (~7h)</strong>
+                                                                  </li>
                                                             </ul>
 
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>9/25 18:25 - HNL Ring 1 ALT / Ring 2 PRI comms
-                                                                        down hard; <strong>both lines cleared at 9/27
-                                                                              12:35 (~1d 18h)</strong></li>
-                                                                  <li>9/26 14:35 - YYR Ring 1 comms down hard;
-                                                                        <strong>line cleared at 9/26 19:46 (~5h
-                                                                              11m)</strong>
-                                                                  </li>
+                                                                  <li>10/3 07:18 - CM1 Ring 1 ALT / Ring 2 PRI + YFB
+                                                                        Ring 2 comms down hard; <strong>all lines
+                                                                              cleared at 10/3 07:29 (~11m)</strong></li>
+                                                                  <li>10/4 04:51 - OTZ Ring 1 ALT / Ring 2 ALT comms
+                                                                        flapping; <strong>last events cleared at 10/4
+                                                                              12:23</strong></li>
+                                                                  <li>10/4 15:37 - YYR Ring 1 + YFB Ring 1 comms down
+                                                                        hard; <strong>line cleared at 10/4 18:47 (~3h
+                                                                              9m)</strong></li>
                                                             </ul>
 
 
@@ -200,7 +274,8 @@
                                                                                           <li>Intial alarm light on
                                                                                                 DNX1U has cleared as of
                                                                                                 10/1; further
-                                                                                                troubleshooting required from NASE
+                                                                                                troubleshooting required
+                                                                                                from NASE
                                                                                                 onsite at ZLA</li>
                                                                                     </ul>
                                                                               </li>
@@ -231,12 +306,20 @@
                                                                                     down since 7/28 (~2 months)</li>
                                                                               <li>9/30 21:41 - YFB Ring 1 comms down
                                                                                     hard again...</li>
+                                                                              <li>10/2 17:56 - YFB Ring 1 comms cleared
+                                                                                    (~1d 20h)</li>
+                                                                              <li>10/4 15:37 - YYR Ring 1 + YFB Ring 1
+                                                                                    comms down hard; <strong>line
+                                                                                          cleared at 10/4 18:47 (~3h
+                                                                                          9m)</strong></li>
+                                                                              <li>10/5 18:31 - YFB Ring 1 comms down
+                                                                                    hard...</li>
                                                                         </ul>
 
 
                                                                         <p class="text-center"><img
-                                                                                    src="img/20241002_YFB_Comm_Stats.png"
-                                                                                    alt="20240925 YFB Comm Status"
+                                                                                    src="img/20241010_YFB_Comm_Stats.png"
+                                                                                    alt="20241010 YFB Comm Status"
                                                                                     class="img-thumbnail"></p>
 
                                                                   </div>
@@ -382,7 +465,7 @@
 
                         <div class="carousel-item">
                               <a target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=09/04/2024 00:00&endTime=09/12/2024 00:00">
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=10/02/2024 00:00&endTime=10/10/2024 00:00">
                                     <img class="col-md-12" src="img/w1/SV Alerts Table.png"
                                           class="img-fluid mx-auto d-block" alt="SV Not Mon alerts"></a>
                               <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
