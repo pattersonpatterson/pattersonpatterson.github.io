@@ -22,7 +22,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20241023-20241030
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20241030-20241106
                                           </h1>
                                           <div class="alert alert-danger m-lg-3" role="alert">
                                                 <strong>Note:</strong> OKC Lab outage from 10/29 until 11/22 limits
@@ -50,69 +50,7 @@
                                                       </div>
                                                 </div> -->
 
-
                                                 <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">10/21 - ZAU WRE-C RF Site Survey</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>10/21 18:59 - ZAU WRE-C to Maintenance for Test
-                                                                        Site RF Survey by NASE; unable to initialize due
-                                                                        to
-                                                                        disconnected antenna</li>
-                                                                  <li>10/25 17:13 - ZAU WRE-C restored to Normal</li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">10/24 - Extreme Storm Cancelled</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>10/24 23:18 - C&amp;Vs alarmed with SE 831 Extreme
-                                                                        Storm Predicted - 00:18; SE 832 Extreme Storm
-                                                                        Cancelled at 10/24 23:33</li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">10/25 - Comm Event at ZDC</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>10/25 05:49 - BR2 Ring 1 ALT, ZAB Ring 2 PRI, FAI
-                                                                        Ring 2 PRI, and JNU Ring 2 PRI comms down hard
-                                                                        -- ISRs created for each circuit down; loopback
-                                                                        testing ongoing...</li>
-                                                                  <li>10/25 08:29 - Comms at ZDC Core impacts on both
-                                                                        rings -- BR1 Ring 1 PRI, BR2 Ring 2 ALT, SZ1
-                                                                        Ring 1 ALT, FAI Ring 1 PRI, JNU Ring 1 PRI --
-                                                                        <strong>all comms cleared after loopback testing
-                                                                              at 10/25 15:09 (~9h 20m)</strong>
-                                                                  </li>
-                                                            </ul>
-                                                            <p class="text-center"><img class="img-thumbnail col-md-10"
-                                                                        src="img/20241025_ZDC_comm_hit.png"
-                                                                        alt="20241025 - ZDC Comm Impacts"></p>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">10/28 - MTP WRE-B Reset</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>10/28 03:08 - MTP WRE-B alarmed with SE 59 Rcvr
-                                                                        Reception Fault, Operator Reset Subsystem at
-                                                                        10/28 03:27; <strong>restored to Normal at 10/28
-                                                                              03:49</strong></li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-success">
                                                       <h4 class="mb-0">10/29 - MSD Ring 2 Comms Cleared!</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <p>Juan Manuel has been working to replace the V.35 tails at
@@ -123,6 +61,8 @@
                                                                         3/7/2023)! Not possible to check UDP at this
                                                                         time due to OKC lab outage...</li>
                                                             </ul>
+                                                            <p>MSD Ring 2 mainly down hard with brief flaps of I/F Up --
+                                                                  longest duration up ~72 seconds...</p>
 
                                                       </div>
                                                 </div>
@@ -145,6 +85,239 @@
                                                       </div>
                                                 </div>
 
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">10/31-11/1 - AP1 CV-GUS Comm Fail Issues</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>10/31 07:02 - <strong>GUS Switchover -
+                                                                              G30</strong> - BR1 to Primary / AP1 to
+                                                                        Backup due to CV-GUS Comm Fail events recurring
+                                                                  </li>
+                                                                  <li>10/31 17:50 - AP1 ACS-A Reset to address inability
+                                                                        to download error logs; Operators copied error
+                                                                        logs, and AP1 status logs are filling up with
+                                                                        <code>RDSP_MAIN.c - E-RD_HDRSDEPLETED &quot;Transfer headers depleted; record ID 353 not transfered&quot;</code>
+                                                                        -- recommend Reset Subsystem
+                                                                  </li>
+                                                                  <li>11/1 14:20 - AP1 GUS Reset to address RDSP issues;
+                                                                        <strong>restored to Backup at 11/1
+                                                                              15:00</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">11/1 - CM1 GUS Fault</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>11/1 16:22 - CM1 GUS Faulted from Backup with L1 /
+                                                                        L5 LNA Controller Failure; Control Powered and
+                                                                        <strong>restored to Backup at 11/1
+                                                                              19:52</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4>11/1-... WAAS Coverage Impacts</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <div class="accordion" id="coverage-impacts">
+                                                                  <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                              <button class="accordion-button"
+                                                                                    type="button"
+                                                                                    data-bs-toggle="collapse"
+                                                                                    data-bs-target="#collapseOne"
+                                                                                    aria-expanded="false"
+                                                                                    aria-controls="collapseOne">
+                                                                                    11/1 - WAAS Coverage reduced...
+                                                                              </button>
+                                                                        </h2>
+                                                                        <div id="collapseOne"
+                                                                              class="accordion-collapse collapse"
+                                                                              data-bs-parent="#coverage-impacts">
+                                                                              <div class="accordion-body">
+                                                                                    <p class="text-center"><img
+                                                                                                class="img-thumbnail col-md-10"
+                                                                                                src="img/20241101_Coverage.png"
+                                                                                                alt="20241101 - WAAS Coverage">
+                                                                                    </p>
+
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                                  <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                              <button class="accordion-button collapsed"
+                                                                                    type="button"
+                                                                                    data-bs-toggle="collapse"
+                                                                                    data-bs-target="#collapseTwo"
+                                                                                    aria-expanded="false"
+                                                                                    aria-controls="collapseTwo">
+                                                                                    11/2 - WAAS Coverage reduced...
+                                                                              </button>
+                                                                        </h2>
+                                                                        <div id="collapseTwo"
+                                                                              class="accordion-collapse collapse"
+                                                                              data-bs-parent="#coverage-impacts">
+                                                                              <div class="accordion-body">
+                                                                                    <p class="text-center"><img
+                                                                                                class="img-thumbnail col-md-10"
+                                                                                                src="img/20241102_Coverage.png"
+                                                                                                alt="20241102 - WAAS Coverage">
+                                                                                    </p>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                                  <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                              <button class="accordion-button collapsed"
+                                                                                    type="button"
+                                                                                    data-bs-toggle="collapse"
+                                                                                    data-bs-target="#collapseThree"
+                                                                                    aria-expanded="false"
+                                                                                    aria-controls="collapseThree">
+                                                                                    11/3 - WAAS Coverage reduced...
+                                                                              </button>
+                                                                        </h2>
+                                                                        <div id="collapseThree"
+                                                                              class="accordion-collapse collapse"
+                                                                              data-bs-parent="#coverage-impacts">
+                                                                              <div class="accordion-body">
+                                                                                    <ul>
+                                                                                          <li>11/3 00:28 - SE 831
+                                                                                                Extreme Storm Predicted
+                                                                                                01:28; SE 832 Extreme
+                                                                                                Storm Cancelled at 11/3
+                                                                                                00:30</li>
+                                                                                    </ul>
+
+                                                                                    <p class="text-center"><img
+                                                                                                class="img-thumbnail col-md-10"
+                                                                                                src="img/20241103_Coverage.png"
+                                                                                                alt="20241103 - WAAS Coverage">
+                                                                                    </p>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                                  <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                              <button class="accordion-button collapsed"
+                                                                                    type="button"
+                                                                                    data-bs-toggle="collapse"
+                                                                                    data-bs-target="#collapseFour"
+                                                                                    aria-expanded="false"
+                                                                                    aria-controls="collapseFour">
+                                                                                    11/4 - WAAS Coverage reduced...
+                                                                              </button>
+                                                                        </h2>
+                                                                        <div id="collapseFour"
+                                                                              class="accordion-collapse collapse"
+                                                                              data-bs-parent="#coverage-impacts">
+                                                                              <div class="accordion-body">
+                                                                                    <p class="text-center"><img
+                                                                                                class="img-thumbnail col-md-10"
+                                                                                                src="img/20241104_Coverage.png"
+                                                                                                alt="20241104 - WAAS Coverage">
+                                                                                    </p>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                                  <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                              <button class="accordion-button collapsed"
+                                                                                    type="button"
+                                                                                    data-bs-toggle="collapse"
+                                                                                    data-bs-target="#collapseFive"
+                                                                                    aria-expanded="false"
+                                                                                    aria-controls="collapseFive">
+                                                                                    11/5 - WAAS Coverage reduced...
+                                                                              </button>
+                                                                        </h2>
+                                                                        <div id="collapseFive"
+                                                                              class="accordion-collapse collapse"
+                                                                              data-bs-parent="#coverage-impacts">
+                                                                              <div class="accordion-body">
+                                                                                    <ul>
+                                                                                          <li>11/5 22:40 - SE 831
+                                                                                                Extreme Storm Predicted
+                                                                                                23:40; SE 832 Extreme
+                                                                                                Storm Cancelled at 11/5
+                                                                                                22:42</li>
+                                                                                    </ul>
+
+                                                                                    <p class="text-center"><img
+                                                                                                class="img-thumbnail col-md-10"
+                                                                                                src="img/20241105_Coverage.png"
+                                                                                                alt="20241105 - WAAS Coverage">
+                                                                                    </p>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">11/4 - MTP WREs Alarmed with SE 59</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>11/4 22:08 - All MTP WREs alarmed with SE 59 Rcvr
+                                                                        Reception Fault several times ending at 11/4
+                                                                        22:11</li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">11/5 - G30-135 Don't Use</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>11/5 15:06 - <strong>GUS Switchover - G30</strong>
+                                                                        - AP1 to Primary / BR2 to Backup to resolve
+                                                                        Don't Use alarm received at 11/4 17:36 (UDREi
+                                                                        dropped to 11 at 11/5 16:52; UDRE Don't Use for
+                                                                        ~11h 20m)</li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">11/5 - MSD Ethernet Connection Attempted</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>11/5 17:40 - MSD Ring 1 Serial comms disconnected
+                                                                        at ZTL COR-A Router; site offline due to no comm
+                                                                        on Ring 2 and failure to automatically transfer
+                                                                        to Serial...</li>
+                                                                  <li>11/6 18:01 - MSD Ring 1 Serial comms reconnected
+                                                                        at ZTL -- further work will occur after AT&amp;T
+                                                                        contracts Ethernet delivery with local vendor
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">11/6 - BR2 Semi-Annual Maintenance</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>11/6 17:02 - BR2 GUS to Maintenance for
+                                                                        semi-annual maintenance; ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/856475324">LIR
+                                                                              856475324</a></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
                                                 <hr>
 
                                                 <div class="list-group-item list-group-item-warning">
@@ -156,26 +329,6 @@
 
                                                             <p class="fw-bold">Mexico Comms</p>
                                                             <ul>
-                                                                  <li>10/23 03:14 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 10/23 11:14 (~7h
-                                                                              59m)</strong>
-                                                                  </li>
-                                                                  <li>10/23 16:54 - MSD Ring 1 comms down hard;
-                                                                        <strong>line cleared at 10/23 21:14 (~4h
-                                                                              19m)</strong>
-                                                                  </li>
-                                                                  <li>10/25 06:04 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 10/25 09:54 (~3h
-                                                                              49m)</strong>
-                                                                  </li>
-                                                                  <li>10/26 14:14 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 10/26 19:36 (~2h
-                                                                              52m)</strong>
-                                                                  </li>
-                                                                  <li>10/29 22:56 - MMD Ring 2 comms flapping;
-                                                                        <strong>line cleared at 10/30 03:34 (~6580
-                                                                              seconds)</strong>
-                                                                  </li>
                                                                   <li>10/30 07:06 - MSD Ring 1 comms flapping;
                                                                         <strong>line cleared at 10/30 14:34 (~~9573
                                                                               seconds total)</strong>
@@ -190,36 +343,36 @@
                                                                         <strong>line cleared at 10/30 20:14 (~3429
                                                                               seconds total)</strong>
                                                                   </li>
+                                                                  <li>10/31 09:34 - MMX Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/31 11:56 (~8396
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/31 12:14 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/31 16:06 (~13794
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>11/2 00:56 - MTP Ring 1 comms down hard; line
+                                                                        cleared at 11/4 17:46 (~233396 seconds)</li>
                                                             </ul>
 
 
                                                             <p class="fw-bold">CDB Comms</p>
                                                             <ul>
                                                                   <li>10/26 13:27 - CDB Ring 1 comms flapping...</li>
+                                                                  <li>10/31 23:05 - CDB Ring 1 comms cleared (flapping
+                                                                        since 10/26; 111955 seconds total)</li>
                                                             </ul>
 
 
-                                                            <p class="fw-bold">HNL Comms</p>
+                                                            <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>10/24 18:25 - HNL Ring 1 PRI / Ring 2 ALT comms
-                                                                        down hard then looped; <strong>line cleared at
-                                                                              10/24 18:35 (~10m)</strong></li>
-                                                                  <li>10/24 21:04 - HNL Ring 2 ALT comms down hard;
-                                                                        <strong>line cleared at 10/24 21:59
-                                                                              (~55m)</strong>
-                                                                  </li>
                                                                   <li>10/30 07:52 - HNL Ring 2 ALT comms down hard;
                                                                         <strong>line cleared at 10/30 10:32 (~9600
                                                                               seconds)</strong>
                                                                   </li>
+                                                                  <li>10/31 15:28 - YQX Ring 2 port reset</li>
                                                             </ul>
 
-                                                            <p class="fw-bold">Other Sites</p>
-                                                            <ul>
-                                                                  <li>10/25 08:50 - BET Ring 1 ALT / Ring 2 PRI comms
-                                                                        flapping; <strong>last event cleared at 10/25
-                                                                              08:54 (~128 seconds total)</strong></li>
-                                                            </ul>
 
 
 
@@ -479,7 +632,7 @@
 
                         <div class="carousel-item">
                               <a target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=10/24/2024 00:00&endTime=10/31/2024 00:00">
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=10/30/2024 00:00&endTime=11/07/2024 00:00">
                                     <img class="col-md-12" src="img/w1/SV Alerts Table.png"
                                           class="img-fluid mx-auto d-block" alt="SV Not Mon alerts"></a>
                               <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
