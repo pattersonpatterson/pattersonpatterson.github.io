@@ -24,7 +24,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20250205-20250212
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20250212-20250219
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -52,47 +52,10 @@
                                                       <h4 class="mb-0">SSM-WAAS-064 - DFO2-R1 GUS Receiver Upgrade</h4>
                                                       <div class="mb-0 opacity-75">
 
+                                                            <p class="fw-bold"><em>2 Week Monitoring Period --
+                                                                        2/11/25-2/25/25</em></p>
+
                                                             <ul>
-                                                                  <li>2/5 20:49 -
-                                                                        <strong>SSM-WAAS-064</strong>
-                                                                        - SZ1
-                                                                        returns to Maintenance
-                                                                        and required some
-                                                                        troubleshooting to
-                                                                        init...
-                                                                  </li>
-                                                                  <li>2/6 00:24 -
-                                                                        <strong>SSM-WAAS-064</strong>
-                                                                        - SZ1
-                                                                        TLT Verification
-                                                                        performed
-                                                                  </li>
-                                                                  <li>2/6 01:13 -
-                                                                        <strong>SSM-WAAS-064</strong>
-                                                                        -
-                                                                        <strong>GUS
-                                                                              Switchover-SM9</strong>
-                                                                        - DX1 to
-                                                                        Backup / SZ1 to Primary
-                                                                        at 2/6 01:13 to complete
-                                                                        RF Tuning
-                                                                  </li>
-                                                                  <li>2/11 12:59 - <strong>SSM-WAAS-064</strong> - POCC
-                                                                        O&amp;M to Maintenance for upgrade to W7.425L;
-                                                                        <strong>restored to Normal at 2/11
-                                                                              13:41</strong>
-                                                                        <ul>
-                                                                              <li>All GUS sites except CM1 alarmed with
-                                                                                    PCU-B DC3 Unexpected State -- this
-                                                                                    will need to be cleared manually at
-                                                                                    each site</li>
-                                                                        </ul>
-                                                                  </li>
-                                                                  <li>2/11 14:17 - <strong>SSM-WAAS-064</strong> - NOCC
-                                                                        O&amp;M to Maintenance for upgrade to W7.425L;
-                                                                        <strong>restored to Normal at 2/11
-                                                                              14:49</strong>
-                                                                  </li>
                                                                   <li>2/12 16:12 - <strong>SSM-WAAS-064</strong> - BR1
                                                                         to Maintenance to cycle power to clear DC3
                                                                         Unexpected State; <strong>restored to Backup at
@@ -101,44 +64,34 @@
                                                                         to Maintenance to cycle power to clear DC3
                                                                         Unexpected State; <strong>restored to Backup at
                                                                               2/12 17:58</strong></li>
-                                                                  <li>2/7 23:38 - GUS Tool Ports experienced ~3 second
-                                                                        port downs facing the monitoring equipment due
-                                                                        to SxS server updates</li>
-                                                            </ul>
-                                                            <p class="text-center"><img class="img-thumbnail col-md-10"
-                                                                        src="img/20250207_GUS_Tap_Comm_Hit.png"
-                                                                        alt="20250207 - GUS Tool Port Downs"></p>
-                                                            <ul>
-                                                                  <li>2/10 18:20 - GUS Tool Ports experienced port downs
-                                                                        facing the monitoring equipment due to
-                                                                        troubleshooting SxS updates</li>
-                                                            </ul>
-                                                            <ul>
-                                                                  <li>2/11 12:59 - <strong>SSM-WAAS-064</strong> - POCC
-                                                                        O&amp;M to Maintenance for upgrade to W7.425L;
-                                                                        <strong>restored to Normal at 2/11
-                                                                              13:41</strong>
-                                                                        <ul>
-                                                                              <li>All GUS sites except CM1 alarmed with
-                                                                                    PCU-B DC3 Unexpected State -- this
-                                                                                    will need to be cleared manually at
-                                                                                    each site</li>
-                                                                        </ul>
-                                                                  </li>
-                                                                  <li>2/11 14:17 - <strong>SSM-WAAS-064</strong> - NOCC
-                                                                        O&amp;M to Maintenance for upgrade to W7.425L;
-                                                                        <strong>restored to Normal at 2/11
-                                                                              14:49</strong>
-                                                                  </li>
-                                                                  <li>2/12 16:12 - <strong>SSM-WAAS-064</strong> - BR1
+                                                                  <li>2/12 20:04 - <strong>SSM-WAAS-064</strong> - DX1
                                                                         to Maintenance to cycle power to clear DC3
-                                                                        Unexpected State; <strong>restored to Backup at
-                                                                              2/12 16:44</strong></li>
-                                                                  <li>2/12 17:00 - <strong>SSM-WAAS-064</strong> - BR2
+                                                                        Unexpected State, but new AC3 Unexpected State
+                                                                        occurred -- SLES investigating:
+                                                                        <code>O&amp;M Software mistake - O&amp;M is expecting AC3 ON for all sites, but it's only ON for site with a Firewall</code>;
+                                                                        <strong>restored to Backup at 2/12
+                                                                              20:35</strong>
+                                                                  </li>
+                                                                  <li>2/13 07:07 - <strong>SSM-WAAS-064</strong> -
+                                                                        <strong>GUS Switchover-SM9</strong> - DX1 to
+                                                                        Primary / SZ1 to Maintenance to cycle power to
+                                                                        clear DC3 Unexpected State, new AC3 Unexpected
+                                                                        State occurred due to O&amp;M SW mistake;
+                                                                        <strong>restored to Backup at 2/13
+                                                                              08:02</strong>
+                                                                  </li>
+                                                                  <li>2/14 07:21 - <strong>SSM-WAAS-064</strong> -
+                                                                        <strong>GUS Switchover-G30</strong> - BR2 to
+                                                                        Primary / AP1 to Backup
+                                                                  </li>
+                                                                  <li>2/14 18:01 - <strong>SSM-WAAS-064</strong> - AP1
                                                                         to Maintenance to cycle power to clear DC3
-                                                                        Unexpected State; <strong>restored to Backup at
-                                                                              2/12 17:58</strong></li>
+                                                                        Unexpected State -- <em>all DC3s cleared</em>;
+                                                                        <strong>restored to Backup at 2/14
+                                                                              19:49</strong>
+                                                                  </li>
                                                             </ul>
+
 
 
                                                             <div class="accordion" id="ssmAccordion">
@@ -586,6 +539,137 @@
                                                                                                 RFU
                                                                                                 to say go...
                                                                                           </li>
+
+                                                                                          <li>2/5 20:49 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                - SZ1
+                                                                                                returns to Maintenance
+                                                                                                and required some
+                                                                                                troubleshooting to
+                                                                                                init...
+                                                                                          </li>
+                                                                                          <li>2/6 00:24 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                - SZ1
+                                                                                                TLT Verification
+                                                                                                performed
+                                                                                          </li>
+                                                                                          <li>2/6 01:13 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                -
+                                                                                                <strong>GUS
+                                                                                                      Switchover-SM9</strong>
+                                                                                                - DX1 to
+                                                                                                Backup / SZ1 to Primary
+                                                                                                at 2/6 01:13 to complete
+                                                                                                RF Tuning
+                                                                                          </li>
+                                                                                          <li>2/11 12:59 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                - POCC
+                                                                                                O&amp;M to Maintenance
+                                                                                                for upgrade to W7.425L;
+                                                                                                <strong>restored to
+                                                                                                      Normal at 2/11
+                                                                                                      13:41</strong>
+                                                                                                <ul>
+                                                                                                      <li>All GUS sites
+                                                                                                            except CM1
+                                                                                                            alarmed with
+                                                                                                            PCU-B DC3
+                                                                                                            Unexpected
+                                                                                                            State --
+                                                                                                            this
+                                                                                                            will need to
+                                                                                                            be cleared
+                                                                                                            manually at
+                                                                                                            each site
+                                                                                                      </li>
+                                                                                                </ul>
+                                                                                          </li>
+                                                                                          <li>2/11 14:17 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                - NOCC
+                                                                                                O&amp;M to Maintenance
+                                                                                                for upgrade to W7.425L;
+                                                                                                <strong>restored to
+                                                                                                      Normal at 2/11
+                                                                                                      14:49</strong>
+                                                                                          </li>
+                                                                                          <li>2/12 16:12 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                - BR1
+                                                                                                to Maintenance to cycle
+                                                                                                power to clear DC3
+                                                                                                Unexpected State;
+                                                                                                <strong>restored to
+                                                                                                      Backup at
+                                                                                                      2/12
+                                                                                                      16:44</strong>
+                                                                                          </li>
+                                                                                          <li>2/12 17:00 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                - BR2
+                                                                                                to Maintenance to cycle
+                                                                                                power to clear DC3
+                                                                                                Unexpected State;
+                                                                                                <strong>restored to
+                                                                                                      Backup at
+                                                                                                      2/12
+                                                                                                      17:58</strong>
+                                                                                          </li>
+                                                                                          <li>2/7 23:38 - GUS Tool Ports
+                                                                                                experienced ~3 second
+                                                                                                port downs facing the
+                                                                                                monitoring equipment due
+                                                                                                to SxS server updates
+                                                                                          </li>
+                                                                                    </ul>
+                                                                                    <p class="text-center"><img
+                                                                                                class="img-thumbnail col-md-10"
+                                                                                                src="img/20250207_GUS_Tap_Comm_Hit.png"
+                                                                                                alt="20250207 - GUS Tool Port Downs">
+                                                                                    </p>
+                                                                                    <ul>
+                                                                                          <li>2/10 18:20 - GUS Tool
+                                                                                                Ports experienced port
+                                                                                                downs
+                                                                                                facing the monitoring
+                                                                                                equipment due to
+                                                                                                troubleshooting SxS
+                                                                                                updates</li>
+                                                                                          <li>2/11 12:59 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                - POCC
+                                                                                                O&amp;M to Maintenance
+                                                                                                for upgrade to W7.425L;
+                                                                                                <strong>restored to
+                                                                                                      Normal at 2/11
+                                                                                                      13:41</strong>
+                                                                                                <ul>
+                                                                                                      <li>All GUS sites
+                                                                                                            except CM1
+                                                                                                            alarmed with
+                                                                                                            PCU-B DC3
+                                                                                                            Unexpected
+                                                                                                            State --
+                                                                                                            this
+                                                                                                            will need to
+                                                                                                            be cleared
+                                                                                                            manually at
+                                                                                                            each site
+                                                                                                      </li>
+                                                                                                </ul>
+                                                                                          </li>
+                                                                                          <li>2/11 14:17 -
+                                                                                                <strong>SSM-WAAS-064</strong>
+                                                                                                - NOCC
+                                                                                                O&amp;M to Maintenance
+                                                                                                for upgrade to W7.425L;
+                                                                                                <strong>restored to
+                                                                                                      Normal at 2/11
+                                                                                                      14:49</strong>
+                                                                                          </li>
                                                                                     </ul>
 
                                                                               </div>
@@ -599,69 +683,106 @@
                                                 <hr>
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">2/5-2/12 - ZSU Subframe Reasonability</h4>
+                                                      <h4 class="mb-0">2/12-2/19 - WRE Bias Alerts</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>2/5 01:28 - ZSU WRE-A received SE 728 Subframe
-                                                                        Reasonability for ZDC only</li>
-                                                                  <li>2/9 01:29 - ZSU WRE-A SE 728 Subframe
-                                                                        Reasonability for ZDC only</li>
+                                                                  <li>2/12 09:14 - MTP WRE Bias Alarm</li>
+                                                                  <li>2/13 09:13 - MTP WRE Bias Alarm</li>
+                                                                  <li>2/14 09:08 - MTP WRE Bias Alarm</li>
+                                                                  <li>2/17 08:55 - MTP WRE Bias Alarm</li>
                                                             </ul>
-
 
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-success">
-                                                      <h4 class="mb-0">2/6 - MMD WRE-A Restored</h4>
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">2/13 - BR1 Intrusive Maintenance</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>2/6 00:08 - MMD WRE-A restored to Normal; will
-                                                                        continue to monitor Freq Std
+                                                                  <li>2/13 16:01 - BR1 GUS to Maintenance for
+                                                                        <code>Intrusive maintenance to perform the IPA swap on the C-5 KPA</code>
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/937165024">LIR
+                                                                              937165024</a>; <strong>restored to Backup
+                                                                              at 2/13 20:20</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">2/15 - ZSU WRE-A Subframe Reasonability</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>2/15 00:40 - ZSU WRE-A Subframe Reasonabilty for
+                                                                        ZDC C&amp;V only</li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">2/15 - CM1 Intrusive Maintenance</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>2/15 07:00 - <strong>GUS Switchover-S15</strong> -
+                                                                        BR1 to Primary / CM1 to Backup for intrusive
+                                                                        maintenance
+                                                                        <code>site techs to service UPS3 and UPS4</code>
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/115868621">LAD
+                                                                              115868621</a>
                                                                         <ul>
-                                                                              <li>2/6 00:11 - SE 306 CPU Threshold
-                                                                                    Exceeded received -- <strong>last
-                                                                                          event rescinded at 2/6
-                                                                                          00:21</strong></li>
-                                                                              <li><strong>MMD WRE-A</strong> -
-                                                                                    <em>12/20/24-2/5/25</em> - Freq Std
-                                                                                    failed -- ref <a
-                                                                                          href="https://technetrmlsb.faa.gov/LIR/Details/913745524">LIR
-                                                                                          913745524</a>
+                                                                              <li>2/15 07:07 - CM1 to Maintenance and
+                                                                                    Control Powered OFF;
+                                                                                    <strong>restored to Backup at 2/15
+                                                                                          15:47</strong>
                                                                               </li>
                                                                         </ul>
                                                                   </li>
-                                                                  <li>2/10 15:46 - MMD WRE-A started alarming with SE 30
-                                                                        Minor Alarm from Freq Std, but able to stay in
-                                                                        Normal Mode...</li>
                                                             </ul>
 
                                                       </div>
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">2/8 - HNL WRE-C Fault</h4>
+                                                      <h4 class="mb-0">2/18 - MSD L1/L2 Bias Alert</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
-                                                                  <li>2/8 07:03 - HNL WRE-C Faulted with SE 53, 59; Freq
-                                                                        Std alarmed with code F3 - Ionizer Filament;
-                                                                        Control Powered to clear alarm code and
-                                                                        <strong>restored to Normal at 2/8 07:44</strong>
+                                                                  <li>2/18 03:07 - MSD L1/L2 Bias Alert</li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">2/19 - GEO UDREis to 15</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>2/19 04:53 - <strong>G30-135 GEO UDREi goes to
+                                                                              15</strong> -- no associated Significant
+                                                                        Events indicating a problem...</li>
+                                                                  <li>2/19 15:47 - <strong>S15-133 GEO UDREi goes to
+                                                                              15</strong> -- no associated Significant
+                                                                        Events indicating a problem...
+                                                                        <code>there was a 133 maneuver that was missed at 14:41... appeared to be a server issue for 133 maneuvers</code>
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/940518224">LAD
+                                                                              940518224</a>
+                                                                        <ul>
+                                                                              <li><code>... extra information in the dialog box that popped up that the maneuver duration was out of tolerance.</code>
+                                                                              </li>
+                                                                        </ul>
                                                                   </li>
+                                                                  <li>2/19 17:47 - <strong>S15-133 GEO UDREi goes to
+                                                                              15</strong> -- no associated Significant
+                                                                        Events indicating a problem... likely another
+                                                                        missed maneuver...</li>
                                                             </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">2/8 - MTP WRE Bias</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>2/8 09:33 - MTP WRE Bias Alarm</li>
-                                                                  <li>2/9 09:29 - MTP WRE Bias Alarm</li>
-                                                                  <li>2/10 09:23 - MTP WRE Bias Alarm</li>
-                                                            </ul>
-
+                                                            <p class="text-center"><img class="img-thumbnail col-md-6"
+                                                                        src="img/20250219_UDRE_135+133.png"
+                                                                        alt="20250219 - UDREi for 135 / 133"></p>
 
                                                       </div>
                                                 </div>
@@ -677,76 +798,74 @@
 
                                                             <p class="fw-bold">Mexico Comms</p>
                                                             <ul>
-                                                                  <li>2/6 04:06 - MMD ring 1 comms down hard;
-                                                                        <strong>line cleared at 2/6 15:46 (~11h
-                                                                              39m)</strong>
+                                                                  <li>2/13 05:18 - MMD Ring 1 (Ethernet) comms down
+                                                                        hard; <strong>line cleared at 2/13 05:48 (~29m
+                                                                              56s)</strong></li>
+                                                                  <li>2/13 12:08 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 2/13 13:42 (~1h
+                                                                              34m)</strong>
                                                                   </li>
-                                                                  <li>2/8 15:56 - All MX comms except MMD down hard;
-                                                                        <strong>all lines cleared at 2/8 23:36 (~7h
-                                                                              39m)</strong>
+                                                                  <li>2/16 04:03 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 2/16 09:58 (~5h
+                                                                              55m)</strong>
                                                                   </li>
-                                                                  <li>2/9 09:59 - MMX / MTP Ring 1 comms down hard;
-                                                                        <strong>lines cleared at 2/9 11:26 (~1h
-                                                                              26m)</strong>
+                                                                  <li>2/18 07:28 - MTP Ring 1 + MMX Ring 1 comms down
+                                                                        hard; <strong>both lines cleared at 2/18 10:22
+                                                                              (~2h 54m)</strong></li>
+                                                                  <li>2/19 13:08 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 2/19 13:58 (~49m
+                                                                              56s)</strong>
                                                                   </li>
+                                                                  <li>2/19 21:13 - MMX / MTP / MSD Ring 1 comms down
+                                                                        hard; only MMD and MPR active...</li>
                                                             </ul>
 
 
                                                             <p class="fw-bold">CM1 Comms</p>
                                                             <ul>
-                                                                  <li>2/5 17:57 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 2/5 21:06 (~135
+                                                                  <li>2/12 16:53 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 2/13 00:38 (~7438
                                                                               seconds total)</strong>
                                                                   </li>
-                                                                  <li>2/5 19:16 - CM1 Ring 1 ALT comms flapping;
-                                                                        <strong>last event cleared at 2/5 23:52 (~3692
+                                                                  <li>2/13 17:29 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 2/13 22:28 (~1258
                                                                               seconds total)</strong>
                                                                   </li>
-                                                                  <li>2/6 17:01 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 2/6 23:07 (~2804
+                                                                  <li>2/14 17:33 - CM1 Ring 2 PRI comms flapping; last
+                                                                        event cleared at <strong>2/14 18:40 (~214
+                                                                              seconds total)</strong></li>
+                                                                  <li>2/15 11:14 - CM1 Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 2/15
+                                                                              11:21 (~449 seconds)</strong></li>
+                                                                  <li>2/16 08:59 - CM1 Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 2/16
+                                                                              21:21 (~44532 seconds)</strong></li>
+                                                                  <li>2/19 17:30 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 2/19 23:05 (~2355
                                                                               seconds total)</strong>
                                                                   </li>
-                                                                  <li>2/10 17:52 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 2/11 23:00 (~2632
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>2/11 17:00 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 2/12 00:25 (~5462
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>2/12 16:53 - CM1 Ring 2 PRI comms flapping...</li>
                                                             </ul>
-
 
 
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>2/6 09:04 - Both ZTL Cores experienced two brief
-                                                                        ~1 min comm impacts affecting comms to multiple
-                                                                        sites</li>
-                                                            </ul>
-                                                            <p class="text-center"><img class="img-thumbnail col-md-10"
-                                                                        src="img/20250206-ZTL_Comm_Hits.png"
-                                                                        alt="20250206 - ZTL Comm Hits"></p>
-                                                            <ul>
-                                                                  <li>2/9 02:26 - Multiple Alaska comms down for
-                                                                        <code>ISR 0209-0071</code> --
-                                                                        <code>FTI has detected a T1 circuit down hard and is requesting an approved test release window for the services... to isolate the fault.</code>;
-                                                                        <strong>all lines cleared at 2/10 13:41 (~126863
-                                                                              seconds)</strong>
+                                                                  <li>2/17 15:20 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 2/17 21:32 (~10544
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>2/19 06:01 - YQX Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 2/19 06:15 (~58
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>2/19 08:55 - ZOA Ring 1 PRI / Ring 2 ALT and AP1
+                                                                        Ring 1 PRI / Ring 2 ALT comms down hard;
+                                                                        <strong>all lines cleared at 2/19 10:59 (~7000
+                                                                              seconds each)</strong>
                                                                   </li>
                                                             </ul>
-                                                            <p class="text-center"><img class="img-thumbnail col-md-10"
-                                                                        src="img/20250209_AK_Comm_Down.png"
-                                                                        alt="20250209 - Alaska Comm Hits"></p>
-                                                            <ul>
-                                                                  <li>2/11 07:22 - Comm lines to ZMP and ZDV went down
-                                                                        simultaneously; lines cleared as shown below:
-                                                                  </li>
-                                                            </ul>
-                                                            <p class="text-center"><img class="img-thumbnail col-md-10"
-                                                                        src="img/20250211_Comm_Hit.png"
-                                                                        alt="20250211 - ZMP + ZDV Comm Hit"></p>
+                                                            <p class="text-center"><img class="col-md-10 img-thumbnail"
+                                                                        src="img/20250219_ZOA+AP1_Comm_Down.png"
+                                                                        alt="20250219 - ZOA / AP1 Comm Impacts"></p>
 
 
 
@@ -874,8 +993,8 @@
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">5/11/23-11/20/24 - MX Ring 2 Satcom Upgrade</h4>
+                                                <div class="list-group-item list-group-item-danger">
+                                                      <h4 class="mb-0">5/11/23-... - MX Ring 2 Satcom Upgrade</h4>
                                                       <div class="mb-0 opacity-75">
                                                             <ul>
                                                                   <li>5/11/23 17:01 - MX Ring 2 SatCom upgrade begins;
@@ -883,20 +1002,13 @@
                                                                         is complete</li>
                                                             </ul>
                                                             <p class="fw-bold">All sites are currently connected
-                                                                  through Tijuana with new cables; <strong>but still
+                                                                  through Tijuana with new cables; but still
                                                                         large UDP
                                                                         data packets (WAAS Multicast) being dropped on
-                                                                        Ring 2</strong> -- no further actions to
+                                                                        Ring 2 -- no further actions to
                                                                   take at Tijuana</p>
                                                             <ul>
-                                                                  <li>
-                                                                        <p>MMX / MMD are only sites with Ring 2 comm</p>
-                                                                  </li>
-                                                                  <li>
-                                                                        <p>MTP / MMD / MSD had comm issues to Tijuana
-                                                                              prior to
-                                                                              satcom failure...</p>
-                                                                  </li>
+                                                                  <li>All MX Ring 2 currently down with no ETA...</li>
                                                                   <li>
                                                                         <p>WAAS Second Level assessing situation before
                                                                               further
@@ -995,7 +1107,7 @@
 
                         <div class="carousel-item">
                               <a target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=02/05/2025 00:00&endTime=02/13/2025 00:00">
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=02/12/2025 00:00&endTime=02/20/2025 00:00">
                                     <img class="col-md-12" src="img/w1/SV Alerts Table.png"
                                           class="img-fluid mx-auto d-block" alt="SV Not Mon alerts"></a>
                               <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
