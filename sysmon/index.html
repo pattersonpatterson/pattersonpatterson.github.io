@@ -25,7 +25,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20250423-20250430
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20250430-20250507
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -48,62 +48,6 @@
                                                       <p></p>
                                                       </div>
                                                 </div> -->
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">4/21-4/25 - ZLA RF Site Survey</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>4/21 23:30 - ZLA WRE-C to Maintenance for RF Site
-                                                                        Survey activities...</li>
-                                                                  <li>4/25 00:26 - ZLA WRE-C restored to Normal after RF
-                                                                        Site Survey complete</li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">4/22-4/29 - ZLA COR-B Router Locking Up</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>4/22 14:08 - OTZ Ring 2 ALT comms down hard;
-                                                                        <strong>line cleared after ZLA COR-B Reset 4/29
-                                                                              13:40 (~6d 23h)</strong>
-                                                                  </li>
-                                                                  <li>4/26 18:56 - HNL Ring 2 PRI comms down hard;
-                                                                        <strong>line cleared after ZLA COR-B Reset 4/29
-                                                                              13:40 (~2d 18h)</strong>
-                                                                  </li>
-                                                                  <li>4/29 03:14 - HNL Ring 2 ALT comms down hard;
-                                                                        <strong>line cleared after ZLA COR-B Reset 4/29
-                                                                              13:40 (~10h 33m)</strong>
-                                                                  </li>
-                                                                  <li>4/29 13:40 - ZLA COR-B Router Reset to clear open
-                                                                        comm issues
-                                                                        <ul>
-                                                                              <li>HNL Ring 2 comms restored / OTZ Ring 2
-                                                                                    ALT comms cleared</li>
-                                                                        </ul>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">4/23-4/26 L1/L2 Bias Alarms</h4>
-                                                      <div class="mb-0 opacity-75">
-                                                            <ul>
-                                                                  <li>4/23 22:52 - YYR L1/L2 Bias Alarm</li>
-                                                                  <li>4/24 18:02 - YYR L1/L2 Bias Alarm (ZDC Only)</li>
-                                                                  <li>4/24 20:47 - YYR L1/L2 Bias Alarm (ZTL, ZLA Only)
-                                                                  </li>
-                                                                  <li>4/24 22:42 - MMD L1/L2 Bias Alarm</li>
-                                                                  <li>4/26 01:11 - MPR L1/L2 Alarm</li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
 
                                                 <div class="list-group-item list-group-item-info">
                                                       <h4 class="mb-0">4/28-4/30 - MTP+MPR Comm Cutover Troubleshooting
@@ -170,6 +114,150 @@
                                                       </div>
                                                 </div>
 
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">5/1 - ZBW WRE-B Fault</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/1 11:10 - ZBW WRE-B Faulted with SEs 29, 52, 53,
+                                                                        59; Control Powered and <strong>restored to
+                                                                              Normal at 5/1 11:46</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">5/1-5/7 - MTP WRE Bias Err (SE 729)</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/1 13:33 - MTP WRE-C Reset to address BAD thread
+                                                                        status from WRE Bias Trip; <strong>restored to
+                                                                              Normal at 5/1 13:58</strong></li>
+                                                                  <li>5/1 14:02 - MTP WRE-A Reset to address BAD thread
+                                                                        status from WRE Bias Trip; <strong>restored to
+                                                                              Normal at 5/1 14:17</strong></li>
+                                                                  <li>5/1 18:14 - MTP WRE-A/C Reset again per request
+                                                                        from SLES because perfmon pages still showed BAD
+                                                                        threads -- this was due to NOC perfmon not
+                                                                        updating...</li>
+                                                                  <li>5/2 03:51 - MTP WRE-A and WRE-C both alarmed with
+                                                                        SE 729 WRE Bias Err for all C&amp;Vs; both WREs
+                                                                        Restarted and <strong>restored to Normal by 5/2
+                                                                              04:48</strong></li>
+                                                                  <li>5/2 04:10 - MTP WRE-A and WRE-C Restarted for WRE
+                                                                        Bias Err (ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/977879624">LAD
+                                                                              977879624</a>); <strong>Restored to Normal
+                                                                              by 5/2 04:48</strong></li>
+                                                                  <li>5/2 19:11 - MTP WRE-A and WRE-C both alarmed with
+                                                                        SE 729 WRE Bias Err for all C&amp;Vs...</li>
+                                                                  <li>5/3 03:49 - MTP WRE Bias Alarm</li>
+                                                                  <li>5/6 13:46 - MTP WRE-A and WRE-C Restarted to
+                                                                        address WRE Bias Err from 5/2; <strong>restored
+                                                                              to Normal at 5/6 14:48</strong></li>
+                                                                  <li>5/6 18:55 - MTP WRE-A and C alarmed with SE 729
+                                                                        WRE Bias Err for all C&amp;Vs...</li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">5/5 - ZSE WRE-C RF Site Survey</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/5 22:13 - ZSE WRE-C to Maintenance and Shutdown
+                                                                        for RF Site Survey -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/975002924">LIR
+                                                                              975002924</a></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">5/6 - ZAU COR-B Locked Up</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/6 04:13 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        start flapping; at 5/6 04:25, BET Ring 1 PRI
+                                                                        comms also start flapping; at 5/6 04:28, BET
+                                                                        Ring 2 ALT comms down hard -- apparent issue
+                                                                        with ZAU COR-B starting; <strong>all comms
+                                                                              except BET Ring 2 ALT cleared by 5/6 05:50
+                                                                              (~2096 seconds total)</strong>
+                                                                        <ul>
+                                                                              <li><strong>BET Ring 2 ALT cleared at 5/6
+                                                                                          13:36</strong> after ZAU COR-B
+                                                                                    Reset</li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>5/6 06:23 - ZDV Ring 1 PRI / Ring 2 ALT comms down
+                                                                        hard for
+                                                                        <code>MR-202191A - L3Harris to transition C15454 to FW9500</code>;
+                                                                        <strong>Ring 1 cleared at 5/6 08:18 (~6908
+                                                                              seconds)</strong>; Ring 2 ALT still down
+                                                                        due to ZAU COR-B stalling...
+                                                                        <ul>
+                                                                              <li>5/6 12:48 - ZDV Ring 2 PRI comms down
+                                                                                    hard due to ZAU COR-B stalling...
+                                                                              </li>
+                                                                              <li><strong>ZDV Ring 2 PRI / ALT cleared
+                                                                                          at 5/6 13:36</strong> after
+                                                                                    ZAU COR-B Reset</li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>5/6 11:31 - BET Ring 2 PRI comms down hard due to
+                                                                        ZAU COR-B stalling; <strong>line cleared at 5/6
+                                                                              13:36</strong> after ZAU COR-B Reset</li>
+                                                                  <li>5/6 13:29 - ZAU COR-B Router Reset to address comm
+                                                                        issues; <strong>restored at 5/6 13:36 but local
+                                                                              PCU-D connection failed to
+                                                                              restore</strong>
+                                                                        <ul>
+                                                                              <li>Technician power cycled PCU-D taking
+                                                                                    down ZAU COR-A; <strong>restored at
+                                                                                          5/6 15:14 and comms restored
+                                                                                          to PCU-D</strong></li>
+                                                                        </ul>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">5/6 - ZLA COR-B to OTZ Comm Troubleshooting</h4>
+                                                      <div class="mb-0 opacity-75">
+                                                            <ul>
+                                                                  <li>5/6 16:21 - Troubleshooting at ZLA COR-B to fix
+                                                                        OTZ Ring 2 comms
+                                                                        <ul>
+                                                                              <li>Local loopbacks failed for the ZLA
+                                                                                    COR-B T1/3/3 (PRI) port</li>
+                                                                              <li>Attempted to replace bad card with
+                                                                                    card from spare router at 5/6 18:50
+                                                                                    after testing the loopbacks with the
+                                                                                    spare router, but the loopback still
+                                                                                    failed with the new card --
+                                                                                    reinstalled the old card at 5/6
+                                                                                    19:19</li>
+                                                                              <li>The OTZ lines were tested with the
+                                                                                    spare Core Router and pings went
+                                                                                    through fine</li>
+                                                                              <li>The current ZLA COR-B will be replaced
+                                                                                    as soon as NOC has availability
+                                                                                    (5/7)</li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>5/6 18:38 - ZTL&lt;-&gt;ZLA Ring 2 PRI comms
+                                                                        flapping until down hard at 5/6 20:47...</li>
+                                                            </ul>
+
+
+                                                      </div>
+                                                </div>
+
                                                 <hr>
 
                                                 <div class="list-group-item list-group-item-warning">
@@ -181,66 +269,97 @@
 
                                                             <p class="fw-bold">CM1 Comms</p>
                                                             <ul>
-                                                                  <li>4/23 16:10 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 4/23 20:44 (~1410
+                                                                  <li>4/30 15:37 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 4/30 22:23 (~2854
                                                                               seconds total)</strong>
                                                                   </li>
-                                                                  <li>4/24 16:13 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 4/24 22:20 (~1892
+                                                                  <li>5/1 16:04 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 5/1 21:32 (~1829
                                                                               seconds total)</strong>
                                                                   </li>
-                                                                  <li>4/25 16:18 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 4/25 23:11 (~1060
+                                                                  <li>5/5 18:00 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 5/5 22:13 (~244
                                                                               seconds total)</strong>
                                                                   </li>
-                                                                  <li>4/28 15:15 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 4/28 22:19 (~1797
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>4/30 15:37 - CM1 Ring 2 PRI comms flapping...</li>
                                                             </ul>
 
 
-                                                            <p class="fw-bold">YYR / YFB Comms</p>
+                                                            <p class="fw-bold">BRW / BET Comms</p>
                                                             <ul>
-                                                                  <li>4/23 07:08 - YYR Ring 2 comms down hard;
-                                                                        <strong>line cleared at 4/23 14:48 (~27635
-                                                                              seconds)</strong>
+                                                                  <li>5/4 04:30 - BET Ring 1 PRI / Ring 2 ALT comms
+                                                                        start flapping; at 5/4 04:40, BRW Ring 1 PRI /
+                                                                        Ring 2 ALT comms also start flapping;
+                                                                        <strong>last events cleared at 5/4 07:05 (~2971
+                                                                              seconds total)</strong>
                                                                   </li>
-                                                                  <li>4/23 19:24 - YYR Ring 1 + YFB Ring 1 comms
-                                                                        flapping then down hard at 4/23 19:31;
-                                                                        <strong>both lines came back up to flapping at
-                                                                              4/23 23:11 (~13228 seconds); last events
-                                                                              cleared at 4/23 23:14 (~13636 seconds
-                                                                              total)</strong>
+                                                                  <li>5/5 04:02 - BET Ring 1 PRI / Ring 2 ALT comms
+                                                                        start flapping; at 5/5 04:22, BRW Ring 1 PRI /
+                                                                        Ring 2 ALT comms also start flapping;
+                                                                        <strong>last events cleared at 5/5 05:45 (~2137
+                                                                              seconds total)</strong>
                                                                   </li>
-                                                                  <li>4/24 15:27 - YYR Ring 1 + YFB Ring 1 comms
-                                                                        flapping then down hard at 4/24 15:33;
-                                                                        <strong>both lines came back up at 4/24 22:05
-                                                                              (~23577 seconds)</strong>
+                                                                  <li>5/6 04:13 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        start flapping; at 5/6 04:25, BET Ring 1 PRI
+                                                                        comms also start flapping; at 5/6 04:28, BET
+                                                                        Ring 2 ALT comms down hard -- apparent issue
+                                                                        with ZAU COR-B starting; <strong>all comms
+                                                                              except BET Ring 2 ALT cleared by 5/6 05:50
+                                                                              (~2096 seconds total)</strong>
+                                                                        <ul>
+                                                                              <li><strong>BET Ring 2 ALT cleared at 5/6
+                                                                                          13:36</strong> after ZAU COR-B
+                                                                                    Reset</li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>5/7 04:00 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        flapping start flapping; <strong>last event
+                                                                              cleared at 5/7 04:16 (~413 seconds
+                                                                              total)</strong></li>
+                                                                  <li>5/7 04:13 - BET Ring 1 PRI / Ring 2 ALT comms also
+                                                                        start flapping; <strong>last event cleared at
+                                                                              5/7 04:16 (~79 seconds total)</strong>
+                                                                  </li>
+                                                                  <li>5/7 10:59 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        flapping until down hard at 5/7 11:09; at 5/7
+                                                                        11:10, BET Ring 1 PRI / Ring 2 ALT comms also
+                                                                        start flapping until down hard at 5/7 11:22;
+                                                                        <strong>all lines cleared at 5/7 12:16 (~4328
+                                                                              seconds max)</strong>
                                                                   </li>
                                                             </ul>
 
-
-                                                            <p class="fw-bold">OTZ Comms</p>
-                                                            <ul>
-                                                                  <li>4/24 07:10 - OTZ Ring 1 PRI comms down hard;
-                                                                        <strong>line cleared at 4/24 09:19 (~7757
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                            </ul>
 
 
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>4/28 09:16 - ZNY Ring 1 ALT / Ring2 PRI comms down
-                                                                        hard then flapping; <strong>last event cleared
-                                                                              at 4/28 11:13 (~4209 seconds
-                                                                              total)</strong></li>
                                                                   <li>4/30 06:19 - MTP Ring 1 comms down hard;
                                                                         <strong>line cleared at 4/30 10:09 (~3h
                                                                               49m)</strong>
                                                                   </li>
+                                                                  <li>5/1 07:16 - ZOA Ring 1 PRI / Ring 2 ALT comms down
+                                                                        hard for
+                                                                        <code>MR-186832 - L3 to transition from ONS C15310 to Fujitsu FW4100</code>
+                                                                  </li>
+                                                                  <li>5/2 10:21 - MSD Ring 2 comms bouncing in looped
+                                                                        state; appears to be hard looped at 5/21
+                                                                        11:21... this state has existed since before
+                                                                        COVID, and we have never found the loop to
+                                                                        remove it; MSD Ring 2 comms still unusable;
+                                                                        <strong>last event cleared at 5/2 16:54</strong>
+                                                                  </li>
+                                                                  <li>5/2 16:57 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 5/2 22:12 (~1485
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>5/3 12:09 - YYR Ring 1 comms down hard;
+                                                                        <strong>line cleared at 5/3 12:15 (~401
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>5/6 21:23 - MTP Ring 1 comms down hard;
+                                                                        <strong>line cleared at 5/6 01:09 (~56m
+                                                                              44s)</strong>
+                                                                  </li>
+                                                                  <li>5/7 13:42 - MTP Ring 1 comms down hard...</li>
                                                             </ul>
 
 
@@ -486,12 +605,12 @@
 
 
                         <div class="carousel-item">
-                              <a target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=04/23/2025 00:00&endTime=05/01/2025 00:00">
+                              <!-- <a target="_blank"
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=04/30/2025 00:00&endTime=05/08/2025 00:00">
                                     <img class="col-md-12" src="img/w1/SV Alerts Table.png"
-                                          class="img-fluid mx-auto d-block" alt="SV Not Mon alerts"></a>
-                              <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
-            Alert Explorer</h2> -->
+                                          class="img-fluid mx-auto d-block" alt="SV Not Mon alerts"></a> -->
+                              <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
+                                    Alert Explorer due to lab outage</h2>
                         </div>
 
 
