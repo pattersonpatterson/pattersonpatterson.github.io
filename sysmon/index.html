@@ -22,7 +22,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20250903-20250910
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20250910-20250917
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -46,40 +46,7 @@
                                                       </div>
                                                 </div> -->
 
-                                                <div class="list-group-item list-group-item-danger">
-                                                      <h4 class="mb-0">9/2 - ZLA Comm Outages</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>9/2 23:11 - Major comm outage affecting both Ring
-                                                                        1 / Ring 2 ZLA Core including Ring 1 ALT / Ring
-                                                                        2 PRI comms to POCC O&amp;M;
-                                                                        <code>ISR 0903-0109,0110 |ZLA&lt;-&gt;SCT Net-2 PRI &amp; Net-1 ALT OTS</code>
-                                                                        -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1048110124">LIR
-                                                                              1048110124</a>... multiple sites connected
-                                                                        to ZLA impacted by comm event
-                                                                        <ul>
-                                                                              <li>9/3 09:39 - NOCC reset ZLA Core
-                                                                                    Routers followed by Control Power
-                                                                                    ZLA Core Routers; no change to comm
-                                                                                    down...</li>
-                                                                              <li><code>FTI found cut fiber at ZLA</code>
-                                                                              </li>
-                                                                              <li>9/3 22:23 - <strong>All lines cleared
-                                                                                          after repair (~23h
-                                                                                          12m)</strong></li>
-                                                                        </ul>
-                                                                  </li>
-                                                            </ul>
-
-                                                            <p class="text-center"><img class="img-thumbnail col-md-12"
-                                                                        src="img/20250903_ZLA_Comm_Down.png"
-                                                                        alt="20250903 - ZLA Comm Outage"></p>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-danger">
+                                                <div class="list-group-item list-group-item-success">
                                                       <h4 class="mb-0">9/8 - ZTL Core Comm Issues (Fiber Cut)</h4>
                                                       <div class="mb-0">
                                                             <p><code>ISR 0909-1456 Multiple lines from ZTL bouncing. FTI RPTS Vandalism FIBER cut</code>
@@ -198,36 +165,90 @@
                                                                                           seconds)</strong>, but some
                                                                                     comms still down and AP1 Ring 2 ALT
                                                                                     still flapping...</li>
+                                                                              <li>9/11 23:18 - <strong>Remaining Ring 2
+                                                                                          ZTL comms cleared (max ~200k
+                                                                                          seconds)</strong></li>
+                                                                              <li>9/11 23:33 - <strong>Remaining Ring 1
+                                                                                          ZTL comms cleared (max ~207k
+                                                                                          seconds)</strong></li>
                                                                         </ul>
+
 
                                                                   </li>
                                                             </ul>
                                                             <p class="text-center"><img class="img-thumbnail col-md-12"
                                                                         src="img/20250910_ZTL_comms_fiber_cut.png"
                                                                         alt="20250910 - ZTL Comm Fiber Cut"></p>
-                                                            <p class="fw-bold">Ongoing comms down:</p>
+
                                                             <ul>
-                                                                  <li>ZDC-ZTL Ring 1 PRI (S1/1/3:0 at ZTL)</li>
-                                                                  <li>ZLA-ZTL Ring 1 ALT (S0/1/0:0 at ZTL)</li>
-                                                                  <li>BR2 Ring 1 PRI</li>
-                                                                  <li>SZ1 Ring 1 ALT</li>
-                                                                  <li>ZHU Ring 1 PRI</li>
-                                                                  <li>ZFW Ring 2 ALT</li>
-                                                                  <li>ZKC Ring 2 ALT</li>
-                                                                  <li>ZSU Ring 2 ALT</li>
-                                                                  <li>FAI Ring 2 ALT</li>
+                                                                  <li>9/15 13:49 - Change G30-135 Selected Source CV
+                                                                        from ZLA-&gt;ZTL to restore split Selected
+                                                                        Sources</li>
                                                             </ul>
+
                                                       </div>
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">9/8 - MPR SE 728 Subframe Reasonability</h4>
+                                                      <h4 class="mb-0">9/11 - ZME WRE-B Fault</h4>
                                                       <div class="mb-0">
                                                             <ul>
-                                                                  <li>9/8 19:40 - MPR WRS alarmed with SE 728 Subframe
-                                                                        Reasonability and PID WRS Down for all C&amp;Vs
+                                                                  <li>9/11 16:54 - ZME WRE-B Faulted with SE 54 Rcvr
+                                                                        Comm Fault; Control Powered and <strong>restored
+                                                                              to Normal at 9/11 17:54</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">9/15 - MTP Power Work</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/15 15:03 - MTP WREs to Maintenance and Shutdown
+                                                                        for planned power work to
+                                                                        <code>replace power lines from the electrical substation to the WAAS station and replace UPS backup equipment</code>
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/1057398224">LAD
+                                                                              1057398224</a>
                                                                   </li>
                                                             </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-danger">
+                                                      <h4 class="mb-0">9/17 - Widespread Comm Outage</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/17 14:40 - Widespread comm outage affecting ZTL
+                                                                        and ZDC comms;
+                                                                        <code>ISR 0917-0339 - higher level outage</code>
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1164282332">LIR
+                                                                              1164282332</a>; circuits looped...
+                                                                        <ul>
+                                                                              <li>9/17 17:29 - ZTL-ZDC Ring 1 PRI/ALT +
+                                                                                    ZTL-ZLA Ring 1 ALT comms down hard;
+                                                                                    <strong>lines cleared at 9/17 17:37
+                                                                                          (~443 seconds)</strong></li>
+                                                                              <li>9/17 18:03 - ZTL-ZDC Ring 2 PRI/ALT +
+                                                                                    ZTL-ZLA Ring 2 PRI comms down hard;
+                                                                                    <strong>lines cleared at 9/17 18:11
+                                                                                          (~429 seconds)</strong></li>
+                                                                              <li>9/17 18:46 - <strong>All looped comm
+                                                                                          lines cleared (~14783
+                                                                                          seconds)</strong></li>
+                                                                              <li>9/17 19:08 - All previous comms looped
+                                                                                    again; <strong>several lines cleared
+                                                                                          at 9/17 19:38 (~1789
+                                                                                          seconds)</strong></li>
+                                                                        </ul>
+                                                                  </li>
+                                                            </ul>
+                                                            <p class="text-center"><img class="img-thumbnail col-md-12"
+                                                                        src="img/20250917_widespread_comm_down.png"
+                                                                        alt="20250917 - Widespread Comm Down"></p>
 
                                                       </div>
                                                 </div>
@@ -254,39 +275,76 @@
 
                                                             <p class="fw-bold">CM1 Comms</p>
                                                             <ul>
-                                                                  <li>9/3 15:39 - CM1 Ring 2 PRI comms flapping;
-                                                                        <strong>last event cleared at 9/3 23:10 (~2108
+                                                                  <li>9/11 15:43 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 9/11 22:51 (~3781
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/12 18:49 - CM1 Ring 1 ALT comms down hard;
+                                                                        <strong>line cleared at 9/12 22:13 (~12289
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>9/15 17:11 - CM1 Ring 2 PRI comms flapping;
+                                                                        <strong>last event cleared at 9/15 23:17 (~978
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/16 16:09 - CM1 Ring 1 PRI comms flapping;
+                                                                        <strong>last event cleared at 9/16 22:40 (~721
                                                                               seconds total)</strong>
                                                                   </li>
                                                             </ul>
 
 
+
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>9/3 09:43 - All Mexico Ring 1 comms down hard;
-                                                                        <strong>lines cleared at 9/3 09:50 (~454
-                                                                              seconds)</strong>
+                                                                  <li>9/9 08:54 - SZ1 Ring 1 ALT comms down hard;
+                                                                        <strong>line cleared at 9/10 15:35 (~110437
+                                                                              seconds)</strong> then immediately down
+                                                                        hard again; <strong>last event cleared at 9/11
+                                                                              23:33 (~144177 seconds)</strong>
                                                                   </li>
-                                                                  <li>9/7 04:41 - ZFW Ring 2 PRI comms down hard;
-                                                                        <strong>line cleared at 9/7 04:52 (~631
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>9/8 10:39 - MPR / MMX / MMD Ring 1 comms down
-                                                                        hard; <strong>lines cleared at 9/8 10:49 (~596
-                                                                              seconds)</strong>
-                                                                        <ul>
-                                                                              <li>9/8 10:40 - MMX and MPR L1/L2 Bias
-                                                                                    Error</li>
-                                                                        </ul>
-                                                                  </li>
-                                                                  <li>9/9 08:54 - SZ1 Ring 1 ALT comms down hard...</li>
                                                                   <li>9/10 13:00 - YQX Ring 1 comms down hard and looped
-                                                                        back...</li>
+                                                                        back; <strong>line cleared at 9/12 17:38
+                                                                              (~189463 seconds)</strong></li>
+                                                                  <li>9/10 16:49 - CDB Ring 1 comms flapping until down
+                                                                        hard at 9/10 17:25; <strong>line cleared at 9/10
+                                                                              17:35 (~1593 seconds total)</strong></li>
                                                                   <li>9/10 17:34 - OTZ Ring 1 / Ring 2 comms down hard;
                                                                         <strong>all lines cleared at 9/10 17:37 (~165
                                                                               seconds)</strong>
                                                                   </li>
+                                                                  <li>9/10 22:17 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last event cleared at 9/10
+                                                                              23:53 (~467 seconds total)</strong></li>
+                                                                  <li>9/12 18:02 - HNL Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 9/12
+                                                                              19:05 (~3800 seconds)</strong></li>
+                                                                  <li>9/15 09:51 - Reset ZLA COR-B</li>
+                                                                  <li>9/15 10:17 - Reset POC OAC-B</li>
+                                                                  <li>9/16 17:34 - ZSU Ring 1 PRI / Ring 2 ALT comms
+                                                                        flapping; <strong>last event cleared at 9/16
+                                                                              18:21 (~1524 seconds total)</strong></li>
+                                                                  <li>9/17 03:47 - CDB Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 9/17 03:55 (~211
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/17 04:07 - ZLA-POC COR-OAC Ring 1 PRI / Ring 2
+                                                                        ALT comms down hard;
+                                                                        <code>ISR 0917-0480/0481 ZLA WCNS&lt;-&gt;SCT POC Net1 PRI and Net2 ALT OTS</code>
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1058403124">LIR
+                                                                              1058403124</a>; <strong>lines cleared at
+                                                                              9/17 06:48 (~9632 seconds)</strong>
+                                                                  </li>
+                                                                  <li>9/17 06:18 - CDB Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 9/17 06:22 (~170
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/17 09:46 - ZLA-POC COR-OAC Ring 1 PRI / Ring 2
+                                                                        ALT comms down hard; <strong>lines cleared at
+                                                                              9/17 09:48 (~129 seconds)</strong></li>
                                                             </ul>
+
 
 
                                                             <!-- 
@@ -519,7 +577,7 @@
 
                         <div class="carousel-item">
                               <a class="text-decoration-none" target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=09/03/2025 00:00&endTime=09/11/2025 00:00">
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=09/10/2025 00:00&endTime=09/18/2025 00:00">
                                     <img class="col-md-12" src="img/w1/SV Alerts Table.png"
                                           class="img-fluid mx-auto d-block" alt="SV Not Mon alerts">
                                     <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
