@@ -24,7 +24,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260204-20260211
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260211-20260218
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -48,8 +48,40 @@
                                                       </div>
                                                 </div> -->
 
+                                                <div class="list-group-item list-group-item-primary">
+                                                      <h4 class="mb-0">SSM-WAAS-065 / DFO-2 Cutover Activities</h4>
+                                                      <div class="mb-0">
+                                                            <p>SSM-WAAS-065 was released on 2/12/26 to upgrade the WAAS
+                                                                  subsystems by performing the following hardware
+                                                                  changes:</p>
+                                                            <ul>
+                                                                  <li>Remove Legacy PCUs / Replace with new Power
+                                                                        Distribution Units (PDUs) and DC Power Supplies
+                                                                        (DCPS)</li>
+                                                                  <li>Remove Legacy KVMs / Replace with new
+                                                                        form-fit-function KVM</li>
+                                                            </ul>
+
+                                                            <p>The DFO-2 Field Test Activities to implement limited
+                                                                  operational capability (LOC) of L5 messaging are also
+                                                                  being scheduled.</p>
+
+                                                            <p>The following list shows all activities currently
+                                                                  scheduled with the WAAS Operators</p>
+
+                                                            <p class="text-center"><img
+                                                                        src="img/w1/SSM-WAAS-065 + DFO-2 Activities.png"
+                                                                        alt="SSM-WAAS-065 and DFO-2 Activity LIRs"
+                                                                        class="img-thumbnail">
+                                                            </p>
+
+                                                      </div>
+                                                </div>
+
+                                                <hr>
+
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">2/6-2/11 L1/L2 Bias Errors</h4>
+                                                      <h4 class="mb-0">2/11-2/18 L1/L2 Bias Errors</h4>
                                                       <div class="mb-0">
                                                             <p class="text-center"><img src="img/w1/L1L2 Bias.png"
                                                                         alt="L1/L2 Bias Errors" class="img-thumbnail">
@@ -58,58 +90,43 @@
                                                       </div>
                                                 </div>
 
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">2/14 - BR2 Firewall Comm Fault</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>2/14 08:46 - BR2 GUS alarmed with SE 249 Firewall
+                                                                        I/F Down; <strong>SE cleared at 2/14 08:52 (~143
+                                                                              seconds)</strong></li>
+                                                            </ul>
+                                                      </div>
+                                                </div>
+
                                                 <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">2/6 - NOC OM Troubleshoot Audio Adapter</h4>
+                                                      <h4 class="mb-0">2/15 - NOC RMD / Archive Full</h4>
                                                       <div class="mb-0">
                                                             <ul>
-                                                                  <li>2/6 21:10 - NOC OM to Maintenance and Reset to
-                                                                        troubleshoot audio not working -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/248892121">LIR
-                                                                              248892121</a>;
-                                                                        <code>replaced a damaged external audio adapter... Audio is now working fine</code>;
-                                                                        <strong>restored to Normal at 2/6 21:36</strong>
+                                                                  <li>2/15 06:29 - NOC OM Archive Storage 100%;
+                                                                        <strong>RMD changed 2/17 03:36</strong>
                                                                   </li>
+                                                                  <li>2/17 23:25 - NOC OM alarmed with SE 1 Recording
+                                                                        Device Fault; <strong>RMD Transfer re-enabled at
+                                                                              2/17 23:36</strong></li>
                                                             </ul>
 
                                                       </div>
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">2/10 - HNL WRE-C Fault</h4>
+                                                      <h4 class="mb-0">2/16 - ZSU WRE-C Fault</h4>
                                                       <div class="mb-0">
                                                             <ul>
-                                                                  <li>2/10 09:47 - HNL WRE-C Faulted with SEs 53,59; no
-                                                                        Reset or Control Power but <strong>restored to
-                                                                              Normal at 2/10 10:22</strong>; currently
-                                                                        running with Alarm Code F3 - Ionizer Filament...
-                                                                        <ul>
-                                                                              <li>2/10 15:46 - HNL WRE-C to Maintenance
-                                                                                    and Control Powered to clear Alarm
-                                                                                    Code F3; <strong>restored to Normal
-                                                                                          at 2/10 16:30</strong></li>
-                                                                        </ul>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">2/10 - SZ1 GUS Fault from Primary (SM9 GUS
-                                                            Switchover)</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>2/10 19:49 - <strong>GUS Switchover-SM9</strong> -
-                                                                        DX1 to Primary / SZ1 Faulted from Primary with
-                                                                        SE 45 L5 GEO Downlink Msg Check Fault and RF
-                                                                        Failure SEs 86-89; Control Powered and attempted
-                                                                        to restore, but L5 not populating;
-                                                                        <code>site tech had bumped L5 switch in RFU</code>
-                                                                        per Operators -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1291653532">LIR
-                                                                              1291653532</a>; Control Powered again and
-                                                                        successfully <strong>restored to Backup at 2/10
-                                                                              22:42</strong>
+                                                                  <li>2/16 01:26 - ZSU WRE-C alarmed with SE 30 Minor
+                                                                        alarm for Freq Std; SEs cleared after ~30
+                                                                        seconds</li>
+                                                                  <li>2/16 10:57 - ZSU WRE-C Faulted with SEs
+                                                                        29,52,53,59; Control Powered and
+                                                                        <strong>restored to Normal at 2/16
+                                                                              11:49</strong>
                                                                   </li>
                                                             </ul>
 
@@ -117,30 +134,22 @@
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">2/10 - GUS Firewall Updates for DFO2-Release 2
-                                                      </h4>
+                                                      <h4 class="mb-0">2/17 - ZMA WRS Impacted by Power Work</h4>
                                                       <div class="mb-0">
                                                             <ul>
-                                                                  <li>2/10 15:55 - AP1 GUS Firewall I/F Down due to
-                                                                        software upgrade -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1116636824">LIR
-                                                                              1116636824</a>; <strong>last event cleared
-                                                                              at 2/10 18:03</strong></li>
-                                                                  <li>2/10 19:28 - BR1 GUS Firewall I/F Down due to
-                                                                        software upgrade -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1291815432">LIR
-                                                                              1291815432</a>; <strong>last event cleared
-                                                                              at 2/10 19:34</strong></li>
-                                                                  <li>2/10 20:40 - CM1 GUS Firewall I/F Down due to
-                                                                        software upgrade -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1291809832">LIR
-                                                                              1291809832</a>; <strong>last event cleared
-                                                                              at 2/10 20:46</strong></li>
-                                                                  <li>2/10 21:25 - BR2 GUS Firewall I/F Down due to
-                                                                        software upgrade -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1291808632">LIR
-                                                                              1291808632</a>; <strong>last event cleared
-                                                                              at 2/10 19:34</strong></li>
+                                                                  <li>2/17 01:39 - ZMA WRE-C to Maintenance for power
+                                                                        panel work -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1118976724">LIR
+                                                                              1118976724</a>; after power restore
+                                                                        intially had issues with Freq Std and Rcvr inits
+                                                                        (likely due to warmup), and Faulted from
+                                                                        Verification at 2/17 05:52; Control Powered and
+                                                                        <strong>restored to Normal at 2/17
+                                                                              06:42</strong>
+                                                                  </li>
+                                                                  <li>2/18 00:48 - ZMA WRE-B to Maintenance for power
+                                                                        panel work; Control Powered and <strong>restored
+                                                                              to Normal at 2/18 04:50</strong></li>
                                                             </ul>
 
                                                       </div>
@@ -154,56 +163,83 @@
                                                             <p class="fw-bold small">* Only captures major / long-term
                                                                   comm outages
                                                             </p>
+                                                            <p class="fw-bold">CDB Comms</p>
+                                                            <ul>
+                                                                  <li>2/11 10:45 - CDB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 2/11 10:47 (~121
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>2/12 08:50 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 2/12 08:56 (~338
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>2/13 11:26 - CDB Ring 2 comms down hard; line came
+                                                                        back up to flapping at 2/13 11:36 (~634
+                                                                        seconds), then down hard again at 2/13 11:39;
+                                                                        line came back up to flapping at 2/13 12:00
+                                                                        (~1268 seconds); <strong>last event cleared at
+                                                                              2/13 12:05 (~2100 seconds total)</strong>
+                                                                  </li>
+                                                                  <li>2/14 07:45 - CDB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 2/14 07:59 (~839
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>2/16 00:12 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 2/16 01:43 (~1443
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>2/16 02:01 - CDB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 2/16 02:03 (~150
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>2/18 17:07 - CDB Ring 2 comms flapping until down
+                                                                        hard at 2/18 17:12; <strong>line cleared at 2/18
+                                                                              17:29 (~1085 seconds total)</strong></li>
+                                                            </ul>
+
+                                                            <p class="fw-bold">BET Comms</p>
+                                                            <ul>
+                                                                  <li>2/11 18:00 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last event cleared at 2/11
+                                                                              18:07 (~128 seconds total)</strong></li>
+                                                                  <li>2/12 19:10 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last events cleared at 2/12
+                                                                              23:31 (~840 seconds total)</strong></li>
+                                                                  <li>2/14 03:06 - BET Ring 1 ALT comms flapping;
+                                                                        <strong>last event cleared at 2/14 11:59 (~2686
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>2/17 19:36 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last events cleared at 2/18
+                                                                              06:14 (~7864 seconds total)</strong></li>
+                                                                  <li>2/18 11:26 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping until down hard at 2/18 11:45...</li>
+                                                                  <li>2/18 11:26 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last events cleared at 2/18
+                                                                              16:25 (~15883 seconds total)</strong></li>
+                                                            </ul>
+
+                                                            <p class="fw-bold">Mexico Comms</p>
+                                                            <ul>
+                                                                  <li>2/14 19:49 - MSD Ring 1 comms down hard --
+                                                                        OFFLINE; <strong>line cleared at 2/14 19:59
+                                                                              (~596 seconds)</strong></li>
+                                                                  <li>2/14 22:10 - MSD Ring 1 comms down hard --
+                                                                        OFFLINE; <strong>line cleared at 2/14 22:29
+                                                                              (~1195 seconds)</strong></li>
+                                                                  <li>2/17 06:34 - MSD Ring 1 comms down hard --
+                                                                        OFFLINE; <strong>line cleared at 2/17 07:04
+                                                                              (~1796 seconds)</strong></li>
+                                                                  <li>2/17 08:09 - MTP Ring 1 comms down hard --
+                                                                        OFFLINE; <strong>line cleared at 2/17 10:14
+                                                                              (~7196 seconds)</strong></li>
+                                                                  <li>2/17 11:28 - MMD Ring 1 comms down hard --
+                                                                        OFFLINE; <strong>line cleared at 2/17 16:27
+                                                                              (~17949 seconds)</strong></li>
+                                                            </ul>
 
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>2/4 07:40 - ZAB Ring 1 PRI / Ring 2 ALT comms down
-                                                                        hard; <strong>both lines cleared at 2/4 10:00
-                                                                              (~8370 seconds)</strong></li>
-                                                                  <li>2/5 05:26 - ZBW Ring 1 PRI / Ring 2 ALT comms down
-                                                                        hard; <strong>both lines cleared at 2/5 05:29
-                                                                              (~191 seconds)</strong></li>
-                                                                  <li>2/7 08:10 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 2/7 10:14 (~7195
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>2/7 10:54 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 2/7 11:14 (~1195
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>2/8 03:44 - YYR Ring 1 comms down hard -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1115930324">LIR
-                                                                              1115930324</a>...
-                                                                        <ul>
-                                                                              <li>2/8 05:06 - YYR WRS thread switches on
-                                                                                    all C&amp;Vs...</li>
-                                                                              <li>2/8 15:32 - YYR WRS L1/L2 Bias Error
-                                                                              </li>
-                                                                        </ul>
-                                                                  </li>
-                                                                  <li>2/8 03:44 - YFB Ring 1 comms down hard;
-                                                                        <strong>line cleared at 2/8 03:55 (~713
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>2/9 00:26 - CDB Ring 2 comms down hard; came back
-                                                                        up to flapping at 2/9 00:32 (~363 seconds);
-                                                                        <strong>last event cleared at 2/9 00:36 (~403
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>2/9 18:32 - <strong>YYR Ring 1 comms cleared
-                                                                              (~139696 seconds)</strong></li>
-                                                                  <li>2/9 18:34 - MSD Ring 1 comms down hard -- OFFLINE;
-                                                                        <strong>line cleared at 2/9 18:44 (~596
-                                                                              seconds)</strong>
-                                                                        <ul>
-                                                                              <li>2/9 18:53 - MSD WRS L1/L2 Bias Error
-                                                                              </li>
-                                                                        </ul>
-                                                                  </li>
-                                                                  <li>2/9 19:29 - MSD Ring 1 comms down hard -- OFFLINE;
-                                                                        <strong>line cleared at 2/9 19:39 (~597
-                                                                              seconds)</strong>
-                                                                  </li>
                                                                   <li>2/11 07:33 - ZLC Ring 1 ALT / Ring 2 PRI comms
                                                                         down hard; <strong>both lines cleared at 2/11
                                                                               08:08 (~2095 seconds)</strong></li>
@@ -211,18 +247,29 @@
                                                                         ALT comms down hard; <strong>all lines cleared
                                                                               at 2/11 11:01 (~10244 seconds)</strong>
                                                                   </li>
-                                                                  <li>2/11 10:45 - CDB Ring 2 comms down hard;
-                                                                        <strong>line cleared at 2/11 10:47 (~121
-                                                                              seconds)</strong>
-                                                                  </li>
                                                                   <li>2/11 12:39 - BRW Ring 1 ALT / Ring 2 PRI comms
                                                                         down hard; <strong>both lines cleared at 2/12
                                                                               03:35 (~53716 seconds)</strong></li>
-                                                                  <li>2/11 18:00 - BET Ring 1 ALT / Ring 2 PRI comms
-                                                                        flapping; <strong>last event cleared at 2/11
-                                                                              18:07 (~128 seconds total)</strong></li>
+                                                                  <li>2/12 07:24 - ZLC Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 2/12
+                                                                              08:46 (~4914 seconds)</strong></li>
+                                                                  <li>2/13 01:13 - BRW Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 2/13
+                                                                              01:20 (~446 seconds)</strong></li>
+                                                                  <li>2/13 13:19 - ZLA-POC Ring 1 PRI comms down hard;
+                                                                        <strong>line cleared at 2/13 13:20 (~88
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>2/16 07:04 - ZDV Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 2/16
+                                                                              09:18 (~8060 seconds)</strong></li>
+                                                                  <li>2/17 08:26 - DX1 Ring 1 PRI / Ring 2 ALT comms
+                                                                        flapping; <strong>last events cleared at 2/17
+                                                                              09:01 (~140 seconds total)</strong></li>
+                                                                  <li>2/17 10:18 - YWG Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 2/17
+                                                                              10:27 (~586 seconds)</strong></li>
                                                             </ul>
-
 
 
                                                             <!-- <div class="card">
@@ -253,6 +300,8 @@
                                                                               is complete...</li>
                                                                         <li>Targeting network upgrade in CY26</li>
                                                                   </ul>
+                                                                  <p>Disconnect order -- will cancel MX Ring 2 circuits
+                                                                        from ZLA to Tijuana on 3/12/26</p>
 
                                                             </div>
                                                       </div>
@@ -376,7 +425,7 @@
 
                         <div class="carousel-item">
                               <a class="text-decoration-none" target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=02-04-2026%2000:00:00&endTime=02-12-2026%2000:00:00">
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=02-11-2026%2000:00:00&endTime=02-19-2026%2000:00:00">
                                     <img class="col-md-12" src="img/w1/SV Alerts Table.png"
                                           class="img-fluid mx-auto d-block" alt="SV Not Mon alerts">
                                     <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
