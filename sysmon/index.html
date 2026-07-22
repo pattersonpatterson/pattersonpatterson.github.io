@@ -25,6 +25,1398 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260715-20260722
+                                          </h1>
+                                          <div class="list-group">
+                                                <!-- The different classes of list-group-item FYR
+                                                <ul class="list-group">
+                                                      <li class="list-group-item">A simple default list group item</li>
+                                                      
+                                                      <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
+                                                      <li class="list-group-item list-group-item-secondary">A simple secondary list group item</li>
+                                                      <li class="list-group-item list-group-item-success">A simple success list group item</li>
+                                                      <li class="list-group-item list-group-item-danger">A simple danger list group item</li>
+                                                      <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
+                                                      <li class="list-group-item list-group-item-info">A simple info list group item</li>
+                                                      <li class="list-group-item list-group-item-light">A simple light list group item</li>
+                                                      <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
+                                                </ul>
+                                          Basic Template: (vscode snippet "highlight") 
+                                                <div class="list-group-item">
+                                                      <h4 class="mb-0"></h4>
+                                                      <div class="mb-0">
+                                                      <p></p>
+                                                      </div>
+                                                </div> -->
+
+                                                <div class="list-group-item list-group-item-primary">
+                                                      <h4 class="mb-0">SSM-WAAS-065 / DFO-2 Cutover Activities</h4>
+                                                      <div class="mb-0">
+                                                            <p>SSM-WAAS-065 was released on 2/12/26 to upgrade the WAAS
+                                                                  subsystems by performing the following hardware
+                                                                  changes:</p>
+                                                            <ul>
+                                                                  <li>Remove Legacy PCUs / Replace with new Power
+                                                                        Distribution Units (PDUs) and DC Power Supplies
+                                                                        (DCPS)</li>
+                                                                  <li>Remove Legacy KVMs / Replace with new
+                                                                        form-fit-function KVM</li>
+                                                            </ul>
+
+                                                            <p>The DFO-2 Field Test Activities to implement limited
+                                                                  operational capability (LOC) of L5 messaging are also
+                                                                  being scheduled. </p>
+                                                            <p class="text-danger fw-bold">DFO-2 activities will be
+                                                                  delayed...</p>
+
+                                                            <ul>
+                                                                  <li>7/17 12:02 - <strong>SSM-WAAS-065</strong> - YQX
+                                                                        WRE-A and WRE-C to Maintenance and Shutdown for
+                                                                        upgrade to W7.442L; YQX WRE-B was already
+                                                                        offline from a pre-existing Receiver Init issue
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/1174867724">LAD
+                                                                              1174867724</a>; after upgrade, it was
+                                                                        observed that the WRE-B processor hung on
+                                                                        bootup; the processor was replaced and baselined
+                                                                        with W7.442L; <strong>all WREs restored to
+                                                                              Normal at 7/17 16:22</strong>
+                                                                        <ul>
+                                                                              <li><strong>YQX WRE-B</strong> -
+                                                                                    <em>6/25/26-7/17/26</em> - YQX WRE-B
+                                                                                    Receiver inits failing; Shutdown
+                                                                                    until troubleshooting -- ref <a
+                                                                                          href="https://technetrmlsb.faa.gov/LOG/Details/1174867724">LAD
+                                                                                          1174867724</a>...
+                                                                              </li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>7/21 13:00 - <strong>SSM-WAAS-065</strong> - YYR
+                                                                        all WREs to Maintenance and Shutdown for upgrade
+                                                                        to W7.442L; <strong>all WREs restored to Normal
+                                                                              at 7/21 16:17</strong></li>
+                                                            </ul>
+
+
+                                                            <hr>
+
+                                                            <div class="row justify-content-center">
+                                                                  <div class="col-md-8 text-center">
+                                                                        <div class="accordion" id="cutoverAccordion">
+                                                                              <div class="accordion-item">
+                                                                                    <h2 class="accordion-header">
+                                                                                          <button
+                                                                                                class="accordion-button"
+                                                                                                type="button"
+                                                                                                data-bs-toggle="collapse"
+                                                                                                data-bs-target="#collapseOne"
+                                                                                                aria-expanded="true"
+                                                                                                aria-controls="collapseOne">
+                                                                                                <h4>Upcoming
+                                                                                                      activities</h4>
+                                                                                          </button>
+                                                                                    </h2>
+                                                                                    <h4
+                                                                                          class="alert alert-success text-center">
+                                                                                          15 WRS sites
+                                                                                          remain</h4>
+                                                                                    <div id="collapseOne"
+                                                                                          class="accordion-collapse collapse show"
+                                                                                          data-bs-parent="#cutoverAccordion">
+                                                                                          <div class="accordion-body">
+                                                                                                <table
+                                                                                                      class="table table-hover table-sm">
+                                                                                                      <thead>
+                                                                                                            <tr>
+                                                                                                                  <th>Target
+                                                                                                                        Cutover
+                                                                                                                        Date
+                                                                                                                  </th>
+                                                                                                                  <th>Site
+                                                                                                                  </th>
+                                                                                                                  <th>Site
+                                                                                                                        Type
+                                                                                                                  </th>
+                                                                                                                  <th>Outage?
+                                                                                                                        (Y/N)
+                                                                                                                  </th>
+                                                                                                            </tr>
+                                                                                                      </thead>
+                                                                                                      <tbody>
+                                                                                                            <tr
+                                                                                                                  class="table-success">
+                                                                                                                  <td>7/17/2026
+                                                                                                                  </td>
+                                                                                                                  <td>YQX
+                                                                                                                        -
+                                                                                                                        Gander
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr
+                                                                                                                  class="table-success">
+                                                                                                                  <td>7/21/2026
+                                                                                                                  </td>
+                                                                                                                  <td>YYR
+                                                                                                                        -
+                                                                                                                        Goosebay
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/4/2026
+                                                                                                                  </td>
+                                                                                                                  <td>CDB
+                                                                                                                        -
+                                                                                                                        Cold
+                                                                                                                        Bay
+                                                                                                                        FSS
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td
+                                                                                                                        class="table-warning">
+                                                                                                                        N
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/4/2026
+                                                                                                                  </td>
+                                                                                                                  <td>YFB
+                                                                                                                        -
+                                                                                                                        Iqaluit
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td
+                                                                                                                        class="table-warning">
+                                                                                                                        N
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/10/2026
+                                                                                                                  </td>
+                                                                                                                  <td>YWG
+                                                                                                                        -
+                                                                                                                        Winnipeg
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/13/2026
+                                                                                                                  </td>
+                                                                                                                  <td>MMX
+                                                                                                                        -
+                                                                                                                        Mexico
+                                                                                                                        City
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/18/2026
+                                                                                                                  </td>
+                                                                                                                  <td>MMD
+                                                                                                                        -
+                                                                                                                        Merida
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/19/2026
+                                                                                                                  </td>
+                                                                                                                  <td>BET
+                                                                                                                        -
+                                                                                                                        Bethel
+                                                                                                                        FCT
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/20/2026
+                                                                                                                  </td>
+                                                                                                                  <td>ZTL
+                                                                                                                        -
+                                                                                                                        Atlanta
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/21/2026
+                                                                                                                  </td>
+                                                                                                                  <td>FAI
+                                                                                                                        -
+                                                                                                                        Fairbanks
+                                                                                                                        AFSS
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/25/2026
+                                                                                                                  </td>
+                                                                                                                  <td>BIL
+                                                                                                                        -
+                                                                                                                        Billings
+                                                                                                                        TRACON
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>8/26/2026
+                                                                                                                  </td>
+                                                                                                                  <td>ZDV
+                                                                                                                        -
+                                                                                                                        Denver
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>9/1/2026
+                                                                                                                  </td>
+                                                                                                                  <td>MTP
+                                                                                                                        -
+                                                                                                                        Tapachula
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>9/3/2026
+                                                                                                                  </td>
+                                                                                                                  <td>MPR
+                                                                                                                        -
+                                                                                                                        Puerto
+                                                                                                                        Vallarta
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>9/9/2026
+                                                                                                                  </td>
+                                                                                                                  <td>MSD
+                                                                                                                        -
+                                                                                                                        San
+                                                                                                                        Jose
+                                                                                                                        Del
+                                                                                                                        Cabo
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>9/15/2026
+                                                                                                                  </td>
+                                                                                                                  <td>HNL
+                                                                                                                        -
+                                                                                                                        Honolulu
+                                                                                                                        AFSS
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td
+                                                                                                                        class="table-warning">
+                                                                                                                        N
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>9/16/2026
+                                                                                                                  </td>
+                                                                                                                  <td>BRW
+                                                                                                                        -
+                                                                                                                        Barrow
+                                                                                                                        FSS
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>Y
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                      </tbody>
+                                                                                                </table>
+
+
+
+                                                                                                <ul
+                                                                                                      class="text-start list-group">
+                                                                                                      <li
+                                                                                                            class="list-group-item">
+                                                                                                            We will not
+                                                                                                            take an
+                                                                                                            outage at
+                                                                                                            some WRS
+                                                                                                            sites to
+                                                                                                            avoid
+                                                                                                            service area
+                                                                                                            impacts.
+                                                                                                      </li>
+                                                                                                      <li
+                                                                                                            class="list-group-item">
+                                                                                                            MPR, MTP,
+                                                                                                            MSD will be
+                                                                                                            shipped
+                                                                                                            from
+                                                                                                            Embassy in
+                                                                                                            CDMX, but
+                                                                                                            still
+                                                                                                            looking for
+                                                                                                            options...
+                                                                                                            SENEAM says
+                                                                                                            that they
+                                                                                                            can
+                                                                                                            facilitate
+                                                                                                            the final
+                                                                                                            leg of
+                                                                                                            in-country
+                                                                                                            shipping
+                                                                                                      </li>
+                                                                                                </ul>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                              <div class="accordion-item">
+                                                                                    <h2 class="accordion-header">
+                                                                                          <button
+                                                                                                class="accordion-button collapsed"
+                                                                                                type="button"
+                                                                                                data-bs-toggle="collapse"
+                                                                                                data-bs-target="#collapseTwo"
+                                                                                                aria-expanded="false"
+                                                                                                aria-controls="collapseTwo">
+                                                                                                <h4>Completed
+                                                                                                      Activities</h4>
+                                                                                          </button>
+                                                                                    </h2>
+                                                                                    <div id="collapseTwo"
+                                                                                          class="accordion-collapse collapse"
+                                                                                          data-bs-parent="#cutoverAccordion">
+                                                                                          <div class="accordion-body">
+                                                                                                <table
+                                                                                                      class="table table-hover table-sm">
+                                                                                                      <thead>
+                                                                                                            <tr>
+                                                                                                                  <th>Site
+                                                                                                                  </th>
+                                                                                                                  <th>Site
+                                                                                                                        Type
+                                                                                                                  </th>
+                                                                                                                  <th>Upgrade
+                                                                                                                        Start
+                                                                                                                  </th>
+                                                                                                                  <th>Upgrade
+                                                                                                                        Complete
+                                                                                                                  </th>
+                                                                                                            </tr>
+                                                                                                      </thead>
+                                                                                                      <tbody>
+                                                                                                            <tr>
+                                                                                                                  <td>POC
+                                                                                                                        -
+                                                                                                                        San
+                                                                                                                        Diego
+                                                                                                                        TRACON
+                                                                                                                  </td>
+                                                                                                                  <td>OM
+                                                                                                                  </td>
+                                                                                                                  <td>2/19/2026
+                                                                                                                        18:54
+                                                                                                                  </td>
+                                                                                                                  <td>2/19/2026
+                                                                                                                        21:28
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZTL
+                                                                                                                        -
+                                                                                                                        Atlanta
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WMS
+                                                                                                                        /
+                                                                                                                        WCN
+                                                                                                                  </td>
+                                                                                                                  <td>2/19/2026
+                                                                                                                        22:05
+                                                                                                                  </td>
+                                                                                                                  <td>2/20/2026
+                                                                                                                        2:02
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZLA
+                                                                                                                        -
+                                                                                                                        Los
+                                                                                                                        Angeles
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WMS
+                                                                                                                        /
+                                                                                                                        WCN
+                                                                                                                  </td>
+                                                                                                                  <td>2/24/2026
+                                                                                                                        16:24
+                                                                                                                  </td>
+                                                                                                                  <td>2/24/2026
+                                                                                                                        19:56
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZDC
+                                                                                                                        -
+                                                                                                                        Washington,
+                                                                                                                        D.C.
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WMS
+                                                                                                                        /
+                                                                                                                        WCN
+                                                                                                                  </td>
+                                                                                                                  <td>2/26/2026
+                                                                                                                        14:04
+                                                                                                                  </td>
+                                                                                                                  <td>2/26/2026
+                                                                                                                        19:26
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZAU
+                                                                                                                        -
+                                                                                                                        Chicago
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WCN
+                                                                                                                  </td>
+                                                                                                                  <td>3/3/2026
+                                                                                                                        14:15
+                                                                                                                  </td>
+                                                                                                                  <td>3/3/2026
+                                                                                                                        16:22
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>NOC
+                                                                                                                        -
+                                                                                                                        Warrenton
+                                                                                                                        ATCSCC
+                                                                                                                  </td>
+                                                                                                                  <td>OM
+                                                                                                                  </td>
+                                                                                                                  <td>3/3/2026
+                                                                                                                        16:47
+                                                                                                                  </td>
+                                                                                                                  <td>3/3/2026
+                                                                                                                        19:21
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>SZ1
+                                                                                                                        -
+                                                                                                                        Santa
+                                                                                                                        Paula
+                                                                                                                  </td>
+                                                                                                                  <td>SGS
+                                                                                                                  </td>
+                                                                                                                  <td>3/4/2026
+                                                                                                                        17:08
+                                                                                                                  </td>
+                                                                                                                  <td>3/4/2026
+                                                                                                                        20:59
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>CM1
+                                                                                                                        -
+                                                                                                                        South
+                                                                                                                        Mountain
+                                                                                                                  </td>
+                                                                                                                  <td>SGS
+                                                                                                                  </td>
+                                                                                                                  <td>3/5/2026
+                                                                                                                        16:45
+                                                                                                                  </td>
+                                                                                                                  <td>3/6/2026
+                                                                                                                        3:04
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>AP1
+                                                                                                                        -
+                                                                                                                        Napa
+                                                                                                                  </td>
+                                                                                                                  <td>SGS
+                                                                                                                  </td>
+                                                                                                                  <td>3/10/2026
+                                                                                                                        15:15
+                                                                                                                  </td>
+                                                                                                                  <td>3/10/2026
+                                                                                                                        18:27
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>DX1
+                                                                                                                        -
+                                                                                                                        Southbury
+                                                                                                                  </td>
+                                                                                                                  <td>SGS
+                                                                                                                  </td>
+                                                                                                                  <td>3/12/2026
+                                                                                                                        13:06
+                                                                                                                  </td>
+                                                                                                                  <td>3/12/2026
+                                                                                                                        18:33
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>BR1
+                                                                                                                        -
+                                                                                                                        Brewster
+                                                                                                                        (S97A)
+                                                                                                                  </td>
+                                                                                                                  <td>SGS
+                                                                                                                  </td>
+                                                                                                                  <td>3/25/2026
+                                                                                                                        16:03
+                                                                                                                  </td>
+                                                                                                                  <td>3/25/2026
+                                                                                                                        21:46
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>BR2
+                                                                                                                        -
+                                                                                                                        Brewster
+                                                                                                                        (S97B)
+                                                                                                                  </td>
+                                                                                                                  <td>SGS
+                                                                                                                  </td>
+                                                                                                                  <td>3/26/2026
+                                                                                                                        15:54
+                                                                                                                  </td>
+                                                                                                                  <td>3/26/2026
+                                                                                                                        21:09
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZOA
+                                                                                                                        -
+                                                                                                                        Oakland
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>3/31/2026
+                                                                                                                        16:31
+                                                                                                                  </td>
+                                                                                                                  <td>4/2/2026
+                                                                                                                        18:00
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZMA
+                                                                                                                        -
+                                                                                                                        Miami
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>4/2/2026
+                                                                                                                        0:17
+                                                                                                                  </td>
+                                                                                                                  <td>4/2/2026
+                                                                                                                        5:45
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZLA
+                                                                                                                        -
+                                                                                                                        Los
+                                                                                                                        Angeles
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>4/14/2026
+                                                                                                                        15:39
+                                                                                                                  </td>
+                                                                                                                  <td>4/14/2026
+                                                                                                                        20:35
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZNY
+                                                                                                                        -
+                                                                                                                        New
+                                                                                                                        York
+                                                                                                                        City
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>4/15/2026
+                                                                                                                        13:20
+                                                                                                                  </td>
+                                                                                                                  <td>4/15/2026
+                                                                                                                        17:23
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZFW
+                                                                                                                        -
+                                                                                                                        Fort
+                                                                                                                        Worth
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>4/23/2026
+                                                                                                                        17:52
+                                                                                                                  </td>
+                                                                                                                  <td>4/23/2026
+                                                                                                                        22:22
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZBW
+                                                                                                                        -
+                                                                                                                        Boston
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>4/28/2026
+                                                                                                                        12:56
+                                                                                                                  </td>
+                                                                                                                  <td>4/28/2026
+                                                                                                                        19:47
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZAB
+                                                                                                                        -
+                                                                                                                        Albuquerque
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>4/29/2026
+                                                                                                                        13:55
+                                                                                                                  </td>
+                                                                                                                  <td>4/29/2026
+                                                                                                                        18:11
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZMP
+                                                                                                                        -
+                                                                                                                        Minneapolis
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>5/6/2026
+                                                                                                                        13:39
+                                                                                                                  </td>
+                                                                                                                  <td>5/6/2026
+                                                                                                                        18:13
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZSU
+                                                                                                                        -
+                                                                                                                        San
+                                                                                                                        Juan
+                                                                                                                        CERAP
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>5/12/2026
+                                                                                                                        12:59
+                                                                                                                  </td>
+                                                                                                                  <td>5/14/2026
+                                                                                                                        14:29
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZHU
+                                                                                                                        -
+                                                                                                                        Houston
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>5/27/2026
+                                                                                                                        13:45
+                                                                                                                  </td>
+                                                                                                                  <td>5/27/2026
+                                                                                                                        17:00
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZAN
+                                                                                                                        -
+                                                                                                                        Anchorage
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>5/28/2026
+                                                                                                                        16:43
+                                                                                                                  </td>
+                                                                                                                  <td>5/28/2026
+                                                                                                                        21:02
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZSE
+                                                                                                                        -
+                                                                                                                        Seattle
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>6/2/2026
+                                                                                                                        15:26
+                                                                                                                  </td>
+                                                                                                                  <td>6/2/2026
+                                                                                                                        18:28
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZKC
+                                                                                                                        -
+                                                                                                                        Kanas
+                                                                                                                        City
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>6/9/2026
+                                                                                                                        14:05
+                                                                                                                  </td>
+                                                                                                                  <td>6/9/2026
+                                                                                                                        18:43
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZAU
+                                                                                                                        -
+                                                                                                                        Chicago
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>6/10/2026
+                                                                                                                        13:31
+                                                                                                                  </td>
+                                                                                                                  <td>6/10/2026
+                                                                                                                        17:20
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZJX
+                                                                                                                        -
+                                                                                                                        Jacksonville
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>6/16/2026
+                                                                                                                        13:47
+                                                                                                                  </td>
+                                                                                                                  <td>6/16/2026
+                                                                                                                        19:27
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZOB
+                                                                                                                        -
+                                                                                                                        Cleveland
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>6/17/2026
+                                                                                                                        13:40
+                                                                                                                  </td>
+                                                                                                                  <td>6/17/2026
+                                                                                                                        16:25
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>OTZ
+                                                                                                                        -
+                                                                                                                        Kotzebue
+                                                                                                                        FSS
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>6/23/2026
+                                                                                                                        18:43
+                                                                                                                  </td>
+                                                                                                                  <td>6/23/2026
+                                                                                                                        20:56
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>JNU
+                                                                                                                        -
+                                                                                                                        Juneau
+                                                                                                                        AFSS
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>6/26/2026
+                                                                                                                        17:02
+                                                                                                                  </td>
+                                                                                                                  <td>6/26/2026
+                                                                                                                        19:26
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZLC
+                                                                                                                        -
+                                                                                                                        Salt
+                                                                                                                        Lake
+                                                                                                                        City
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>6/30/2026
+                                                                                                                        15:45
+                                                                                                                  </td>
+                                                                                                                  <td>6/30/2026
+                                                                                                                        18:38
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZDC
+                                                                                                                        -
+                                                                                                                        Washington,
+                                                                                                                        D.C.
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>7/7/2026
+                                                                                                                        13:38
+                                                                                                                  </td>
+                                                                                                                  <td>7/7/2026
+                                                                                                                        19:06
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>ZME
+                                                                                                                        -
+                                                                                                                        Memphis
+                                                                                                                        ARTCC
+                                                                                                                  </td>
+                                                                                                                  <td>WRS2
+                                                                                                                  </td>
+                                                                                                                  <td>7/14/2026
+                                                                                                                        15:03
+                                                                                                                  </td>
+                                                                                                                  <td>7/14/2026
+                                                                                                                        20:51
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>YQX
+                                                                                                                        -
+                                                                                                                        Gander
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>7/17/2026
+                                                                                                                        12:02
+                                                                                                                  </td>
+                                                                                                                  <td>7/17/2026
+                                                                                                                        16:22
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>YYR
+                                                                                                                        -
+                                                                                                                        Goosebay
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>7/21/2026
+                                                                                                                        13:00
+                                                                                                                  </td>
+                                                                                                                  <td>7/21/2026
+                                                                                                                        16:17
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                      </tbody>
+                                                                                                </table>
+
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+
+                                                      </div>
+                                                </div>
+
+                                                <hr>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">L1/L2 Bias Alarms</h4>
+                                                      <div class="mb-0">
+
+                                                            <p class="text-center">
+                                                                  <img class="img-thumbnail col-md-12"
+                                                                        src="img/w1/L1L2 Bias.png"
+                                                                        alt="L1/L2 Bias Alarms">
+                                                            </p>
+
+                                                      </div>
+                                                </div>
+
+                                                <hr>
+
+                                                <div class="list-group-item list-group-item-danger">
+                                                      <h4 class="mb-0">7/15 - ZKC PDU-C Ring 2 Troubleshooting / Freq
+                                                            Std Failed...</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>7/15 18:02 - ZKC WRE-C to Maintenance to
+                                                                        replace PDU with bad comm port, but the
+                                                                        site was unable to locate the Site
+                                                                        Executable Media; site technicians
+                                                                        re-installed original PDU and requested
+                                                                        media -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1168657024">LIR
+                                                                              1168657024</a>; <strong>restored to
+                                                                              Normal at 7/15 19:42</strong></li>
+                                                                  <li>7/16 12:33 - ZKC WRE-C to Maintenance to replace
+                                                                        PDU with bad comm port; Freq Std failed to
+                                                                        re-init after PDU replacement (17+ years old;
+                                                                        allen voltage deviation ~500+ = failure
+                                                                        extremely likely) -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/310897121">LIR
+                                                                              310897121</a>; Shutdown until replacement
+                                                                        part arrives...</li>
+                                                                  <li>7/22 15:09 - ZKC WRE-C to Maintenance to install
+                                                                        replacement Freq Std; configuration verified but
+                                                                        could not get a 10 MHz signal out of it;
+                                                                        Shutdown at 7/22 19:29 until replacement Freq
+                                                                        Std can be shipped...</li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">7/16 - BR1 Deicing Failure</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>7/16 07:51 - BR1 GUS alarmed with SE 185 Automatic
+                                                                        Deicing Failure during storms; <strong>site
+                                                                              investigated and cleared SE at 7/16
+                                                                              21:36</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">7/18 - YFB WRE-C Fault</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>7/18 10:29 - YFB WRE-C Faulted with SEs
+                                                                        29,30,52,53,59; Control Powered and
+                                                                        <strong>restored to Normal at 7/18
+                                                                              11:35</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">7/20 - Brewster GUSes to Backup for Firewall
+                                                            Updates</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>7/20 07:03 - <strong>GUS Switchover-G30</strong> -
+                                                                        AP1 to Primary / BR2 to Backup for upcoming
+                                                                        firewall update -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/311566121">LIR
+                                                                              311566121</a></li>
+                                                                  <li>7/21 16:22 - BR2 GUS SE 249 Firewall I/F Down due
+                                                                        to firewall upgrade performed by SLES;
+                                                                        <strong>rescinded at 7/21 16:29</strong>
+                                                                  </li>
+                                                                  <li>7/21 17:32 - BR1 GUS SE 249 Firewall I/F Down due
+                                                                        to firewall upgrade performed by SLES;
+                                                                        <strong>rescinded at 7/21 17:39</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">7/20 - ZTL WMS GPS Clock Reception Error</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>7/20 14:15 - ZTL WMS GPS Clock alarmed with SEs
+                                                                        200 GPS Clock Reception (cleared after ~20
+                                                                        seconds) and 202 GPS Clock Not Timelocked
+                                                                        (cleared after ~580 seconds); RF Interference
+                                                                  </li>
+                                                                  <li>7/20 14:15 - ZTL WRE-C alarmed with SE 728
+                                                                        Subframe Reasonability for ZDC and ZLA C&amp;Vs
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">7/20 - ZSU WRE-C Fault</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>7/20 14:23 - ZSU WRE-C Faulted with SEs
+                                                                        29,30,52,53,59; Reset Subsystem and
+                                                                        <strong>restored to Normal at 7/20
+                                                                              14:54</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">7/21 - ZSU WRE-C RF Site Survey</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>7/21 19:38 - ZSU WRE-C to Maintenance for RF Site
+                                                                        Survey work; cycling in Maintenance until
+                                                                        Shutdown at 7/22 12:32</li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <hr>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">Various Comm Impacts</h4>
+                                                      <div class="mb-0">
+                                                            <p class="fw-bold small">* Only captures major / long-term
+                                                                  comm outages
+                                                            </p>
+
+                                                            <p class="fw-bold">CDB Comms</p>
+                                                            <ul>
+                                                                  <li>7/16 08:22 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 7/16 09:02 (~2059
+                                                                              seconds total) after commanded CDB ACS-A
+                                                                              Reset</strong>
+                                                                  </li>
+                                                                  <li>7/20 09:18 - CDB Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 7/20 10:00 (~751
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>7/20 12:06 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 7/20 12:27 (~645
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>7/20 09:18 - CDB Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 7/20 10:00 (~751
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>7/20 12:06 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 7/20 12:27 (~645
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>7/22 16:46 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 7/22 16:55 (~541
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>7/22 17:23 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 7/22 17:26 (~168
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                            <p class="fw-bold">Other Sites</p>
+                                                            <ul>
+                                                                  <li>7/14 17:00 - YFB Ring 2 comms down hard;
+                                                                        <code>MR-232737 ZAU&lt;&gt;YFB2</code> -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1183544424">LIR
+                                                                              1183544424</a>; <strong>line cleared at
+                                                                              7/15 17:34 (~88445 seconds)</strong>
+                                                                  </li>
+                                                                  <li>7/16 03:31 - YFB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 7/16 04:00 (~1771
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>7/16 15:54 - YFB Ring 2 comms flapping; last event
+                                                                        cleared at 7/16 16:12 (~612 seconds total)</li>
+                                                                  <li>7/20 10:59 - DX1 Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 7/20
+                                                                              11:02 (~215 seconds)</strong></li>
+                                                                  <li>7/20 10:59 - DX1 Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 7/20
+                                                                              11:02 (~215 seconds)</strong></li>
+                                                                  <li>7/21 07:38 - CM1 Ring 1 ALT / Ring 2 PRI + YFB
+                                                                        Ring 2 comms down hard; <strong>all lines
+                                                                              cleared at 7/21 07:49 (~616
+                                                                              seconds)</strong></li>
+                                                                  <li>7/21 08:09 - YQX Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 7/21
+                                                                              08:10 (~108 seconds)</strong></li>
+                                                                  <li>7/21 08:13 - YQX Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 7/21
+                                                                              08:18 (~318 seconds)</strong></li>
+                                                                  <li>7/22 03:32 - YFB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 7/22 04:07 (~2107
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>7/22 04:23 - YFB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 7/22 05:39 (~4546
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>7/22 10:10 - YYR Ring 1 + YFB Ring 1 comms
+                                                                        flapping with extended downs; <strong>last
+                                                                              events cleared at 7/22 11:00 (~2692
+                                                                              seconds total)</strong></li>
+                                                                  <li>7/22 20:08 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last events cleared at 7/22
+                                                                              20:34 (~196 seconds total)</strong></li>
+                                                            </ul>
+
+
+                                                            <!-- <div class="card">
+                                                                  <div class="card-header text-bg-success fw-bold">
+                                                                        Comm Issues Cleared</div>
+                                                                  <div class="card-body text-bg-success">
+
+
+                                                                  </div>
+                                                            </div> -->
+
+                                                      </div>
+
+                                                      <hr>
+
+                                                      <div class="card">
+                                                            <div class="card-header text-bg-danger fw-bold">Comm
+                                                                  Lines Down</div>
+                                                            <div class="card-body text-bg-danger">
+
+
+                                                                  <p class="card-title fw-bold">5/11/23 Mexico
+                                                                        Ring 2 Down Hard...
+                                                                  </p>
+                                                                  <ul>
+                                                                        <li>5/11/23 17:01 - MX Ring 2 SatCom
+                                                                              upgrade begins;
+                                                                              MX Ring 2 OFFLINE until upgrade
+                                                                              troubleshooting
+                                                                              is complete...</li>
+                                                                        <li>Targeting network upgrade in CY26</li>
+                                                                        <li>3/12/26 Disconnect order</li>
+                                                                  </ul>
+
+                                                            </div>
+                                                      </div>
+                                                </div>
+
+                                                <hr>
+
+                                                <div class="list-group-item list-group-item-danger">
+
+                                                      <h4 class="mb-0">List of current offline WREs</h4>
+                                                      <div class="mb-0">
+                                                            <p>List of current offline WREs -- ref <a
+                                                                        href="https://waas-engr.faa.gov/statmon">WAAS
+                                                                        Status Monitor</a></p>
+
+                                                            <p>All Depot shipments to Mexico are
+                                                                  <strong>halted</strong>
+                                                                  until the customs process can be finalized
+                                                            </p>
+                                                            <p>Currently working to assess MX Inventory to determine
+                                                                  equipment refresh and restoration needs...</p>
+
+                                                            <ul>
+                                                                  <li><strong>ZKC WRE-C</strong> - <em>7/16/26-...</em>
+                                                                        - ZKC WRE-C Freq Std failed after PDU
+                                                                        replacement (old FS) -- -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/310897121">LIR
+                                                                              310897121</a></li>
+                                                                  <li><strong>MMX WRE-C</strong> - <em>3/20/26-...</em>
+                                                                        - MMX WRE-C to Maintenance and Restarted;
+                                                                        Receiver inits failing... unable to restore --
+                                                                        ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1133124724">LIR
+                                                                              1133124724</a>...
+                                                                        <ul>
+                                                                              <li>3/23 16:34 - MMX WRE-C Control Powered
+                                                                                    OFF until repair...</li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li><strong>MMD WRE-C</strong> - <em>10/20/25-...</em>
+                                                                        - Good Freq Std swapped into WRE-A to restore --
+                                                                        ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/211505621">LIR
+                                                                              211505621</a></li>
+                                                                  <li><strong>MTP WRE-A</strong> - <em>9/23/25-...</em>
+                                                                        - PCU Failed after power outage; PCU-B swapped
+                                                                        into WRE-A but DC output is non-functional...
+                                                                        ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/1060696524">LAD
+                                                                              1060696524</a>
+                                                                        <ul>
+                                                                              <li>Planning to swap PCU-C into WRE-A --
+                                                                                    this will remove WRE-C from service,
+                                                                                    but allow us to restore WRE-A for
+                                                                                    analysis</li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li><strong>MTP WRE-B</strong> - <em>11/18/24-...</em>
+                                                                        - Receiver inits failing due to no DC Power from
+                                                                        PCU; PCU swapped with PCU-A after PCU-A failed
+                                                                        -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/898330924">LIR
+                                                                              898330924</a></li>
+                                                                  <li><strong>MPR WRE-B</strong> - <em>5/3/24-...</em> -
+                                                                        Inits failing -- looks like a bad freq std; due
+                                                                        to shipping issues, there is no spare Freq Std
+                                                                        and no ETA to recover WRE-B... -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/44170821">LIR
+                                                                              44170821</a></li>
+                                                            </ul>
+
+
+
+                                                      </div>
+                                                </div>
+
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+
+                        <div class="carousel-item">
+                              <img class="col-md-12" src="img/w1/1_Mode Changes.png" class="img-fluid bg"
+                                    alt="Mode Changes">
+                              <div class="text-center">
+                                    <h4>Major Events</h4>
+                                    <img class="col-md-12" src="img/w1/RMLS Logs.png" class="img-fluid bg"
+                                          alt="RMLS Logs">
+                              </div>
+                        </div>
+                        <div class="carousel-item">
+                              <img class="col-md-12" src="img/w1/2_Sig Events - ALL.png" class="img-fluid bg"
+                                    alt="Sig Events - Overview">
+
+
+                        </div>
+                        <div class="carousel-item">
+                              <img class="col-md-12" src="img/w1/3_Sig Events - WOMS.png" class="img-fluid bg"
+                                    alt="Sig Events - WOMS">
+
+
+                        </div>
+                        <div class="carousel-item">
+                              <img class="col-md-12" src="img/w1/4_Sig Events - GUS.png" class="img-fluid bg"
+                                    alt="Sig Events - GUS">
+
+
+                        </div>
+                        <div class="carousel-item">
+                              <img class="col-md-12" src="img/w1/5_Sig Events - WMS.png" class="img-fluid bg"
+                                    alt="Sig Events - WMS">
+
+
+                        </div>
+                        <div class="carousel-item">
+                              <img class="col-md-12" src="img/w1/6_Sig Events - WRS.png" class="img-fluid bg"
+                                    alt="Sig Events - WRS">
+
+
+                        </div>
+
+                        <div class="carousel-item">
+                              <h3 class="text-center mt-lg-3">Core I/F Status</h3>
+                              <img class="col-md-12" src="img/w1/7_Sig Events - WCN.png" class="img-fluid bg"
+                                    alt="Core I/F Status Dashboard">
+                              <div class="text-center">
+                                    <h4>Comm Events</h4>
+                                    <img class="col-md-12" src="img/w1/1_RMLS Comm Logs.png" class="img-fluid bg"
+                                          alt="RMLS Comm Logs">
+                              </div>
+                        </div>
+
+                        <div class="carousel-item">
+                              <h3 class="text-center mt-lg-3">Mexico Comm Status</h3>
+                              <img class="col-md-12" src="img/w1/MX Comm Status Dashboard.png" class="img-fluid bg"
+                                    alt="MX Comm Status Dashboard">
+
+                        </div>
+
+                        <div class="carousel-item">
+                              <a class="text-decoration-none" target="_blank"
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=07-15-2026%2000:00:00&endTime=07-23-2026%2000:00:00">
+                                    <img class="col-md-12" src="img/w1/SV Alerts Table.png"
+                                          class="img-fluid mx-auto d-block" alt="SV Not Mon alerts">
+                                    <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
+                                          Alert Explorer for date range.</h2> -->
+                              </a>
+
+                        </div>
+
+
+                        <!-- Week 0 -->
+
+                        <div class="carousel-item">
+                              <div class="p-5 mb-4 bg-light rounded-3">
+                                    <div class="container-fluid">
                                           <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260708-20260715
                                           </h1>
                                           <div class="list-group">
@@ -896,7 +2288,7 @@
 
                                                             <p class="text-center">
                                                                   <img class="img-thumbnail col-md-12"
-                                                                        src="img/w1/L1L2 Bias.png"
+                                                                        src="img/w0/L1L2 Bias.png"
                                                                         alt="L1/L2 Bias Alarms">
                                                             </p>
 
@@ -1197,40 +2589,40 @@
                         </div>
 
                         <div class="carousel-item">
-                              <img class="col-md-12" src="img/w1/1_Mode Changes.png" class="img-fluid bg"
+                              <img class="col-md-12" src="img/w0/1_Mode Changes.png" class="img-fluid bg"
                                     alt="Mode Changes">
                               <div class="text-center">
                                     <h4>Major Events</h4>
-                                    <img class="col-md-12" src="img/w1/RMLS Logs.png" class="img-fluid bg"
+                                    <img class="col-md-12" src="img/w0/RMLS Logs.png" class="img-fluid bg"
                                           alt="RMLS Logs">
                               </div>
                         </div>
                         <div class="carousel-item">
-                              <img class="col-md-12" src="img/w1/2_Sig Events - ALL.png" class="img-fluid bg"
+                              <img class="col-md-12" src="img/w0/2_Sig Events - ALL.png" class="img-fluid bg"
                                     alt="Sig Events - Overview">
 
 
                         </div>
                         <div class="carousel-item">
-                              <img class="col-md-12" src="img/w1/3_Sig Events - WOMS.png" class="img-fluid bg"
+                              <img class="col-md-12" src="img/w0/3_Sig Events - WOMS.png" class="img-fluid bg"
                                     alt="Sig Events - WOMS">
 
 
                         </div>
                         <div class="carousel-item">
-                              <img class="col-md-12" src="img/w1/4_Sig Events - GUS.png" class="img-fluid bg"
+                              <img class="col-md-12" src="img/w0/4_Sig Events - GUS.png" class="img-fluid bg"
                                     alt="Sig Events - GUS">
 
 
                         </div>
                         <div class="carousel-item">
-                              <img class="col-md-12" src="img/w1/5_Sig Events - WMS.png" class="img-fluid bg"
+                              <img class="col-md-12" src="img/w0/5_Sig Events - WMS.png" class="img-fluid bg"
                                     alt="Sig Events - WMS">
 
 
                         </div>
                         <div class="carousel-item">
-                              <img class="col-md-12" src="img/w1/6_Sig Events - WRS.png" class="img-fluid bg"
+                              <img class="col-md-12" src="img/w0/6_Sig Events - WRS.png" class="img-fluid bg"
                                     alt="Sig Events - WRS">
 
 
@@ -1238,18 +2630,18 @@
 
                         <div class="carousel-item">
                               <h3 class="text-center mt-lg-3">Core I/F Status</h3>
-                              <img class="col-md-12" src="img/w1/7_Sig Events - WCN.png" class="img-fluid bg"
+                              <img class="col-md-12" src="img/w0/7_Sig Events - WCN.png" class="img-fluid bg"
                                     alt="Core I/F Status Dashboard">
                               <div class="text-center">
                                     <h4>Comm Events</h4>
-                                    <img class="col-md-12" src="img/w1/1_RMLS Comm Logs.png" class="img-fluid bg"
+                                    <img class="col-md-12" src="img/w0/1_RMLS Comm Logs.png" class="img-fluid bg"
                                           alt="RMLS Comm Logs">
                               </div>
                         </div>
 
                         <div class="carousel-item">
                               <h3 class="text-center mt-lg-3">Mexico Comm Status</h3>
-                              <img class="col-md-12" src="img/w1/MX Comm Status Dashboard.png" class="img-fluid bg"
+                              <img class="col-md-12" src="img/w0/MX Comm Status Dashboard.png" class="img-fluid bg"
                                     alt="MX Comm Status Dashboard">
 
                         </div>
@@ -1257,7 +2649,7 @@
                         <div class="carousel-item">
                               <a class="text-decoration-none" target="_blank"
                                     href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=07-08-2026%2000:00:00&endTime=07-16-2026%2000:00:00">
-                                    <img class="col-md-12" src="img/w1/SV Alerts Table.png"
+                                    <img class="col-md-12" src="img/w0/SV Alerts Table.png"
                                           class="img-fluid mx-auto d-block" alt="SV Not Mon alerts">
                                     <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
                                           Alert Explorer for date range.</h2> -->
