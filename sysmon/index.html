@@ -25,7 +25,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260819-20260826
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260826-20260902
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -74,6 +74,10 @@
                                                                         all WREs to Maintenance and Shutdown for upgrade
                                                                         to W7.442L; <strong>all WREs restored to Normal
                                                                               at 8/26 20:43</strong></li>
+                                                                  <li>9/1 18:03 - <strong>SSM-WAAS-065</strong> - BRW
+                                                                        all WREs to Maintenance and Shutdown for upgrade
+                                                                        to W7.442L; <strong>all WREs restored to Normal
+                                                                              at 9/1 21:36</strong></li>
                                                             </ul>
 
                                                             <hr>
@@ -223,9 +227,19 @@
                                                                                                             impacts.
                                                                                                       </li>
                                                                                                       <li
-                                                                                                            class="list-group-item list-group-item-success">
-                                                                                                            All crates
-                                                                                                            delivered!
+                                                                                                            class="list-group-item list-group-item-primary">
+                                                                                                            Final crate
+                                                                                                            to HNL
+                                                                                                            getting
+                                                                                                            address
+                                                                                                            changed to
+                                                                                                            location
+                                                                                                            with
+                                                                                                            forklift
+                                                                                                            support --
+                                                                                                            Fedex change
+                                                                                                            in
+                                                                                                            progress...
                                                                                                       </li>
                                                                                                       <li
                                                                                                             class="list-group-item list-group-item-primary">
@@ -948,6 +962,21 @@
                                                                                                                         20:43
                                                                                                                   </td>
                                                                                                             </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>BRW
+                                                                                                                        -
+                                                                                                                        Barrow
+                                                                                                                        FSS
+                                                                                                                  </td>
+                                                                                                                  <td>WRS5
+                                                                                                                  </td>
+                                                                                                                  <td>9/1/2026
+                                                                                                                        18:03
+                                                                                                                  </td>
+                                                                                                                  <td>9/1/2026
+                                                                                                                        21:36
+                                                                                                                  </td>
+                                                                                                            </tr>
                                                                                                       </tbody>
                                                                                                 </table>
 
@@ -967,11 +996,16 @@
                                                       <h4 class="mb-0">L1/L2 Bias Alarms</h4>
                                                       <div class="mb-0">
 
-                                                            <p class="text-center">
+                                                            <!-- <p class="text-center">
                                                                   <img class="img-thumbnail col-md-12"
                                                                         src="img/w1/L1L2 Bias.png"
                                                                         alt="L1/L2 Bias Alarms">
-                                                            </p>
+                                                            </p> -->
+
+                                                            <ul>
+                                                                  <li>8/30 19:51 - MSD L1/L2 Bias Alarm</li>
+                                                                  <li>9/1 03:07 - HNL L1/L2 Bias Alarm</li>
+                                                            </ul>
 
                                                       </div>
                                                 </div>
@@ -1021,7 +1055,7 @@
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">8/28 - ZLA Comm Event</h4>
+                                                      <h4 class="mb-0">8/28 - ZLA Comm Event / Selected Source Loss</h4>
                                                       <div class="mb-0">
                                                             <ul>
                                                                   <li>8/28 08:38 - Comm event impacting multiple lines
@@ -1034,7 +1068,9 @@
                                                                                     SE 500 Comm Status Change;
                                                                                     <strong>CV Source Switched back
                                                                                           ZTL-&gt;ZLA at 8/28
-                                                                                          08:49</strong>
+                                                                                          08:49</strong>; both CV
+                                                                                    Source Switches were
+                                                                                    <strong>UNCOMMANDED</strong>
                                                                               </li>
                                                                         </ul>
                                                                   </li>
@@ -1058,6 +1094,49 @@
                                                                   <li>8/30 15:32 - YFB WRE-B and WRE-C alarmed with SE
                                                                         728 Subframe Reasonability for all C&amp;Vs</li>
                                                             </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">9/1 - ZLA Comm Events / Selected Source Loss</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/1 08:47 - Comm event impacting multiple lines on
+                                                                        both ZLA Core Routers; <strong>all line cleared
+                                                                              at 9/1 08:50 (~115 seconds)</strong>
+                                                                        <ul>
+                                                                              <li>BR1 alarmed with SE 511 CV Source
+                                                                                    Switch ZLA-&gt;ZTL concurrent with
+                                                                                    SE 500 Comm Status Change;
+                                                                                    <strong>CV Source Switched back
+                                                                                          ZTL-&gt;ZLA ~4 seconds
+                                                                                          later~</strong>; both CV
+                                                                                    Source Switches were
+                                                                                    <strong>UNCOMMANDED</strong>
+                                                                              </li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>9/1 09:39 - Comm event impacting multiple lines on
+                                                                        both ZLA Core Routers; <strong>all line cleared
+                                                                              at 9/1 09:41 (~110 seconds)</strong>
+                                                                        <ul>
+                                                                              <li>BR1 alarmed with SE 511 CV Source
+                                                                                    Switch ZLA-&gt;ZTL concurrent with
+                                                                                    SE 500 Comm Status Change;
+                                                                                    <strong>CV Source Switched back
+                                                                                          ZTL-&gt;ZLA ~3 seconds
+                                                                                          later~</strong>; both CV
+                                                                                    Source Switches were
+                                                                                    <strong>UNCOMMANDED</strong>
+                                                                              </li>
+                                                                        </ul>
+                                                                  </li>
+                                                            </ul>
+                                                            <p class="text-center"><img
+                                                                        class="img img-thumbnail col-md-10"
+                                                                        src="img/20260901_ZLA_Comm_Event.png"
+                                                                        alt="20260901 - ZLA Comm Event"></p>
 
                                                       </div>
                                                 </div>
@@ -1093,7 +1172,22 @@
                                                                         flapping at 8/31 08:48; <strong>last event
                                                                               cleared at 8/31 09:10 (~12520 seconds
                                                                               total)</strong></li>
+                                                                  <li>9/1 05:29 - YFB Ring 2 comms flapping until down
+                                                                        hard at 9/1 05:56; line came back up to flapping
+                                                                        at 9/1 08:53; <strong>last event cleared at 9/1
+                                                                              09:14 (~12246 seconds total)</strong></li>
+                                                                  <li>9/1 16:01 - YFB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 9/1 16:22 (~1292
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>9/2 05:19 - YFB Ring 2 comms flapping until down
+                                                                        hard at 9/2 05:38; line came back up to flapping
+                                                                        at 9/2 08:50; <strong>last event cleared at 9/2
+                                                                              09:11 (~12670 seconds total)</strong></li>
                                                             </ul>
+                                                            <p class="text-center"><img src="img/YFB_Comms.png"
+                                                                        alt="YFB Comms"
+                                                                        class="img img-thumbnail col-md-8"></p>
 
                                                             <p class="fw-bold">BET Comms</p>
                                                             <ul>
@@ -1128,6 +1222,10 @@
                                                                   <li>8/29 23:53 - CDB Ring 1 comms down hard;
                                                                         <strong>line cleared at 8/29 23:58 (~276
                                                                               seconds)</strong>
+                                                                  </li>
+                                                                  <li>8/31 19:02 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 8/31 19:56 (~2058
+                                                                              seconds total)</strong>
                                                                   </li>
                                                             </ul>
 
@@ -1166,9 +1264,30 @@
                                                                         down hard; <strong>both lines cleared at 8/30
                                                                               07:33 (~6423 seconds)</strong></li>
                                                                   <li>8/30 19:24 - MSD Ring 1 comms flapping until down
-                                                                        hard at 8/30 23:24...</li>
+                                                                        hard at 8/30 23:24...
+                                                                        <ul>
+                                                                              <li>8/30 19:51 - MSD L1/L2 Bias Alarm</li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>9/2 02:08 - BRW Ring 2 PRI comms came back up to
+                                                                        flapping (~1.6 million seconds; down since
+                                                                        8/14); down hard again at 9/2 12:49...</li>
+                                                                  <li>9/2 03:24 - BRW Ring 1 ALT comms came back up to
+                                                                        flapping (~1.6 million seconds; down since
+                                                                        8/13)...</li>
+                                                                  <li>9/2 05:39 - ZNY Ring 1 PRI / Ring 2 ALT comms down
+                                                                        hard; <strong>both lines cleared at 9/2 06:02
+                                                                              (~1362 seconds)</strong></li>
+                                                                  <li>9/2 07:53 - ZLA&lt;-&gt;ZTL Ring 1 PRI comms
+                                                                        flapping + several other ZLA Ring 1 comms
+                                                                        flapped; <strong>last events cleared at 9/2
+                                                                              08:34 (~1176 seconds total)</strong></li>
                                                             </ul>
-
+                                                            <p class="text-center"><img
+                                                                        class="img img-thumbnail col-md-10"
+                                                                        src="img/20260902_ZLA_Comm_Event.png"
+                                                                        alt="20260902 - ZLA&lt;-&gt;ZTL Comm Flapping">
+                                                            </p>
 
                                                             <div class="card">
                                                                   <div class="card-header text-bg-success fw-bold">
@@ -1217,6 +1336,35 @@
                                                                   Lines Down</div>
                                                             <div class="card-body text-bg-danger">
 
+                                                                  <p class="card-title fw-bold">8/30 MSD Ring 1 Comms
+                                                                  </p>
+                                                                  <p><code
+                                                                              class="text-reset">ZTL&lt;&gt;Q9E NET-1 line down. KPEN 578638 A TI. Called AT&amp;T Ticket created 683000336.</code>
+                                                                        -- ref <a class="text-reset"
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1203146624">LIR
+                                                                              1203146624</a></p>
+                                                                  <ul>
+                                                                        <li>8/30 19:24 - MSD Ring 1 comms flapping until
+                                                                              down hard at 8/30 23:24...</li>
+                                                                  </ul>
+
+
+                                                                  <p class="card-title fw-bold">8/28 FAI Ring 1 ALT /
+                                                                        Ring 2 PRI Comms</p>
+                                                                  <p><code
+                                                                              class="text-reset">MR-235916A - GCI to perform a circuit migration</code>
+                                                                        / <code
+                                                                              class="text-reset">ISR 0828-1755 - still down after MR-235916A completed by FTI</code>
+                                                                        -- ref <a class="text-reset"
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1487528232">LIR
+                                                                              1487528232</a></p>
+                                                                  <ul>
+                                                                        <li>8/28 15:31 - FAI Ring 1 ALT / Ring 2 PRI
+                                                                              comms down hard and loopback events...
+                                                                        </li>
+                                                                  </ul>
+
+
                                                                   <p class="card-title fw-bold">8/25 ZSU Ring 1 ALT /
                                                                         Ring 2 PRI Comms</p>
                                                                   <p><code class="text-reset">ISR 0805-2563</code> --
@@ -1246,6 +1394,13 @@
                                                                                                 1472364732</a>...</li>
                                                                               </ul>
                                                                         </li>
+                                                                        <li>9/2 02:08 - BRW Ring 2 PRI comms came back
+                                                                              up to flapping (~1.6 million seconds; down
+                                                                              since 8/14); down hard again at 9/2
+                                                                              12:49...</li>
+                                                                        <li>9/2 03:24 - BRW Ring 1 ALT comms came back
+                                                                              up to flapping (~1.6 million seconds; down
+                                                                              since 8/13)...</li>
                                                                   </ul>
 
 
@@ -1414,11 +1569,11 @@
 
                         <div class="carousel-item">
                               <a class="text-decoration-none" target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=08-19-2026%2000:00:00&endTime=08-27-2026%2000:00:00">
-                                    <img class="col-md-12" src="img/w1/SV Alerts Table.png"
-                                          class="img-fluid mx-auto d-block" alt="SV Not Mon alerts">
-                                    <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
-                                          Alert Explorer for date range.</h2> -->
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=08-26-2026%2000:00:00&endTime=09-03-2026%2000:00:00">
+                                    <!-- <img class="col-md-12" src="img/w1/SV Alerts Table.png"
+                                          class="img-fluid mx-auto d-block" alt="SV Not Mon alerts"> -->
+                                    <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
+                                          Alert Explorer for date range.</h2>
                               </a>
 
                         </div>
