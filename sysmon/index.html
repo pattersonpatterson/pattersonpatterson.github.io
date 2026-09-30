@@ -24,7 +24,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260916-20260923
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260923-20260930
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -69,19 +69,32 @@
                                                                   delayed...</p>
 
                                                             <ul>
-                                                                  <li>9/16 20:10 - <strong>SSM-WAAS-065</strong> - HNL
-                                                                        WRE-C to Maintenance and Shutdown for upgrade to
-                                                                        W7.442L; <strong>restored to Normal at 9/17
-                                                                              03:15</strong></li>
-                                                                  <li>9/17 19:38 - <strong>SSM-WAAS-065</strong> - HNL
-                                                                        WRE-B to Maintenance and Shutdown for upgrade to
-                                                                        W7.442L; <strong>restored to Normal at 9/17
-                                                                              21:15</strong></li>
-                                                                  <li>9/18 17:57 - <strong>SSM-WAAS-065</strong> - HNL
-                                                                        WRE-A to Maintenance and Shutdown for upgrade to
-                                                                        W7.442L; <strong>restored to Normal at 9/18
-                                                                              20:07</strong></li>
+                                                                  <li>9/29 14:59 - <strong>SSM-WAAS-065</strong> - MTP
+                                                                        all WREs to Maintenance and Shutdown for upgrade
+                                                                        to W7.442L; all PDUs showed high input voltage
+                                                                        ~126 volts (near upper threshhold; will run to
+                                                                        fail); <strong>WREs A and C restored to Normal
+                                                                              at 9/29 18:07</strong>
+                                                                        <ul>
+                                                                              <li>Determined ACS-B router switch card
+                                                                                    was non-functional during upgrade;
+                                                                                    removed and replaced with spare;
+                                                                                    <strong>WRE-B restored to Normal at
+                                                                                          9/29 19:51</strong>
+                                                                              </li>
+                                                                              <li><strong>MTP WRE-B</strong> -
+                                                                                    <em>11/18/24-9/29/26...</em> -
+                                                                                    Receiver inits failing due to
+                                                                                    <strong>no DC Power from
+                                                                                          PCU</strong>; PCU swapped with
+                                                                                    PCU-A after PCU-A failed -- ref <a
+                                                                                          href="https://technetrmlsb.faa.gov/LIR/Details/898330924">LIR
+                                                                                          898330924</a>
+                                                                              </li>
+                                                                        </ul>
+                                                                  </li>
                                                             </ul>
+
 
                                                             <hr>
 
@@ -103,7 +116,7 @@
                                                                                     </h2>
                                                                                     <h4
                                                                                           class="alert alert-success text-center">
-                                                                                          3 WRS sites
+                                                                                          2 WRS sites
                                                                                           remain</h4>
                                                                                     <div id="collapseOne"
                                                                                           class="accordion-collapse collapse show"
@@ -130,21 +143,6 @@
                                                                                                       <tbody>
                                                                                                             <tr
                                                                                                                   class="table-success">
-                                                                                                                  <td>9/15/2026
-                                                                                                                  </td>
-                                                                                                                  <td>HNL
-                                                                                                                        -
-                                                                                                                        Honolulu
-                                                                                                                        AFSS
-                                                                                                                  </td>
-                                                                                                                  <td>WRS2
-                                                                                                                  </td>
-                                                                                                                  <td
-                                                                                                                        class="table-warning">
-                                                                                                                        N
-                                                                                                                  </td>
-                                                                                                            </tr>
-                                                                                                            <tr>
                                                                                                                   <td>9/29/2026
                                                                                                                   </td>
                                                                                                                   <td>MTP
@@ -156,7 +154,8 @@
                                                                                                                   <td>Y
                                                                                                                   </td>
                                                                                                             </tr>
-                                                                                                            <tr>
+                                                                                                            <tr
+                                                                                                                  class="table-primary">
                                                                                                                   <td>10/1/2026
                                                                                                                   </td>
                                                                                                                   <td>MPR
@@ -1007,103 +1006,32 @@
 
                                                 <hr>
 
-                                                <div class="list-group-item list-group-item-warning">
+                                                <!-- <div class="list-group-item list-group-item-warning">
                                                       <h4 class="mb-0">L1/L2 Bias Alarms</h4>
                                                       <div class="mb-0">
-                                                            <ul>
-                                                                  <li>9/18 03:34 - OTZ L1/L2 Bias Alarm</li>
-                                                            </ul>
 
-                                                            <!-- <p class="text-center">
+                                                            <p class="text-center">
                                                                   <img class="img-thumbnail col-md-12"
                                                                         src="img/w1/L1L2 Bias.png"
                                                                         alt="L1/L2 Bias Alarms">
-                                                            </p> -->
+                                                            </p>
 
                                                       </div>
                                                 </div>
 
-                                                <hr>
+                                                <hr> -->
 
                                                 <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">9/16 - YWG WRE-A Power Work</h4>
+                                                      <h4 class="mb-0">9/22 - YWG Power Work</h4>
                                                       <div class="mb-0">
                                                             <ul>
-                                                                  <li>9/16 20:17 - YWG WRE-A to Maintenance and Shutdown
-                                                                        <code>to facilitate power work at site.</code>
-                                                                        -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1210265224">LIR
-                                                                              1210265224</a>; <strong>restored to Normal
-                                                                              at 9/16 20:52</strong>
-                                                                  </li>
+                                                                  <li>9/22 04:49 - YWG WRE-C to Maintenance and Shutdown
+                                                                        for power work -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1212755524">LIR
+                                                                              1212755524</a>; <strong>restored to Normal
+                                                                              at 9/22 07:48</strong></li>
                                                             </ul>
 
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">9/17 - BIL WRS Power Work</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>9/17 06:20 - BIL all WREs to Maintenance and
-                                                                        Shutdown for
-                                                                        <code>STARS/ATCT OTS for EIDS/IPVCS/SS3 new circuit installation</code>
-                                                                        -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1505438332">LIR
-                                                                              1505438332</a>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-success">
-                                                      <h4 class="mb-0">9/17 - ZSE Freq Std Replaced</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>9/17 22:02 - ZSE WRE-A Freq Std replaced;
-                                                                        <strong>restored to Normal at 9/17
-                                                                              22:46</strong>
-                                                                        <ul>
-                                                                              <li><strong>ZSE WRE-A</strong> -
-                                                                                    <em>9/6/26-9/17/26</em> - Alarms
-                                                                                    from Freq Std and failing to init --
-                                                                                    ref <a
-                                                                                          href="https://technetrmlsb.faa.gov/LIR/Details/1206260824">LIR
-                                                                                          1206260824</a>
-                                                                              </li>
-                                                                        </ul>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">9/18-9/19 - YFB WRS Subframe Reasonability</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>9/18 04:13 - All YFB WREs alarmed with SE 728
-                                                                        Subframe Reasonability for ZTL C&amp;V only
-                                                                        <ul>
-                                                                              <li>9/18 04:54 - YFB WRE-C to Maintenance
-                                                                                    and Reset to address SE 728;
-                                                                                    <strong>restored to Normal at 9/18
-                                                                                          05:14</strong>
-                                                                              </li>
-                                                                        </ul>
-                                                                  </li>
-                                                                  <li>9/19 03:34 - YFB all WREs alarmed with SE 728
-                                                                        Subframe Reasonability for all C&amp;Vs
-                                                                        <ul>
-                                                                              <li>9/19 04:00 - YFB WRE-B to Maintenance
-                                                                                    and Reset to address Subframe
-                                                                                    Reasonability; <strong>restored to
-                                                                                          Normal at 9/19 04:20</strong>
-                                                                              </li>
-                                                                        </ul>
-                                                                  </li>
-                                                            </ul>
 
                                                       </div>
                                                 </div>
@@ -1132,32 +1060,6 @@
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">9/22 - YWG Power Work</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>9/22 04:49 - YWG WRE-C to Maintenance and Shutdown
-                                                                        for power work -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1212755524">LIR
-                                                                              1212755524</a>; <strong>restored to Normal
-                                                                              at 9/22 07:48</strong></li>
-                                                            </ul>
-
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">9/22 - DX1 GUS RFU-M&amp;C Comm Fault</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>9/22 12:54 - DX1 GUS alarmed with SE 1 RFU-M&amp;C
-                                                                        Comm Fault for ~1 second</li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
                                                 <div class="list-group-item list-group-item-warning">
                                                       <h4 class="mb-0">9/23 - MTP Power Loss</h4>
                                                       <div class="mb-0">
@@ -1174,6 +1076,142 @@
                                                       </div>
                                                 </div>
 
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">9/25, 9/28 - ZTL GPS Clock + WRE-C Interference
+                                                      </h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/25 18:21 - ZTL GPS Clock alarmed with SE 202 Not
+                                                                        Time Locked concurrent with SE 728 Subframe
+                                                                        Reasonability for ZTL WRE-C; <strong>SE cleared
+                                                                              at 9/25 18:34</strong></li>
+                                                                  <li>9/28 18:11 - ZTL GPS Clock alarmed with SE 202 Not
+                                                                        Time Locked and SE 200 GPS Clock Reception
+                                                                        Problem; <strong>SE cleared at 9/28
+                                                                              18:21</strong></li>
+                                                                  <li>9/30 19:14 - ZTL GPS Clock alarmed with SE 202 Not
+                                                                        Time Locked and SE 201 Err greater than
+                                                                        accuracy; <strong>SEs cleared at 9/30
+                                                                              20:01</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">9/26 - YYR WRE-A Bias Error</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/26 05:26 - YYR WRE-A alarmed with SE 729 WRE
+                                                                        Bias for all C&amp;Vs</li>
+                                                                  <li>9/26 06:09 - YYR WRE-A to Maintenance and
+                                                                        Restarted to address WRE Bias alarm;
+                                                                        <strong>restored to Normal at 9/26
+                                                                              06:21</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">9/27 - YWG WRE-B Power Work</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/27 02:15 - YWG WRE-B to Maintenance and Shutdown
+                                                                        for power work -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1214173524">LIR
+                                                                              1214173524</a>; <strong>restored to Normal
+                                                                              at 9/27 13:52</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">9/28 - YWG WRE-B Minor Alarm</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/28 12:32 - YWG WRE-B alarmed with recurring SE
+                                                                        30 Minor Alarm for Freq Std; <strong>last event
+                                                                              cleared at 9/28 14:34</strong></li>
+                                                                  <li>9/29 02:58 - YWG WRE-B alarmed with recurring SE
+                                                                        30 Minor Alarm for Freq Std; <strong>last event
+                                                                              cleared at 9/29 04:23</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">9/29 - ZNY WRE-C Power Work</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/29 03:58 - ZNY WRE-C power loss due to scheduled
+                                                                        power work; not coordinated with Operators in
+                                                                        advance -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1215248224">LIR
+                                                                              1215248224</a>; <strong>restored to Normal
+                                                                              at 9/29 06:01</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">9/29 - HNL WRE-C Fault</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/29 05:23 - HNL WRE-C Faulted with SEs 52,53,59;
+                                                                        Control Powered and <strong>restored to Normal
+                                                                              at 9/29 07:25</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-warning">
+                                                      <h4 class="mb-0">9/29 - YFB Subframe Reasonability</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/29 15:51 - YFB all WREs alarmed with SE 728
+                                                                        Subframe Reasonability for all C&amp;Vs -- PID
+                                                                        WRS Down</li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">9/29 - BR2 GUS Maintenance</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/29 15:59 - BR2 GUS to Maintenance for
+                                                                        <code>semi-annual RFU maintenance</code> -- ref
+                                                                        <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1177776624">LIR
+                                                                              1177776624</a>; <strong>restored to Backup
+                                                                              at 9/29 19:51</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">9/30 - YWG WRE-B Power Work</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>9/30 05:26 - YWG WRE-B to Maintenance and Shutdown
+                                                                        for power work -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1215774624">LIR
+                                                                              1215774624</a>; <strong>restored to Normal
+                                                                              at 9/30 09:01</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
                                                 <hr>
 
                                                 <div class="list-group-item list-group-item-warning">
@@ -1183,180 +1221,43 @@
                                                                   comm outages
                                                             </p>
 
-                                                            <p class="fw-bold">YFB Comms</p>
-                                                            <ul>
-                                                                  <li>9/16 03:47 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/16 04:00; line came back up to
-                                                                        flapping at 9/16 08:31; <strong>last event
-                                                                              cleared at 9/16 08:45 (~18404 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/16 17:12 - YFB Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 9/16 19:08 (~4239
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>9/17 03:40 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/17 03:49; line came back up to
-                                                                        flapping at 9/17 08:33; <strong>last event
-                                                                              cleared at 9/17 08:43 (~18240 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/17 16:56 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/17 17:14; line came back up to
-                                                                        flapping at 9/17 18:04; <strong>last event
-                                                                              cleared at 9/17 19:11 (~9900 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/18 03:28 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/18 03:38; line came back up to
-                                                                        flapping at 9/18 08:31; <strong>last event
-                                                                              cleared at 9/18 08:36 (~18103 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/18 16:56 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/18 17:25; line came back up to
-                                                                        flapping at 9/18 18:35; <strong>last event
-                                                                              cleared at 9/18 19:16 (~6719 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/19 03:21 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/19 03:25; line came back up to
-                                                                        flapping at 9/19 08:31; <strong>last event
-                                                                              cleared at 9/19 08:41 (~18728 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/19 16:48 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/19 17:07; line came back up to
-                                                                        flapping at 9/19 18:40; <strong>last event
-                                                                              cleared at 9/19 19:09 (~5050 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/20 03:13 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/20 03:19; line came back up to
-                                                                        flapping at 9/20 08:29; <strong>last event
-                                                                              cleared at 9/19 08:38 (~19440 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/20 16:21 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/20 16:29; line came back up to
-                                                                        flapping at 9/20 18:58; <strong>last event
-                                                                              cleared at 9/19 19:17 (~5181 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/21 03:07 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/21 03:15; line came back up to
-                                                                        flapping at 9/21 08:33; <strong>last event
-                                                                              cleared at 9/20 08:38 (~19430 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/21 16:18 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/21 16:28; line came back up to
-                                                                        flapping at 9/21 18:24; <strong>last event
-                                                                              cleared at 9/21 19:16 (~8833 seconds
-                                                                              total)</strong></li>
-                                                                  <li>9/22 03:00 - YFB Ring 2 comms flapping until down
-                                                                        hard at 9/22 03:08; line came back up to
-                                                                        flapping at 9/22 08:26; <strong>last event
-                                                                              cleared at 9/22 08:36 (~19676 seconds
-                                                                              total)</strong></li>
-                                                            </ul>
-
                                                             <p class="fw-bold">YYR Comms</p>
                                                             <ul>
-                                                                  <li>9/16 07:13 - YYR Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 9/16 11:28 (~367
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>9/16 16:42 - YYR Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 9/16 17:42 (~1788
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>9/16 21:43 - YYR Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 9/17 07:50 (~6356
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>9/17 12:02 - YYR Ring 2 comms down hard;
-                                                                        <strong>line cleared at 9/17 14:15 (~7964
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>9/20 20:59 - YYR Ring 2 comms flapping with
-                                                                        extended downs; <strong>last event cleared at
-                                                                              9/20 23:38 (~1013 seconds total)</strong>
-                                                                  </li>
-                                                                  <li>9/22 14:00 - YYR Ring 2 comms down hard;
-                                                                        <strong>line cleared at 9/22 21:34 (~27824
-                                                                              seconds)</strong>
-                                                                  </li>
                                                                   <li>9/23 16:56 - YYR Ring 2 comms flapping;
                                                                         <strong>last event cleared at 9/23 18:04 (~514
                                                                               seconds total)</strong>
                                                                   </li>
                                                                   <li>9/23 18:42 - YYR Ring 2 comms flapping;
                                                                         <strong>last event cleared at 9/23 18:56 (~650
-                                                                              seconds total)</strong></li>
+                                                                              seconds total)</strong>
+                                                                  </li>
                                                                   <li>9/23 19:44 - YYR Ring 2 comms flapping;
                                                                         <strong>last event cleared at 9/23 19:57 (~280
-                                                                              seconds total)</strong></li>
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/24 07:33 - YYR Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 9/24 14:13 (~8642
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/25 05:50 - YYR Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 9/25 06:14 (~1096
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/25 06:25 - YYR Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 9/25 07:01 (~264
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/25 09:05 - YYR Ring 2 comms flapping; down hard
+                                                                        at 9/25 11:09; <strong>line cleared at 9/25
+                                                                              11:26 (~6077 seconds total)</strong></li>
+                                                                  <li>9/25 12:59 - YYR Ring 2 comms down hard;
+                                                                        <strong>line cleared 9/25 13:17 (~1074
+                                                                              seconds)</strong>
+                                                                  </li>
                                                             </ul>
-
 
                                                             <p class="fw-bold">Other Sites</p>
                                                             <ul>
-                                                                  <li>9/15 08:35 - BET Ring 1 ALT / Ring 2 PRI comms
-                                                                        flapping; <strong>last events cleared at 9/16
-                                                                              02:57 (~24489 seconds)</strong></li>
-                                                                  <li>9/16 03:06 - CDB Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 9/16 03:26 (~207
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>9/16 04:19 - CDB Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 9/16 04:52 (~589
-                                                                              seconds total)</strong>
-                                                                  </li>
-                                                                  <li>9/16 15:13 - OTZ all comms down hard; <strong>all
-                                                                              lines cleared at 9/16 15:16 (~128
-                                                                              seconds)</strong></li>
-                                                                  <li>9/16 16:46 - BRW Ring 1 ALT comms came back up to
-                                                                        flapping (~984510 seconds, down since 9/5); line
-                                                                        back down hard at 9/16 17:14...</li>
-                                                                  <li>9/16 17:51 - BRW Ring 1 ALT comms came back up to
-                                                                        flapping...</li>
-                                                                  <li>9/16 19:33 - BRW Ring 2 PRI comms came back up to
-                                                                        flapping (~1.2 million seconds, down since 9/2);
-                                                                        line back down hard at 9/16 19:52...</li>
-                                                                  </li>
-                                                                  <li>9/17 03:37 - BET Ring 1 ALT / Ring 2 PRI comms
-                                                                        down hard; <strong>both lines cleared at 9/17
-                                                                              03:40 (~192 seconds)</strong></li>
-                                                                  <li>9/17 08:26 - YQX Ring 1 PRI comms down hard;
-                                                                        <strong>line cleared at 9/17 11:30 (~11032
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>9/17 14:44 - All ZAU&lt;-&gt;ZLA and
-                                                                        ZAU&lt;-&gt;ZDC Ring 1 + Ring 2 PRI / ALT comms
-                                                                        down hard; <strong>all lines cleared 9/17 14:45
-                                                                              (~40 seconds)</strong></li>
-                                                            </ul>
-                                                            <p class="text-center"><img
-                                                                        class="img img-thumbnail col-md-10"
-                                                                        src="img/20260917_ZAU_Comm_Hit.png"
-                                                                        alt="20260917 - ZAU Comm Hit"></p>
-                                                            <ul>
-                                                                  <li>9/18 03:32 - OTZ all comms down hard; <strong>all
-                                                                              lines cleared at 9/18 03:34 (~160
-                                                                              seconds)</strong></li>
-                                                                  <li>9/18 12:47 - <strong>FAI Ring 1 ALT comms restored
-                                                                              (~1.8 million seconds; down since
-                                                                              8/28)</strong></li>
-                                                                  <li>9/18 12:48 - <strong>FAI Ring 2 PRI comms restored
-                                                                              (~1.8 million seconds; down since
-                                                                              8/28)</strong></li>
-                                                                  <li>9/18 12:50 - BET Ring 1 ALT / Ring 2 PRI comms
-                                                                        down hard; <strong>both lines cleared at 9/18
-                                                                              12:53 (~168 seconds)</strong></li>
-                                                                  <li>9/19 03:35 - YWG Ring 1 ALT / Ring 2 PRI comms
-                                                                        down hard; <strong>both lines cleared at 9/19
-                                                                              03:40 (~312 seconds)</strong></li>
-                                                                  <li>9/19 04:12 - YWG Ring 1 PRI / Ring 2 ALT comms
-                                                                        down hard; <strong>both lines cleared at 9/19
-                                                                              04:17 (~259 seconds)</strong></li>
-                                                                  <li>9/19 04:18 - YWG Ring 1 PRI / Ring 2 ALT comms
-                                                                        down hard; <strong>both lines cleared at 9/19
-                                                                              05:15 (~3444 seconds)</strong></li>
-                                                                  <li>9/20 22:39 - CDB Ring 2 comms down hard;
-                                                                        <strong>line cleared at 9/20 22:42 (~190
-                                                                              seconds)</strong>
-                                                                  </li>
                                                                   <li>9/23 10:24 - HNL Ring 1 ALT / Ring 2 PRI comms
                                                                         down hard; <strong>both lines cleared at 9/23
                                                                               14:44 (~15610 seconds)</strong></li>
@@ -1364,42 +1265,55 @@
                                                                         <strong>line cleared at 9/23 10:42 (~406
                                                                               seconds)</strong>
                                                                   </li>
+                                                                  <li>9/24 18:36 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 9/24 19:12 (~842
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>9/24 19:57 - YQX Ring 2 PRI comms down hard;
+                                                                        <strong>line cleared at 9/24 22:54 (~10582
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>9/24 20:34 - CDB Ring 1 comms flapping;
+                                                                        <strong>line cleared at 9/24 20:44 (~579
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>9/25 16:44 - DX1 Ring 1 ALT comms down hard;
+                                                                        <strong>line cleared at 9/25 17:34 (~2957
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>9/25 17:05 - DX1 Ring 2 PRI comms down hard;
+                                                                        <strong>line cleared at 9/25 17:11 (~362
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>9/25 19:02 - HNL Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 9/26
+                                                                              05:28 (~37581 seconds)</strong></li>
+                                                                  <li>9/28 08:02 - YWG Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 9/28
+                                                                              08:12 (~629 seconds)</strong></li>
+                                                                  <li>9/28 08:31 - YWG Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 9/28
+                                                                              08:48 (~1039 seconds)</strong></li>
+                                                                  <li>9/29 19:19 - Multiple comms impacted at ZLA COR-A;
+                                                                        all lines cleared after ~20 seconds</li>
+                                                            </ul>
+                                                            <p class="text-center"><img
+                                                                        class="img img-thumbnail col-md-10"
+                                                                        src="img/20260929_ZLA_Ring_1_Comm_Hit.png"
+                                                                        alt="20260929 - ZLA COR-A Comm Hit"></p>
+                                                            <ul>
+                                                                  <li>9/30 16:55 - CM1 Ring 1 PRI / Ring 2 ALT comms
+                                                                        flapping; <strong>last events cleared at 9/30
+                                                                              17:11 (~91 seconds total)</strong></li>
                                                             </ul>
 
-                                                            <div class="card">
+                                                            <!-- <div class="card">
                                                                   <div class="card-header text-bg-success fw-bold">
                                                                         Comm Issues Cleared</div>
                                                                   <div class="card-body text-bg-success">
-                                                                        <p class="card-title fw-bold">8/28-9/18 FAI Ring
-                                                                              1
-                                                                              ALT /
-                                                                              Ring 2 PRI Comms</p>
-                                                                        <p><code
-                                                                                    class="text-reset">MR-235916A - GCI to perform a circuit migration</code>
-                                                                              / <code
-                                                                                    class="text-reset">ISR 0828-1755 - still down after MR-235916A completed by FTI</code>
-                                                                              -- ref <a class="text-reset"
-                                                                                    href="https://technetrmlsb.faa.gov/LIR/Details/1487528232">LIR
-                                                                                    1487528232</a></p>
-                                                                        <ul>
-                                                                              <li>8/28 15:31 - FAI Ring 1 ALT / Ring 2
-                                                                                    PRI
-                                                                                    comms down hard and loopback
-                                                                                    events...
-                                                                              </li>
-                                                                              <li>9/18 12:47 - <strong>FAI Ring 1 ALT
-                                                                                          comms restored (~1.8 million
-                                                                                          seconds; down since
-                                                                                          8/28)</strong></li>
-                                                                              <li>9/18 12:48 - <strong>FAI Ring 2 PRI
-                                                                                          comms restored (~1.8 million
-                                                                                          seconds; down since
-                                                                                          8/28)</strong></li>
-                                                                        </ul>
-
 
                                                                   </div>
-                                                            </div>
+                                                            </div> -->
 
                                                       </div>
 
@@ -1518,29 +1432,6 @@
                                                                               href="https://technetrmlsb.faa.gov/LIR/Details/211505621">LIR
                                                                               211505621</a></li>
                                                             </ul>
-                                                            <h5 class="text-decoration-underline">MTP -- WRS OFFLINE
-                                                            </h5>
-                                                            <ul>
-                                                                  <li><strong>MTP WRE-A</strong> - <em>9/23/25-...</em>
-                                                                        - <strong>PCU Failed after power
-                                                                              outage</strong>; PCU-B swapped into WRE-A
-                                                                        but DC output is non-functional... ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LOG/Details/1060696524">LAD
-                                                                              1060696524</a>
-                                                                        <ul>
-                                                                              <li>Planning to swap PCU-C into WRE-A --
-                                                                                    this will remove WRE-C from service,
-                                                                                    but allow us to restore WRE-A for
-                                                                                    analysis</li>
-                                                                        </ul>
-                                                                  </li>
-                                                                  <li><strong>MTP WRE-B</strong> - <em>11/18/24-...</em>
-                                                                        - Receiver inits failing due to <strong>no DC
-                                                                              Power from PCU</strong>; PCU swapped with
-                                                                        PCU-A after PCU-A failed -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/898330924">LIR
-                                                                              898330924</a></li>
-                                                            </ul>
                                                             <h5 class="text-decoration-underline">MPR</h5>
                                                             <ul>
                                                                   <li><strong>MPR WRE-B</strong> - <em>5/3/24-...</em> -
@@ -1623,11 +1514,11 @@
 
                         <div class="carousel-item">
                               <a class="text-decoration-none" target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=09-16-2026%2000:00:00&endTime=09-24-2026%2000:00:00">
-                                    <!-- <img class="col-md-12" src="img/w1/SV Alerts Table.png"
-                                          class="img-fluid mx-auto d-block" alt="SV Not Mon alerts"> -->
-                                    <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
-                                          Alert Explorer for date range.</h2>
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=09-23-2026%2000:00:00&endTime=10-01-2026%2000:00:00">
+                                    <img class="col-md-12" src="img/w1/SV Alerts Table.png"
+                                          class="img-fluid mx-auto d-block" alt="SV Not Mon alerts">
+                                    <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
+                                          Alert Explorer for date range.</h2> -->
                               </a>
 
                         </div>
