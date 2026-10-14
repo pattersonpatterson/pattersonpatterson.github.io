@@ -24,7 +24,7 @@
                         <div class="carousel-item active">
                               <div class="p-5 mb-4 bg-light rounded-3">
                                     <div class="container-fluid">
-                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20260930-20261007
+                                          <h1 class="display-5 fw-bold py-3">Weekly Highlights 20261007-20261014
                                           </h1>
                                           <div class="list-group">
                                                 <!-- The different classes of list-group-item FYR
@@ -69,17 +69,35 @@
                                                                   delayed...</p>
 
                                                             <ul>
-                                                                  <li>10/1 16:00 - <strong>SSM-WAAS-065</strong> - MPR
-                                                                        all WREs to Maintenance and Shutdown for upgrade
-                                                                        to W7.442L; <strong>WRE-A and WRE-C restored to
-                                                                              Normal at 10/1 20:22</strong>; WRE-B has
-                                                                        no Freq Std and no spare onsite...</li>
-                                                                  <li>10/6 16:14 - <strong>SSM-WAAS-065</strong> - MSD
-                                                                        all WREs to Maintenance and Shutdown for upgrade
-                                                                        to W7.442L; <strong>all WREs restored to Normal
-                                                                              at 10/6 19:04</strong></li>
+                                                                  <li>10/8 14:02 - <strong>SSM-WAAS-065</strong> - NOC
+                                                                        upgrades POC to W7.442L; during upgrade received
+                                                                        SE 108 Process Failure Notice for the RDSP
+                                                                        process -- had POC remove RMD USB and then
+                                                                        Control Powered; <strong>restored to Normal at
+                                                                              10/8 15:10</strong>
+                                                                        <ul>
+                                                                              <li>10/8 16:12 - Upgrade POC OAC-A to
+                                                                                    W7.442L; <strong>SNMP Cold Start at
+                                                                                          10/8 16:18</strong></li>
+                                                                              <li>10/8 16:21 - Upgrade POC OAC-B to
+                                                                                    W7.442L; <strong>SNMP Cold Start at
+                                                                                          10/8 16:28</strong></li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>10/8 15:16 - <strong>SSM-WAAS-065</strong> - POC
+                                                                        upgrades NOC to W7.442L; during Verification,
+                                                                        noticed OAC Routers needed to be updated to
+                                                                        latest versions; <strong>restored to Normal at
+                                                                              10/8 16:09</strong>
+                                                                        <ul>
+                                                                              <li>10/8 15:36 - Upgrade NOC OAC-A to
+                                                                                    W7.442L; <strong>SNMP Cold Start at
+                                                                                          10/8 15:43</strong></li>
+                                                                              <li>NOC OAC-B was already running lastest
+                                                                                    build</li>
+                                                                        </ul>
+                                                                  </li>
                                                             </ul>
-
 
                                                             <hr>
 
@@ -95,7 +113,7 @@
                                                                                                 data-bs-target="#collapseOne"
                                                                                                 aria-expanded="true"
                                                                                                 aria-controls="collapseOne">
-                                                                                                <h4>Upcoming
+                                                                                                <h4>Winding down
                                                                                                       activities</h4>
                                                                                           </button>
                                                                                     </h2>
@@ -107,71 +125,8 @@
                                                                                           class="accordion-collapse collapse show"
                                                                                           data-bs-parent="#cutoverAccordion">
                                                                                           <div class="accordion-body">
-                                                                                                <table
-                                                                                                      class="table table-hover table-sm">
-                                                                                                      <thead>
-                                                                                                            <tr>
-                                                                                                                  <th>Target
-                                                                                                                        Cutover
-                                                                                                                        Date
-                                                                                                                  </th>
-                                                                                                                  <th>Site
-                                                                                                                  </th>
-                                                                                                                  <th>Site
-                                                                                                                        Type
-                                                                                                                  </th>
-                                                                                                                  <th>Outage?
-                                                                                                                        (Y/N)
-                                                                                                                  </th>
-                                                                                                            </tr>
-                                                                                                      </thead>
-                                                                                                      <tbody>
-                                                                                                            <tr
-                                                                                                                  class="table-success">
-                                                                                                                  <td>10/1/2026
-                                                                                                                  </td>
-                                                                                                                  <td>MPR
-                                                                                                                        -
-                                                                                                                        Puerto
-                                                                                                                        Vallarta
-                                                                                                                  </td>
-                                                                                                                  <td>WRS5
-                                                                                                                  </td>
-                                                                                                                  <td>Y
-                                                                                                                  </td>
-                                                                                                            </tr>
-                                                                                                            <tr
-                                                                                                                  class="table-success">
-                                                                                                                  <td>10/6/2026
-                                                                                                                  </td>
-                                                                                                                  <td>MSD
-                                                                                                                        -
-                                                                                                                        San
-                                                                                                                        Jose
-                                                                                                                        Del
-                                                                                                                        Cabo
-                                                                                                                  </td>
-                                                                                                                  <td>WRS5
-                                                                                                                  </td>
-                                                                                                                  <td>Y
-                                                                                                                  </td>
-                                                                                                            </tr>
-                                                                                                      </tbody>
-                                                                                                </table>
-
                                                                                                 <ul
                                                                                                       class="text-start list-group">
-                                                                                                      <li
-                                                                                                            class="list-group-item">
-                                                                                                            We will not
-                                                                                                            take an
-                                                                                                            outage at
-                                                                                                            some WRS
-                                                                                                            sites to
-                                                                                                            avoid
-                                                                                                            service area
-                                                                                                            impacts.
-                                                                                                      </li>
                                                                                                       <li
                                                                                                             class="list-group-item list-group-item-primary">
                                                                                                             Beginning
@@ -181,27 +136,6 @@
                                                                                                             from
                                                                                                             Canada and
                                                                                                             Mexico...
-                                                                                                      </li>
-                                                                                                      <li
-                                                                                                            class="list-group-item list-group-item-info">
-                                                                                                            Both O&Ms
-                                                                                                            will
-                                                                                                            receive
-                                                                                                            a
-                                                                                                            final
-                                                                                                            software-only
-                                                                                                            update
-                                                                                                            to
-                                                                                                            W7.442L
-                                                                                                            on
-                                                                                                            <strong>10/8/26</strong>
-                                                                                                            that
-                                                                                                            will
-                                                                                                            remove
-                                                                                                            PCU
-                                                                                                            related
-                                                                                                            code.
-
                                                                                                       </li>
                                                                                                       <li
                                                                                                             class="list-group-item list-group-item-info">
@@ -1010,6 +944,37 @@
                                                                                                                         19:04
                                                                                                                   </td>
                                                                                                             </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>POC
+                                                                                                                        -
+                                                                                                                        San
+                                                                                                                        Diego
+                                                                                                                        TRACON
+                                                                                                                  </td>
+                                                                                                                  <td>OM
+                                                                                                                  </td>
+                                                                                                                  <td>10/8/2026
+                                                                                                                        14:02
+                                                                                                                  </td>
+                                                                                                                  <td>10/8/2026
+                                                                                                                        15:10
+                                                                                                                  </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                  <td>NOC
+                                                                                                                        -
+                                                                                                                        Warrenton
+                                                                                                                        ATCSCC
+                                                                                                                  </td>
+                                                                                                                  <td>OM
+                                                                                                                  </td>
+                                                                                                                  <td>10/8/2026
+                                                                                                                        15:16
+                                                                                                                  </td>
+                                                                                                                  <td>10/8/2026
+                                                                                                                        16:09
+                                                                                                                  </td>
+                                                                                                            </tr>
                                                                                                       </tbody>
                                                                                                 </table>
 
@@ -1041,59 +1006,15 @@
                                                 <hr>
 
                                                 <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">9/30 - YWG WRE-B Power Work</h4>
+                                                      <h4 class="mb-0">10/8 - SM9 GUS Switchover (DX1 Seasonal Sun
+                                                            Interference)</h4>
                                                       <div class="mb-0">
                                                             <ul>
-                                                                  <li>9/30 05:26 - YWG WRE-B to Maintenance and Shutdown
-                                                                        for power work -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1215774624">LIR
-                                                                              1215774624</a>; <strong>restored to Normal
-                                                                              at 9/30 09:01</strong></li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">9/30 - ZTL GPS Clock + WRE-C Interference
-                                                      </h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>9/30 19:14 - ZTL GPS Clock alarmed with SE 202 Not
-                                                                        Time Locked and SE 201 Err greater than
-                                                                        accuracy; <strong>SEs cleared at 9/30
-                                                                              20:01</strong></li>
-                                                                  <li>10/1 14:55 - ZTL GPS Clock alarmed with SE 200 GPS
-                                                                        Clock Reception Problem concurrent with SE 728
-                                                                        Subframe Reasonability for ZTL WRE-C; <strong>SE
-                                                                              200 rescinded at 10/1 15:05</strong></li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">10/1 - BR1 GUS Intrusive Maintenance</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>10/1 16:02 - BR1 GUS to Maintenance Mode for
-                                                                        <code>Semi-annual KPA, antenna maintenance and install of CCR009. Intrusive maintenance</code>
-                                                                        -- ref <a
-                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1211213724">LIR
-                                                                              1211213724</a>; <strong>restored to Backup
-                                                                              at 10/1 19:02</strong>
-                                                                  </li>
-                                                            </ul>
-
-                                                      </div>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-info">
-                                                      <h4 class="mb-0">10/2 - BRW ACS-A Router Control Power</h4>
-                                                      <div class="mb-0">
-                                                            <ul>
-                                                                  <li>10/2 22:39 - BRW ACS-A Router Control Powered;
-                                                                        <strong>SNMP Cold Start at 10/2 22:53</strong>
+                                                                  <li>10/8 07:01 - <strong>GUS Switchover-SM9</strong> -
+                                                                        SZ1 to Primary / DX1 to Backup for
+                                                                        <code>Seasonal sun interference</code> -- ref <a
+                                                                              href="https://technetrmlsb.faa.gov/LIR/Details/1219508224">LIR
+                                                                              1219508224</a>
                                                                   </li>
                                                             </ul>
 
@@ -1101,34 +1022,77 @@
                                                 </div>
 
                                                 <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">10/4 - YWG WRE-B Fault</h4>
+                                                      <h4 class="mb-0">10/10 - G3 Geomagnetic Storm</h4>
                                                       <div class="mb-0">
                                                             <ul>
-                                                                  <li>10/3 20:39 - YWG WRE-B SE 30 Minor Alarm from Freq
-                                                                        Std flapping...</li>
-                                                                  <li>10/4 00:01 - YWG WRE-B Faulted with SEs 52,53,59;
-                                                                        Control Powered and <strong>restored to Normal
-                                                                              at 10/4 01:07</strong>; SE 30 Minor Alarm
-                                                                        still flapping; <strong>last SE 30 cleared at
-                                                                              10/4 05:38</strong></li>
-                                                                  <li>10/4 10:34 - YWG WRE-B SE 30 Minor Alarm from Freq
-                                                                        Std flapping; <strong>last SE 30 cleared at 10/4
-                                                                              18:36</strong></li>
+                                                                  <li><a href="https://www.spaceweather.gov/news/strong-g3-geomagnetic-storms-expected-10-oct-2026">Strong
+                                                                              (G3) Geomagnetic Storms Expected</a></li>
+                                                            </ul>
+                                                            <p class="text-center"><img src="img/20261010_G3_Storm.png"
+                                                                        alt="20261010 - G3 Geomagnetic Storm"
+                                                                        class="img img-thumnbnail col-md-9"></p>
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">10/13 - ZAU COR-A Control Power</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>10/13 13:42 - ZAU COR-A Control Powered OFF;
+                                                                        <strong>SNMP Cold Start at 10/13 13:55 (~716
+                                                                              seconds)</strong>
+                                                                  </li>
                                                             </ul>
 
                                                       </div>
                                                 </div>
 
-                                                <div class="list-group-item list-group-item-warning">
-                                                      <h4 class="mb-0">10/4 - MPR WRE-C Fault</h4>
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">10/13 - ZOB WRE-B Phase Noise</h4>
                                                       <div class="mb-0">
                                                             <ul>
-                                                                  <li>10/4 21:00 - MPR WRE-C SE 30 Minor Alarm from
-                                                                        Freq Std flapping...</li>
-                                                                  <li>10/4 21:13 - MPR WRE-C Faulted with SEs 52,53,59;
-                                                                        Control Powered but inits failed initially;
-                                                                        Control Powered again and <strong>restored to
-                                                                              Normal at 10/4 00:59</strong></li>
+                                                                  <li>10/13 19:38 - ZOB WRE-B SE flapping 30 Minor Alarm
+                                                                        from Freq Std; <strong>last SE cleared at 10/13
+                                                                              20:35</strong></li>
+                                                                  <li>10/13 22:37 - ZOB WRE-B SE flapping 30 Minor Alarm
+                                                                        from Freq Std; <strong>last SE cleared at 10/13
+                                                                              23:15</strong>
+                                                                        <ul>
+                                                                              <li>Elevated phase noise and allen voltage
+                                                                                    deviation during Minor Alarms</li>
+                                                                        </ul>
+                                                                  </li>
+                                                            </ul>
+                                                            <p class="text-center"><img
+                                                                        class="img img-thumbnail col-md-6"
+                                                                        src="img/20261013_ZOB_phase_noise.png"
+                                                                        alt="20261013 - ZOB WRE-B Phase Noise"></p>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">10/13 - ZTL GPS Clock Issue</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>10/13 20:34 - ZTL GPS Clock SE 200 Reception
+                                                                        Problem; <strong>SE cleared at 10/13
+                                                                              20:44</strong></li>
+                                                            </ul>
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="list-group-item list-group-item-info">
+                                                      <h4 class="mb-0">10/14 - MMX WRE-B Monitoring...</h4>
+                                                      <div class="mb-0">
+                                                            <ul>
+                                                                  <li>10/14 13:35 - MMX WRE-B moved to Verification for
+                                                                        additional monitoring capabilities;
+                                                                        inadvertently set to Normal at 10/14 13:45, but
+                                                                        this poses a danger to WAAS in the event of
+                                                                        spoofing; <strong>reduced to Maintenance Mode
+                                                                              again at 10/14 14:06...</strong></li>
                                                             </ul>
 
                                                       </div>
@@ -1143,69 +1107,8 @@
                                                                   comm outages
                                                             </p>
 
-                                                            <p class="fw-bold">YYR Comms</p>
-                                                            <ul>
-                                                                  <li>10/3 01:15 - YYR Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 10/3 01:25
-                                                                              (~190 seconds total)</strong>
-                                                                  </li>
-                                                                  <li>10/3 05:44 - YYR Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 10/3 06:29
-                                                                              (~446 seconds total)</strong>
-                                                                  </li>
-                                                                  <li>10/3 08:36 - YYR Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 10/3 09:27
-                                                                              (~304 seconds total)</strong>
-                                                                  </li>
-                                                                  <li>10/3 11:35 - YYR Ring 2 comms flapping;
-                                                                        <strong>last event cleared at 10/3 12:40
-                                                                              (~286 seconds total)</strong>
-                                                                  </li>
-                                                                  <li>10/4 20:13 - YYR Ring 2 comms down hard;
-                                                                        line came back up to flapping at 10/4
-                                                                        20:25; <strong>last event cleared at 10/4
-                                                                              20:32 (~786 seconds total)</strong>
-                                                                  </li>
-                                                            </ul>
-
-                                                            <p class="fw-bold">FAI Comms</p>
-                                                            <ul>
-                                                                  <li>10/3 06:50 - FAI Ring 1 ALT / Ring 2 PRI
-                                                                        comms down hard; <strong>both lines
-                                                                              cleared at 10/3 06:51 (~110
-                                                                              seconds)</strong></li>
-                                                                  <li>10/3 06:56 - FAI Ring 1 ALT / Ring 2 PRI
-                                                                        comms down hard; <strong>both lines
-                                                                              cleared at 10/3 06:59 (~163
-                                                                              seconds)</strong></li>
-                                                                  <li>10/3 07:32 - FAI Ring 1 ALT / Ring 2 PRI
-                                                                        comms down hard; <strong>both lines
-                                                                              cleared at 10/3 07:34 (~109
-                                                                              seconds)</strong></li>
-                                                                  <li>10/7 17:02 - FAI Ring 1 ALT / Ring 2 PRI
-                                                                        comms down hard; <strong>both lines
-                                                                              cleared at 10/7 17:04 (~100
-                                                                              seconds)</strong></li>
-                                                            </ul>
-
                                                             <p class="fw-bold">Mexico Comms</p>
                                                             <ul>
-                                                                  <li>10/5 06:31 - MSD Ring 1 comms down hard;
-                                                                        <strong>line cleared at 10/5 06:41 (~595
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>10/5 08:31 - MSD Ring 1 comms down hard;
-                                                                        <strong>line cleared at 10/5 08:41 (~596
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>10/5 09:34 - MSD Ring 1 comms down hard;
-                                                                        <strong>line cleared at 10/5 09:44 (~595
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>10/6 09:41 - MTP Ring 1 comms down hard;
-                                                                        <strong>line cleared at 10/6 09:51 (~596
-                                                                              seconds)</strong>
-                                                                  </li>
                                                                   <li>10/7 04:29 - All MX Ring 1 Ethernet comms
                                                                         down hard; <strong>all lines cleared at
                                                                               10/7 04:31 (~105 seconds)</strong>
@@ -1214,47 +1117,241 @@
                                                                         down hard; <strong>all lines cleared at
                                                                               10/7 05:04 (~105 seconds)</strong>
                                                                   </li>
+                                                                  <li>10/13 21:24 - MTP Ring 1 comms down hard --
+                                                                        OFFLINE; <strong>line cleared at 10/14 01:34
+                                                                              (~14996 seconds)</strong></li>
+                                                                  <li>10/14 03:30 - MTP Ring 1 comms down hard --
+                                                                        OFFLINE; <strong>line cleared at 10/14 03:40
+                                                                              (~595 seconds)</strong></li>
                                                             </ul>
 
-                                                            <p class="fw-bold">Other Sites</p>
+                                                            <p class="fw-bold">OTZ / BET / BRW Comms</p>
+                                                            <p class="text-center"><img src="img/AK_Comms.png"
+                                                                        alt="Alaska Comm Impacts"
+                                                                        class="img img-thumbnail col-md-10"></p>
                                                             <ul>
-                                                                  <li>9/30 16:55 - CM1 Ring 1 PRI / Ring 2 ALT
-                                                                        comms
-                                                                        flapping; <strong>last events cleared at
-                                                                              9/30
-                                                                              17:11 (~91 seconds total)</strong>
-                                                                  </li>
-                                                                  <li>10/1 22:59 - BRW Ring 1 ALT comms came back
-                                                                        up to flapping; down hard again at 10/1
-                                                                        04:12...</li>
-                                                                  <li>10/2 06:56 - CDB Ring 2 comms down hard;
-                                                                        <strong>line cleared at 10/2 07:07 (~666
-                                                                              seconds)</strong>
-                                                                  </li>
-                                                                  <li>10/6 04:45 - ZNY Ring 1 ALT / Ring 2 PRI
-                                                                        comms down hard; <strong>both lines
-                                                                              cleared at 10/6 06:55 (~7544
-                                                                              seconds)</strong></li>
-                                                                  <li>10/6 18:21 - YFB Ring 2 comms down hard;
-                                                                        <strong>line cleared at 10/6 18:23 (~146
-                                                                              seconds)</strong>
-                                                                  </li>
                                                                   <li>10/7 14:23 - OTZ all Ring 1 / Ring 2 comms
                                                                         down hard; <strong>all lines cleared at
                                                                               10/7 14:25 (~149 seconds)</strong>
-                                                                  </li>
-                                                                  <li>10/7 16:33 - JNU Ring 1 ALT / Ring 2 PRI
-                                                                        comms down hard; <strong>both lines
-                                                                              cleared at 10/7 16:34 (~86
-                                                                              seconds)</strong></li>
-                                                                  <li>10/7 18:21 - YFB Ring 2 comms down hard;
-                                                                        <strong>line cleared at 10/7 18:23 (~109
-                                                                              seconds)</strong>
                                                                   </li>
                                                                   <li>10/7 19:39 - BRW Ring 1 PRI / Ring 2 ALT
                                                                         comms down hard -- OFFLINE; <strong>both
                                                                               lines cleared at 10/7 19:42 (~204
                                                                               seconds)</strong></li>
+                                                                  <li>10/8 19:12 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 10/8
+                                                                              19:14 (~160 seconds)</strong></li>
+                                                                  <li>10/9 02:00 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last events cleared at 10/9
+                                                                              06:30 (~344 seconds total)</strong></li>
+                                                                  <li>10/9 16:35 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last events cleared at 10/9
+                                                                              00:44 (~4659 seconds total)</strong></li>
+                                                                  <li>10/10 07:04 - BET Ring 1 ALT comms flapping;
+                                                                        <strong>line cleared at 10/10 11:16 (~189
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/10 20:16 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard -- OFFLINE; <strong>both lines cleared
+                                                                              at 10/10
+                                                                              20:20 (~224 seconds)</strong></li>
+                                                                  <li>10/10 20:17 - OTZ Ring 1 PRI / Ring 1 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/10
+                                                                              20:20 (~184 seconds)</strong></li>
+                                                                  <li>10/10 20:17 - BET Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/10
+                                                                              20:20 (~171 seconds)</strong></li>
+                                                                  <li>10/10 20:47 - BET Ring 1 ALT comms flapping;
+                                                                        <strong>line cleared at 10/11 00:43 (~555
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/11 20:02 - BET Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/11
+                                                                              20:06 (~251 seconds)</strong></li>
+                                                                  <li>10/11 20:03 - OTZ Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/11
+                                                                              20:10 (~381 seconds)</strong></li>
+                                                                  <li>10/11 20:06 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard -- OFFLINE; <strong>both lines cleared
+                                                                              at 10/11
+                                                                              20:11 (~308 seconds)</strong></li>
+                                                                  <li>10/11 20:16 - OTZ Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/11
+                                                                              20:19 (~194 seconds)</strong></li>
+                                                                  <li>10/11 20:16 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard -- OFFLINE; <strong>both lines cleared
+                                                                              at 10/11
+                                                                              20:20 (~228 seconds)</strong></li>
+                                                                  <li>10/11 20:16 - BET Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/11
+                                                                              20:19 (~176 seconds)</strong></li>
+                                                                  <li>10/12 00:37 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last events cleared at 10/12
+                                                                              00:46 (~376 seconds total)</strong></li>
+                                                                  <li>10/12 00:41 - OTZ Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 10/12
+                                                                              00:45 (~208 seconds)</strong></li>
+                                                                  <li>10/12 20:00 - BET Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/12
+                                                                              20:06 (~361 seconds)</strong></li>
+                                                                  <li>10/12 20:02 - OTZ Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/12
+                                                                              20:10 (~486 seconds)</strong></li>
+                                                                  <li>10/12 20:05 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard -- OFFLINE; <strong>both lines cleared
+                                                                              at 10/12
+                                                                              20:12 (~455 seconds)</strong></li>
+                                                                  <li>10/13 00:35 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 10/13
+                                                                              00:45 (~585 seconds)</strong></li>
+                                                                  <li>10/13 00:36 - OTZ Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 10/13
+                                                                              00:39 (~159 seconds)</strong></li>
+                                                                  <li>10/13 00:40 - OTZ Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 10/13
+                                                                              00:44 (~255 seconds)</strong></li>
+                                                                  <li>10/13 14:04 - BRW Ring 1 PRI comms down hard;
+                                                                        <strong>line cleared at 10/13 14:07 (~173
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/13 20:00 - BET Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/13
+                                                                              20:06 (~371 seconds)</strong></li>
+                                                                  <li>10/13 20:01 - OTZ Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard; <strong>both lines cleared at 10/13
+                                                                              20:10 (~553 seconds)</strong></li>
+                                                                  <li>10/13 20:04 - BRW Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard -- OFFLINE; <strong>both lines cleared
+                                                                              at 10/13 20:13 (~546 seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/14 00:34 - OTZ Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 10/14
+                                                                              00:39 (~289 seconds)</strong></li>
+                                                                  <li>10/14 00:35 - BET Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; lines came back up to flapping at
+                                                                        10/14 00:44; <strong>last events cleared at
+                                                                              10/14 00:46 (~643 seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/14 00:40 - BRW Ring 1 ALT / Ring 2 PRI comms
+                                                                        down hard; <strong>both lines cleared at 10/14
+                                                                              00:44 (~195 seconds)</strong></li>
+                                                            </ul>
+
+                                                            <p class="fw-bold">YFB Comms</p>
+                                                            <ul>
+                                                                  <li>10/7 18:21 - YFB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 10/7 18:23 (~109
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/11 18:39 - YFB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/11 18:41 (~136
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/12 18:37 - YFB Ring 1 / Ring 2 comms down hard
+                                                                        -- OFFLINE; <strong>both lines cleared at 10/12
+                                                                              18:42 (~269 seconds)</strong></li>
+                                                                  <li>10/13 18:36 - YFB Ring 2 comms down hard;
+                                                                        <strong>line cleared at 10/13 18:42 (~316
+                                                                              seconds)</strong>
+                                                                        <ul>
+                                                                              <li>10/13 18:37 - YFB Ring 1 comms down
+                                                                                    hard -- OFFLINE; <strong>line
+                                                                                          cleared at 10/13 18:43 (~362
+                                                                                          seconds)</strong></li>
+                                                                        </ul>
+                                                                  </li>
+                                                                  <li>10/14 18:36 - YFB Ring 1 / Ring 2 comms down hard
+                                                                        -- OFFLINE;
+                                                                        <strong>both lines cleared at 10/14 18:43 (~350
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                            </ul>
+
+
+                                                            <p class="fw-bold">YYR Comms</p>
+                                                            <ul>
+                                                                  <li>10/8 19:50 - YYR Ring 2 comms flapping with
+                                                                        extended downs; <strong>line cleared at 10/8
+                                                                              21:59 (~2970 seconds total)</strong></li>
+                                                                  <li>10/10 16:11 - YYR Ring 2 comms flapping with
+                                                                        extended downs; <strong>last event cleared at
+                                                                              10/10 17:52 (~2691 seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/11 18:43 - YYR Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/11 18:48 (~311
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/12 03:12 - YYR Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 10/12 11:59 (~425
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/13 06:59 - YYR Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 10/13 13:13 (~238
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/13 18:44 - YYR Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/13 18:46 (~100
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/14 12:51 - YYR Ring 2 comms down hard;
+                                                                        <strong>line cleared 10/14 17:34 (~16942
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                            <p class="fw-bold">CDB Comms</p>
+                                                            <ul>
+                                                                  <li>10/9 14:43 - CDB Ring 1 comms flapping;
+                                                                        <strong>last event cleared at 10/9 14:47 (~114
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/9 14:47 - CDB Ring 2 comms flapping;
+                                                                        <strong>last event cleared at 10/9 15:02 (~575
+                                                                              seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/9 15:53 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/9 15:59 (~382
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/10 08:32 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/10 08:44 (~691
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/10 08:45 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/10 09:16 (~1876
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                                  <li>10/11 21:07 - CDB Ring 1 comms flapping with
+                                                                        extended downs; <strong>last event cleared at
+                                                                              10/11 21:35 (~1129 seconds total)</strong>
+                                                                  </li>
+                                                                  <li>10/13 14:53 - CDB Ring 1 comms down hard;
+                                                                        <strong>line cleared at 10/13 14:54 (~91
+                                                                              seconds)</strong>
+                                                                  </li>
+                                                            </ul>
+
+                                                            <p class="fw-bold">Other Sites</p>
+                                                            <ul>
+                                                                  <li>10/7 16:33 - JNU Ring 1 ALT / Ring 2 PRI
+                                                                        comms down hard; <strong>both lines
+                                                                              cleared at 10/7 16:34 (~86
+                                                                              seconds)</strong></li>
+                                                                  <li>10/7 17:02 - FAI Ring 1 ALT / Ring 2 PRI
+                                                                        comms down hard; <strong>both lines
+                                                                              cleared at 10/7 17:04 (~100
+                                                                              seconds)</strong></li>
+                                                                  <li>10/8 17:59 - CM1 Ring 1 PRI / Ring 2 ALT comms
+                                                                        flapping; <strong>last event cleared at 10/8
+                                                                              18:16 (~127 seconds total)</strong></li>
+                                                                  <li>10/9 19:07 - ZSU Ring 1 ALT / Ring 2 PRI comms
+                                                                        flapping; <strong>last events cleared at 10/11
+                                                                              17:30 (~464 seconds total)</strong></li>
+                                                                  <li>10/14 08:18 - CM1 Ring 1 PRI / Ring 2 ALT comms
+                                                                        down hard...</li>
+                                                                  <li>10/14 16:50 - YQX Ring 1 / Ring 2 comms down hard
+                                                                        -- OFFLINE; <strong>both lines cleared at 10/14
+                                                                              19:35 (~9895 seconds)</strong></li>
                                                             </ul>
 
                                                             <!-- <div class="card">
@@ -1467,7 +1564,7 @@
 
                         <div class="carousel-item">
                               <a class="text-decoration-none" target="_blank"
-                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=09-30-2026%2000:00:00&endTime=10-08-2026%2000:00:00">
+                                    href="https://www.nstb.tc.faa.gov/Alert_Explorer/?startTime=10-07-2026%2000:00:00&endTime=10-15-2026%2000:00:00">
                                     <img class="col-md-12" src="img/w1/SV Alerts Table.png"
                                           class="img-fluid mx-auto d-block" alt="SV Not Mon alerts">
                                     <!-- <h2 class="m-lg-5 mx-auto display-4 text-center h-100">No SV Alert Data from
